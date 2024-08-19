@@ -1,0 +1,287 @@
+{
+    "A": [
+        {
+            "term": "Amphora",
+            "description": "g"
+        },
+        {
+            "term": "a",
+            "description": "f"
+        }
+    ],
+
+    "B": [
+        {
+            "term": "b",
+            "description": "f"
+        },
+        {
+            "term": "be",
+            "description": "f"
+        }
+    ],
+
+    "C": [
+        {
+            "term": "c",
+            "description": "f"
+        },
+        {
+            "term": "ce",
+            "description": "f"
+        }
+    ],
+
+    "D": [
+        {
+            "term": "d",
+            "description": "f"
+        },
+        {
+            "term": "de",
+            "description": "f"
+        }
+    ],
+
+    "E": [
+        {
+            "term": "e",
+            "description": "f"
+        },
+        {
+            "term": "ee",
+            "description": "f"
+        }
+    ],
+
+    "F": [
+        {
+            "term": "f",
+            "description": "f"
+        },
+        {
+            "term": "fe",
+            "description": "f"
+        }
+    ],
+
+    "G": [
+        {
+            "term": "g",
+            "description": "g"
+        },
+        {
+            "term": "ge",
+            "description": "f"
+        }
+    ],
+
+    "H": [
+        {
+            "term": "h",
+            "description": "f"
+        },
+        {
+            "term": "he",
+            "description": "f"
+        }
+    ],
+
+    "I": [
+        {
+            "term": "i",
+            "description": "f"
+        },
+        {
+            "term": "ie",
+            "description": "f"
+        }
+    ],
+
+    "J": [
+        {
+            "term": "j",
+            "description": "f"
+        },
+        {
+            "term": "jug",
+            "description": "f"
+        }
+    ],
+
+    "K": [
+        {
+            "term": "Kylix",
+            "description": "g"
+        },
+        {
+            "term": "k",
+            "description": "f"
+        }
+    ],
+
+    "L": [
+        {
+            "term": "l",
+            "description": "f"
+        },
+        {
+            "term": "le",
+            "description": "f"
+        }
+    ],
+
+    "M": [
+        {
+            "term": "me",
+            "description": "f"
+        },
+        {
+            "term": "m",
+            "description": "f"
+        }
+    ],
+
+    "N": [
+        {
+            "term": "n",
+            "description": "f"
+        },
+        {
+            "term": "ne",
+            "description": "f"
+        }
+    ],
+
+    "O": [
+        {
+            "term": "o",
+            "description": "f"
+        },
+        {
+            "term": "oe",
+            "description": "f"
+        }
+    ],
+
+    "P": [
+        {
+            "term": "p",
+            "description": "f"
+        },
+        {
+            "term": "pe",
+            "description": "f"
+        }
+    ],
+
+    "Q": [
+        {
+            "term": "q",
+            "description": "f"
+        },
+        {
+            "term": "qe",
+            "description": "f"
+        }
+    ],
+
+    "R": [
+        {
+            "term": "r",
+            "description": "f"
+        },
+        {
+            "term": "re",
+            "description": "f"
+        }
+    ],
+
+    "S": [
+        {
+            "term": "s",
+            "description": "f"
+        },
+        {
+            "term": "se",
+            "description": "f"
+        }
+    ],
+
+    "T": [
+        {
+            "term": "t",
+            "description": "f"
+        },
+        {
+            "term": "te",
+            "description": "f"
+        }
+    ],
+
+    "U": [
+        {
+            "term": "u",
+            "description": "f"
+        },
+        {
+            "term": "ue",
+            "description": "f"
+        }
+    ],
+
+    "V": [
+        {
+            "term": "v",
+            "description": "f"
+        },
+        {
+            "term": "ve",
+            "description": "f"
+        }
+    ],
+
+    "W": [
+        {
+            "term": "w",
+            "description": "f"
+        },
+        {
+            "term": "we",
+            "description": "f"
+        }
+    ],
+
+    "X": [
+        {
+            "term": "x",
+            "description": "f"
+        },
+        {
+            "term": "xe",
+            "description": "f"
+        }
+    ],
+
+    "Y": [
+        {
+            "term": "y",
+            "description": "f"
+        },
+        {
+            "term": "ye",
+            "description": "f"
+        }
+    ],
+
+    "Z": [
+        {
+            "term": "z",
+            "description": "z"
+        },
+        {
+            "term": "ze",
+            "description": "z"
+        }
+    ]
+}
