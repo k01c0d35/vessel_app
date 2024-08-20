@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const backToTopButton = document.getElementById('backToTop');
 
     //Get glossary items from json
-    fetch('/k_glossary.json')
+    fetch('/data/k_glossary.json')
         .then(response => response.json())
         .then(data => {
             displayGlossary(data);

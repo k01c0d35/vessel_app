@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const galleryContainer = document.getElementById('gallery');
 
-    fetch('/gallery.json')
+    fetch('/data/gallery.json')
         .then(response => response.json())
         .then(data => {
             populateGallery(data);
@@ -13,6 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 const galleryItem = document.createElement('div');
                 galleryItem.className = 'gallery-item';
 
+                const imgContainer = document.createElement('div');
+                imgContainer.className = 'img-container';
+
                 const imgElement = document.createElement('img');
                 imgElement.src = artifact.img;
                 imgElement.alt = artifact.title;
@@ -20,7 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 const titleElement = document.createElement('h3');
                 titleElement.textContent = artifact.title;
 
-                galleryItem.appendChild(imgElement);
+                galleryItem.appendChild(imgContainer);
+                imgContainer.appendChild(imgElement);
                 galleryItem.appendChild(titleElement);
 
                 galleryContainer.appendChild(galleryItem);
