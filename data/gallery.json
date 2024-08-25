@@ -2,27 +2,27 @@
     "artefacts": [
         {
             "title": "Blah",
-            "img": "/assets/download.jpg"
+            "img": "/assets/icons/download.jpg"
         },
 
         {
             "title": "Boo",
-            "img": "/assets/download.jpg"
+            "img": "/assets/icons/download.jpg"
         },
 
         {
             "title": "Eef",
-            "img": "/assets/download.jpg"
+            "img": "/assets/icons/download.jpg"
         },
 
         {
             "title": "Cat",
-            "img": "/assets/download.jpg"
+            "img": "/assets/icons/download.jpg"
         },
 
         {
             "title": "Eh",
-            "img": "/assets/download.jpg"
+            "img": "/assets/icons/download.jpg"
         }
     ]
 }

@@ -1,7 +1,5 @@
 /* GLOSSARY */
 .search-container {
-    margin-bottom: 40px;
-    padding-top: 10px;
     position: sticky;
     top: 130px;
     z-index: 1000;
@@ -24,6 +22,8 @@
     white-space: nowrap;
     left: 0;
     width: 100%;
+    justify-content: center;
+    display: flex;
 }
 
 .glossary-quick-nav a {

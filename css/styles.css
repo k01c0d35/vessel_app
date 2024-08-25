@@ -65,20 +65,67 @@ html, body {
 .nav-buttons {
     margin-left: auto;
     align-self: flex-end;
+    cursor: pointer;
 }
 
-.nav-buttons a {
+.nav-buttons .active, .nav-buttons .active:hover {
+    cursor: default;
+    text-decoration: none;
+}
+
+.nav-buttons a, .dropdown-button {
     font-weight: 600;
     margin-left: 20px;
+    font-size: 1em;
+    cursor: pointer;
 }
 
-.nav a {
+.nav a, .dropdown-button {
     text-decoration: none;
     color: #333;
 }
 
-.nav a:hover, .glossary-quick-nav a:hover, .footer-section a:hover {
+.nav a:hover, .glossary-quick-nav a:hover, .dropdown-button:hover {
     text-decoration: underline;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    border: none;
+    padding: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    flex-direction: column;
+    min-width: 160px;
+    margin-left: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.dropdown-content a:hover {
+    text-decoration: underline;
+}
+
+.dropdown svg {
+    padding-left: 5px;
 }
 
 .bottom-section-nav {
