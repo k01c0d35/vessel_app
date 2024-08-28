@@ -1,3 +1,17 @@
+/* SORTING */
+.sortingOptions {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.aSort {
+    width: 25%;
+    position: relative;
+    text-align: center;
+}
+
 /* GLOSSARY */
 .glossary-quick-nav {
     margin: 20px 0 20px 0;
@@ -53,4 +67,9 @@
     margin: 5px 0 0;
     font-size: 16px;
     color: #555;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
 }

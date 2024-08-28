@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     fetch('/includes/top_nav.html')
         .then(response => response.text())
         .then(data => {
-            document.querySelector('.top-section-nav').innerHTML = data;
+            document.querySelector('.nav').innerHTML = data;
             setActiveNav();
         });
 
@@ -25,6 +25,10 @@ document.addEventListener('DOMContentLoaded', function () {
             if (link.getAttribute('href') === currentPage) {
                 link.classList.add('active');   // Add 'active' class to the current page link
                 link.removeAttribute('href');
+                const svgTextElement = document.querySelector('.bottom-section-nav .svg-text');
+                if (svgTextElement) {
+                    svgTextElement.textContent = link.textContent;
+                }
             } else {
                 link.classList.remove('active');  // Ensure no other link is active
             }

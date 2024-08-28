@@ -2,286 +2,178 @@
     "A": [
         {
             "term": "Amphora",
-            "description": "g"
+            "glossary-filter": "Vessels",
+            "description": "Storage and transport of liquids, oil and grain. Could also be ceremonal or a grave marker.",
+            "defining-features": "Tall, two handles, narrow neck."
         },
         {
-            "term": "a",
-            "description": "f"
-        }
-    ],
-
-    "B": [
-        {
-            "term": "b",
-            "description": "f"
+            "term": "Askos",
+            "glossary-filter": "Vessels",
+            "description": "Small container for pouring oil or perfume.",
+            "defining-features": "One spout, one handle, possibly shaped like an animal/mythical figure."
         },
         {
-            "term": "be",
-            "description": "f"
+            "term": "Aryballos",
+            "glossary-filter": "Vessels",
+            "description": "Greek oil or perfume flask.",
+            "defining-features": "Small, spherical, narrow neck."
         }
     ],
 
     "C": [
         {
-            "term": "c",
-            "description": "f"
+            "term": "Canopic Jar",
+            "glossary-filter": "Vessels",
+            "description": "Egyptian containers for storing and preserving viscera (internal organs) during mummification. Each jar was associated with a specific organ and one of the Four Sons of Horus.",
+            "defining-features": "Narrow, one lid, depictions of Egyptian gods."
         },
         {
-            "term": "ce",
-            "description": "f"
-        }
-    ],
-
-    "D": [
-        {
-            "term": "d",
-            "description": "f"
-        },
-        {
-            "term": "de",
-            "description": "f"
+            "term": "Clay Extruder",
+            "glossary-filter": "Creation Tools",
+            "description": "Mechanical device that pushes clay through a shaped hole to form long, uniform shapes like coils or tubes."
         }
     ],
 
     "E": [
         {
-            "term": "e",
-            "description": "f"
-        },
-        {
-            "term": "ee",
-            "description": "f"
+            "term": "Ewer",
+            "glossary-filter": "Vessels",
+            "description": "Jug for serving water or washing.",
+            "defining-features": "Large, wide spout."
         }
     ],
 
     "F": [
         {
-            "term": "f",
-            "description": "f"
+            "term": "Flask",
+            "glossary-filter": "Vessels",
+            "description": "Liquid container.",
+            "defining-features": "Small, narrow neck, portable."
         },
         {
-            "term": "fe",
-            "description": "f"
-        }
-    ],
-
-    "G": [
-        {
-            "term": "g",
-            "description": "g"
-        },
-        {
-            "term": "ge",
-            "description": "f"
+            "term": "Flagon",
+            "glossary-filter": "Vessels",
+            "description": "Serving container for wine or oil.",
+            "defining-features": "Large, one handle, one spout, one lid."
         }
     ],
 
     "H": [
         {
-            "term": "h",
-            "description": "f"
-        },
-        {
-            "term": "he",
-            "description": "f"
-        }
-    ],
-
-    "I": [
-        {
-            "term": "i",
-            "description": "f"
-        },
-        {
-            "term": "ie",
-            "description": "f"
+            "term": "Hydria",
+            "glossary-filter": "Vessels",
+            "description": "Greek water transport and storage",
+            "defining-features": "Two horizontal handles for carrying, one vertical handle for pouring."
         }
     ],
 
     "J": [
         {
-            "term": "j",
-            "description": "f"
-        },
-        {
-            "term": "jug",
-            "description": "f"
+            "term": "Jug",
+            "glossary-filter": "Vessels",
+            "description": "Liquid container.",
+            "defining-features": "One handle, one spout."
         }
     ],
 
     "K": [
         {
-            "term": "Kylix",
-            "description": "g"
+            "term": "Kantharos",
+            "glossary-filter": "Vessels",
+            "description": "Greek drinking cup.",
+            "defining-features": "High handles."
         },
         {
-            "term": "k",
-            "description": "f"
+            "term": "Kylix",
+            "glossary-filter": "Vessels",
+            "description": "Greek wine drinking cup.",
+            "defining-features": "Shallow, two handles, wide bowl."
+        },
+        {
+            "term": "Krater",
+            "glossary-filter": "Vessels",
+            "description": "Greek mixer for wine or water.",
+            "defining-features": "Large, wide mouth, two handles."
+        },
+        {
+            "term": "Kiln",
+            "glossary-filter": "Creation Tools",
+            "description": "High-temperature oven used to fire clay objects. Temperatures can reach over 1093 degrees and can be powered by electricity, gas or wood."
         }
     ],
 
     "L": [
         {
-            "term": "l",
-            "description": "f"
-        },
-        {
-            "term": "le",
-            "description": "f"
+            "term": "Lekythos",
+            "glossary-filter": "Vessels",
+            "description": "Oil container.",
+            "defining-features": "Tall, narrow, one handle."
         }
     ],
 
     "M": [
         {
-            "term": "me",
-            "description": "f"
-        },
-        {
-            "term": "m",
-            "description": "f"
-        }
-    ],
-
-    "N": [
-        {
-            "term": "n",
-            "description": "f"
-        },
-        {
-            "term": "ne",
-            "description": "f"
+            "term": "Maubyeong",
+            "glossary-filter": "Vessels",
+            "description": "Korean 'plum blossom' vase.",
+            "defining-features": "Round, short neck."
         }
     ],
 
     "O": [
         {
-            "term": "o",
-            "description": "f"
+            "term": "Oinochoe",
+            "glossary-filter": "Vessels",
+            "description": "Wine jug.",
+            "defining-features": "A spout, curved handle."
         },
         {
-            "term": "oe",
-            "description": "f"
+            "term": "Olla",
+            "glossary-filter": "Vessels",
+            "description": "Cooking and storage container.",
+            "defining-features": "Round, short neck."
         }
     ],
 
     "P": [
         {
-            "term": "p",
-            "description": "f"
+            "term": "Psykter",
+            "glossary-filter": "Vessels",
+            "description": "Greek wine cooler.",
+            "defining-features": "Bulbous body, high and narrow base."
         },
         {
-            "term": "pe",
-            "description": "f"
-        }
-    ],
-
-    "Q": [
-        {
-            "term": "q",
-            "description": "f"
+            "term": "Pithos",
+            "glossary-filter": "Vessels",
+            "description": "Greek storage container for grains, oil or wine. Often partially-buried to keep contents cool.",
+            "defining-features": "Large, wide mouth."
         },
         {
-            "term": "qe",
-            "description": "f"
-        }
-    ],
-
-    "R": [
-        {
-            "term": "r",
-            "description": "f"
-        },
-        {
-            "term": "re",
-            "description": "f"
-        }
-    ],
-
-    "S": [
-        {
-            "term": "s",
-            "description": "f"
-        },
-        {
-            "term": "se",
-            "description": "f"
-        }
-    ],
-
-    "T": [
-        {
-            "term": "t",
-            "description": "f"
-        },
-        {
-            "term": "te",
-            "description": "f"
+            "term": "Pottery Wheel",
+            "glossary-filter": "Creation Tools",
+            "description": "A rotating platform used for shaping clay.",
+            "defining-features": "Circular, flat-surface."
         }
     ],
 
     "U": [
         {
-            "term": "u",
-            "description": "f"
+            "term": "Ukhamba",
+            "glossary-filter": "Vessels",
+            "description": "Zulu beer pot.",
+            "defining-features": "Round, no handles."
         },
         {
-            "term": "ue",
-            "description": "f"
-        }
-    ],
-
-    "V": [
-        {
-            "term": "v",
-            "description": "f"
+            "term": "Urpu",
+            "glossary-filter": "Vessels",
+            "description": "Incan liquid container.",
+            "defining-features": "Round, short neck, two small handles."
         },
         {
-            "term": "ve",
-            "description": "f"
-        }
-    ],
-
-    "W": [
-        {
-            "term": "w",
-            "description": "f"
-        },
-        {
-            "term": "we",
-            "description": "f"
-        }
-    ],
-
-    "X": [
-        {
-            "term": "x",
-            "description": "f"
-        },
-        {
-            "term": "xe",
-            "description": "f"
-        }
-    ],
-
-    "Y": [
-        {
-            "term": "y",
-            "description": "f"
-        },
-        {
-            "term": "ye",
-            "description": "f"
-        }
-    ],
-
-    "Z": [
-        {
-            "term": "z",
-            "description": "z"
-        },
-        {
-            "term": "ze",
-            "description": "z"
+            "term": "Urn",
+            "glossary-filter": "Vessels",
+            "description": "Grave marker or holding ashes, typically in funerary contexts.",
+            "defining-features": "Round, narrow neck, footed pedestal."
         }
     ]
 }

@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const galleryContainer = document.getElementById('gallery');
     const searchInput = document.getElementById('searchInput');
 
-    fetch('/data/gallery.json')
+    fetch('/data/artefacts.json')
         .then(response => response.json())
         .then(data => {
             displayGallery(data.artefacts);
@@ -26,15 +26,19 @@ document.addEventListener('DOMContentLoaded', function() {
             imgContainer.className = 'img-container';
 
             const imgElement = document.createElement('img');
-            imgElement.src = artefact.img;
-            imgElement.alt = artefact.title;
+            imgElement.src = artefact.photo;
+            imgElement.alt = artefact.type;
 
             const titleElement = document.createElement('h3');
-            titleElement.textContent = artefact.title;
+            titleElement.textContent = artefact.type;
 
-            imgContainer.appendChild(imgElement);
             galleryItem.appendChild(imgContainer);
+            imgContainer.appendChild(imgElement);
             galleryItem.appendChild(titleElement);
+
+            galleryItem.addEventListener('click', () => {
+                window.location.href = `/pages/artefact.html?id=${artefact.id}`;
+            });
 
             galleryContainer.appendChild(galleryItem);
         });

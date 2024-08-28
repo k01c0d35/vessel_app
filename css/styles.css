@@ -54,15 +54,9 @@ html, body {
 
 .website-title {
     margin: 0;
-    font-size: 1em;
+    font-size: 2em;
     font-family: "Playfair Display", serif;
     font-weight: 700;
-}
-
-.section-title {
-    margin: 0;
-    font-size: 2em;
-    font-weight: 200;
 }
 
 .nav-buttons {
@@ -76,10 +70,10 @@ html, body {
     text-decoration: none;
 }
 
-.nav-buttons a, .dropdown-button, .svg-text {
+.nav-buttons a, .dropdown-button, .bottom-section-nav .svg-text {
     font-weight: 600;
     margin-left: 20px;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .nav a, .dropdown-button {
@@ -133,13 +127,13 @@ html, body {
     padding-left: 5px;
 }
 
-.subnav {
+.bottom-section-nav {
     display: flex;
     align-items: center;
     width: 100%;
     height: 50px;
     /* position: relative; */
-    background-color: orange;
+    background-color: #e2e2e2;
     box-sizing: border-box;
 }
 
@@ -149,12 +143,12 @@ html, body {
     height: 100%;
 }
 
-.subnav svg {
+.bottom-section-nav svg {
     height: 103%;
     width: auto;
 }
 
-.subnav .svg-text {
+.bottom-section-nav .svg-text {
     fill: black;
     cursor: default;
 }
@@ -171,12 +165,26 @@ html, body {
 
 .filter-item {
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     font-size: 16px;
     box-sizing: border-box;
     border: none;
-    border-radius: 6px;
+    border-radius: 4px;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.filter-item:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+}
+
+.filter-item.selected {
+    background-color: #555;
+}
+
+#searchInput {
+    outline: none;
 }
 
 /* CONTENT */

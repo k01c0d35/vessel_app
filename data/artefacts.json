@@ -1,0 +1,137 @@
+{
+    "artefacts": [
+        {
+            "id": 1,
+            "title": "Manunggul Jar",
+            "type": "Jar",
+            "ware": "Earthenware",
+            "culturePeriod": "Neolithic",
+            "date": {
+                "start": -890,
+                "end": -710
+            },
+            "region": "Philippines",
+            "condition": "Intact",
+            "height": "60",
+            "photo": "/assets/artefacts/1.png"
+        },
+
+        {
+            "id": 2,
+            "type": "Amphora",
+            "ware": "Black-Figure",
+            "culturePeriod": "Greek",
+            "date": {
+                "start": -550,
+                "end": -530
+            },
+            "region": "Greece",
+            "artist": "Exekais",
+            "condition": "Intact",
+            "height": "53",
+            "photo": "/assets/artefacts/2.png"
+        },
+
+        {
+            "id": 3,
+            "type": "Kantharos",
+            "ware": "Earthenware",
+            "culturePeriod": "Greek",
+            "date": {
+                "start": -500,
+                "end": -401
+            },
+            "region": "Greece",
+            "condition": "Intact",
+            "height": "20",
+            "photo": "/assets/artefacts/3.png"
+        },
+
+        {
+            "id": 4,
+            "type": "Oinochoe",
+            "ware": "Earthenware",
+            "culturePeriod": "Greek",
+            "date": {
+                "start": -325,
+                "end": -300
+            },
+            "region": "Greece",
+            "condition": "Intact",
+            "height": "24",
+            "photo": "/assets/artefacts/4.png"
+        },
+
+        {
+            "id": 5,
+            "type": "Ukhamba",
+            "ware": "Earthenware",
+            "culturePeriod": "Northern Nguni",
+            "date": {
+                "start": 1925,
+                "end": 1975
+            },
+            "region": "South Africa",
+            "condition": "Intact",
+            "height": "21",
+            "photo": "/assets/artefacts/5.png"
+        },
+        {
+            "id": 6,
+            "type": "Kylix",
+            "ware": "Red-Figure",
+            "culturePeriod": "Greek",
+            "dateRange": {
+                "start": -485,
+                "end": -480
+            },
+            "region": "Greece",
+            "artist": "Douris",
+            "condition": "Repaired",
+            "photo": "/assets/artefacts/6.png"
+        },
+        {
+            "id": 7,
+            "type": "Olla",
+            "ware": "Yellow-Ware",
+            "culturePeriod": "Ancestral Puebloan",
+            "date": {
+                "start": 1300,
+                "end": 1400
+            },
+            "region": "USA",
+            "condition": "Intact",
+            "height": 13,
+            "photo": "/assets/artefacts/7.png"
+        },
+        {
+            "id": 8,
+            "type": "Pithos",
+            "ware": "Earthenware",
+            "culture_period": "Late Minoan II",
+            "date": {
+                "start": -1450,
+                "end": -1375
+            },
+            "region": "Greece",
+            "condition": "Intact",
+            "height": 120,
+            "photo": "/assets/artefacts/8.png"
+        },
+        {
+            "id": 9,
+            "type": "Krater",
+            "ware": "Red-Figure",
+            "culture_period": "Greek",
+            "date": {
+                "start": -430,
+                "end": -420
+            },
+            "country_of_origin": "Greece",
+            "artist": "Peleus Painter",
+            "condition": "Intact",
+            "height": 36,
+            "photo": "/assets/artefacts/9.png"
+        }
+    ]
+}
