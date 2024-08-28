@@ -13,49 +13,32 @@
     <div class="page-container">
         <div class="content-wrap">
             <div class="nav">
-                <div class="top-section-nav">
-                    <img src="/assets/icons/download.jpg" alt="Logo" class="nav-icon">
-                    <div class="nav-text">
-                        <h1 class="website-title">Historic Vessels</h1>
-                        <h2 class="section-title">COLLECTION</h2>
+                <div class="top-section-nav"></div>
+                <div class="subnav">
+                    <div class="svg-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 65" fill="none">
+                            <path d="M1 1H262L185.61 64H1V1Z" fill="#FAFAFA" stroke="#FAFAFA"/>
+                            <text x="35%" y="50%" text-anchor="middle" dominant-baseline="middle" class="svg-text">GALLERY</text>
+                        </svg>
                     </div>
-                    <div class="nav-buttons">
-                        <a href="/index.html">HOME</a>
-                        <a class="active">COLLECTION</a>
-                        <div class="dropdown">
-                            <button class="dropdown-button" >
-                                STORIES
-                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none">
-                                <path d="M18 1.1875L9.65617 11.6173C9.57611 11.7174 9.42389 11.7174 9.34383 11.6173L0.999999 1.1875" stroke="black" stroke-width="1.2" stroke-linecap="round"/>
-                                </svg>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="/pages/s1.html">Vessel 1</a>
-                                <a href="/pages/s2.html">Vessel 2</a>
-                                <a href="/pages/s3.html">Vessel 3</a>
-                            </div>
+                    <div class="filter">
+                        <div class="search-container">
+                            <input class="filter-item" type="text" id="searchInput" placeholder="Search...">
                         </div>
-                        <a href="/pages/k_glossary.html">KNOWLEDGE</a>
-                    </div>
-                </div>
-                <div class="bottom-section-nav">
-                    <div class="page-titles">
-                        <a class="active">GALLERY</a>
                     </div>
                 </div>
             </div>
             <div class="content">
-                <div class="search-container">
-                    <input type="text" id="searchInput" placeholder="Search...">
-                </div>
                 <div id="gallery" class="gallery-container">
                     <script src="/js/gallery.js"></script>
                 </div>
+                <button id="backToTop">BACK TO TOP</button>
             </div>
         </div>
         <div id="footer"></div>
 
         <script src="/js/index.js"></script>
+        <script src="/js/gallery.js"></script>
     </div>
 
 </body>

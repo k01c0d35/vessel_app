@@ -64,17 +64,4 @@ document.addEventListener('DOMContentLoaded', function () {
 
         return filteredGlossary;
     }
-
-    //Back to top in glossary
-    window.addEventListener('scroll', function () {
-        if (this.window.scrollY > 300) {
-            backToTopButton.classList.add('show');
-        } else {
-            backToTopButton.classList.remove('show');
-        }
-    });
-
-    backToTopButton.addEventListener('click', function () {
-        window.scrollTo({ top: 0});
-    });
 });
