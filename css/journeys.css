@@ -1,0 +1,78 @@
+.content {
+    gap: 8vw;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    align-items: center;
+    padding: 0 5vw;
+}
+
+h3 {
+    text-align: center;
+}
+
+.page-links-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    justify-content: center;
+}
+
+.page-link {
+    width: 30%;
+    flex-grow: 1;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.page-link h1 {
+    font-weight: 500;
+}
+
+.search-container a {
+    color: black;
+}
+
+.page-links-container img {
+    width: 100%;
+    scale: 0.6;
+}
+
+.page-links-container h1 {
+    font-size: 1.3em;
+}
+
+.page-link img {
+    filter: blur(6px);
+}
+
+.page-link:hover img, .page-link:hover, .page-link:hover h1 {
+    filter: blur(0);
+    /* font-size: larger; */
+    transform: scale(1.05);
+    font-weight: 700;
+}
+
+/* ACTIVATION PAGE */
+.activation-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stage {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.start-button {
+    cursor: pointer;
+}

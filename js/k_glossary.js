@@ -1,34 +1,41 @@
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', () => {
     const glossaryContent = document.getElementById('glossaryContent');
     const searchInput = document.getElementById('searchInput');
     const filterButtons = document.querySelectorAll('.aSort');
-    console.log("g", filterButtons);
 
     let currentFilter = null;
 
-    //Get glossary items from json
+    const getSearchTermFromURL = () => {
+        const params = new URLSearchParams(window.location.search);
+        return params.get('search') || '';
+    };
+
     fetch('/data/k_glossary.json')
         .then(response => response.json())
         .then(data => {
-            displayGlossary(data);
+            const searchTermFromURL = getSearchTermFromURL();
+            searchInput.value = searchTermFromURL;
 
-            searchInput.addEventListener('input', function () {
+            displayGlossary(filterGlossary(data, searchTermFromURL.toLowerCase(), currentFilter));
+
+            searchInput.addEventListener('input', () => {
                 const searchTerm = searchInput.value.toLowerCase();
-                console.log("g", searchTerm);
                 const filteredData = filterGlossary(data, searchTerm, currentFilter);
                 displayGlossary(filteredData);
             });
 
             filterButtons.forEach(button => {
                 button.addEventListener('click', function () {
-                    // Toggle filter button state
-                    filterButtons.forEach(btn => btn.classList.remove('selected'));
-                    this.classList.add('selected');
+                    if (this.classList.contains('selected')) {
+                        this.classList.remove('selected');
+                        currentFilter = null;
+                    } else {
+                        filterButtons.forEach(btn => btn.classList.remove('selected'));
+                        this.classList.add('selected');
 
-                    // Update current filter
-                    currentFilter = this.getAttribute('data-filter');
+                        currentFilter = this.getAttribute('data-filter');
+                    }
 
-                    // Filter glossary items
                     const searchTerm = searchInput.value.toLowerCase();
                     const filteredData = filterGlossary(data, searchTerm, currentFilter);
                     displayGlossary(filteredData);
@@ -36,8 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         });
 
-    //Display glossary items
-    function displayGlossary(glossary) {
+    const displayGlossary = (glossary) => {
         glossaryContent.innerHTML = '';
 
         Object.keys(glossary).forEach(letter => {
@@ -50,23 +56,25 @@ document.addEventListener('DOMContentLoaded', function () {
             letterSection.appendChild(letterHeader);
 
             glossary[letter].forEach(entry => {
+                const { term, 'glossary-filter': glossaryFilter, description, 'defining-features': definingFeatures } = entry;
+
                 const termElement = document.createElement('div');
                 termElement.className = 'glossary-term';
 
                 const termHeader = document.createElement('h3');
-                termHeader.innerHTML = highlightText(entry.term, searchInput.value);
+                termHeader.innerHTML = highlightText(term, searchInput.value);
                 termElement.appendChild(termHeader);
 
                 const termGlossaryCategory = document.createElement('p');
-                termGlossaryCategory.innerHTML = highlightText(entry['glossary-filter'], searchInput.value);
+                termGlossaryCategory.innerHTML = highlightText(glossaryFilter, searchInput.value);
                 termElement.appendChild(termGlossaryCategory);
 
                 const termDescription = document.createElement('p');
-                termDescription.innerHTML = highlightText(entry.description, searchInput.value);
+                termDescription.innerHTML = highlightText(description, searchInput.value);
                 termElement.appendChild(termDescription);
 
                 const termDefiningFeatures = document.createElement('p');
-                termDefiningFeatures.innerHTML = highlightText(entry['defining-features'], searchInput.value);
+                termDefiningFeatures.innerHTML = highlightText(definingFeatures, searchInput.value);
                 termElement.appendChild(termDefiningFeatures);
 
                 letterSection.appendChild(termElement);
@@ -74,31 +82,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
             glossaryContent.appendChild(letterSection);
         });
-    }
+    };
 
-    function highlightText(text, searchTerm) {
+    const highlightText = (text, searchTerm) => {
         text = text || '';
-        
-        if (!searchTerm.trim()) return text;
-    
-        const regex = new RegExp(`(${searchTerm.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')})`, 'gi');
-        
-        return text.replace(regex, '<span class="highlight">$1</span>');
-    }
 
-    //Search through glossary
-    function filterGlossary(glossary, searchTerm, filter) {
+        if (!searchTerm.trim()) return text;
+
+        const regex = new RegExp(`(${searchTerm.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')})`, 'gi');
+
+        return text.replace(regex, '<span class="highlight">$1</span>');
+    };
+
+    const filterGlossary = (glossary, searchTerm, filter) => {
         const filteredGlossary = {};
 
         Object.keys(glossary).forEach(letter => {
             const filteredTerms = glossary[letter].filter(entry => {
-                const termMatches = entry.term.toLowerCase().includes(searchTerm);
-                const filterMatches = filter ? entry['glossary-filter'] === filter : true;
+                const { term, 'glossary-filter': glossaryFilter } = entry;
+                const termMatches = term.toLowerCase().includes(searchTerm);
+                const filterMatches = filter ? glossaryFilter === filter : true;
 
                 return termMatches && filterMatches;
-            }
-                
-            );
+            });
 
             if (filteredTerms.length > 0) {
                 filteredGlossary[letter] = filteredTerms;
@@ -106,5 +112,5 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 
         return filteredGlossary;
-    }
+    };
 });

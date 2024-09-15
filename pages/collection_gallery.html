@@ -4,30 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Historic Vessels</title>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/collection_gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <div class="page-container">
-        <div class="content-wrap">
-            <div class="nav"></div>
+    <main>
+        <div class="nav"></div>
+        <!-- <div class="bottom-section-nav">
+                </div> -->
+        <div class="content">
             <div class="search-container">
-                <input class="filter-item" type="text" id="searchInput" placeholder="Search...">
+                <span>
+                    <input class="filter-item" type="text" id="searchInput" placeholder="Search">
+                </span>
+                <span>
+                    <div class="dropdown">
+                        <button class=" filter-item dropdown-button" onclick="toggleDropdown(this)">Sort <i
+                                class="fa fa-caret-down"></i></button>
+                        <div id="sortContainer" class="dropdown-content"></div>
+                    </div>
+                    <div class="dropdown">
+                        <button onclick="toggleDropdown(this)" class="filter-item dropdown-button">Type <i
+                                class="fa fa-caret-down"></i></button>
+                        <div id="typeFilter" class="dropdown-content"></div>
+                    </div>
+                    <div class="dropdown">
+                        <button onclick="toggleDropdown(this)" class="filter-item dropdown-button">Region <i
+                                class="fa fa-caret-down"></i></button>
+                        <div id="regionFilter" class="dropdown-content"></div>
+                    </div>
+                    <div class="dropdown">
+                        <button onclick="toggleDropdown(this)" class="filter-item dropdown-button">Ware <i
+                                class="fa fa-caret-down"></i></button>
+                        <div id="wareFilter" class="dropdown-content"></div>
+                    </div>
+                    <div class="dropdown">
+                        <button onclick="toggleDropdown(this)" class="filter-item dropdown-button">Period <i
+                                class="fa fa-caret-down"></i></button>
+                        <div id="culturePeriodFilter" class="dropdown-content"></div>
+                    </div>
+                </span>
             </div>
-            <div class="content">
-                <div id="gallery" class="gallery-container">
-                    <script src="/js/gallery.js"></script>
-                </div>
-                <button id="backToTop">BACK TO TOP</button>
+            <div id="gallery" class="gallery-container">
             </div>
-        </div>
-        <div id="footer"></div>
+            <button id="backToTop">BACK TO TOP</button>
+    </main>
+    <footer></footer>
 
-        <script src="/js/index.js"></script>
-        <script src="/js/gallery.js"></script>
-    </div>
+    <script src="/js/index.js"></script>
+    <script src="/js/gallery.js"></script>
 
 </body>
 

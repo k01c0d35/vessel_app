@@ -13,7 +13,8 @@
             "region": "Philippines",
             "condition": "Intact",
             "height": "60",
-            "photo": "/assets/artefacts/1.png"
+            "photo": "/assets/artefacts/1.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
         },
 
         {
@@ -29,7 +30,8 @@
             "artist": "Exekais",
             "condition": "Intact",
             "height": "53",
-            "photo": "/assets/artefacts/2.png"
+            "photo": "/assets/artefacts/2.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
         },
 
         {
@@ -44,7 +46,8 @@
             "region": "Greece",
             "condition": "Intact",
             "height": "20",
-            "photo": "/assets/artefacts/3.png"
+            "photo": "/assets/artefacts/3.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
         },
 
         {
@@ -59,7 +62,8 @@
             "region": "Greece",
             "condition": "Intact",
             "height": "24",
-            "photo": "/assets/artefacts/4.png"
+            "photo": "/assets/artefacts/4.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
         },
 
         {
@@ -74,7 +78,8 @@
             "region": "South Africa",
             "condition": "Intact",
             "height": "21",
-            "photo": "/assets/artefacts/5.png"
+            "photo": "/assets/artefacts/5.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
         },
         {
             "id": 6,
@@ -88,7 +93,8 @@
             "region": "Greece",
             "artist": "Douris",
             "condition": "Repaired",
-            "photo": "/assets/artefacts/6.png"
+            "photo": "/assets/artefacts/6.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
         },
         {
             "id": 7,
@@ -102,7 +108,8 @@
             "region": "USA",
             "condition": "Intact",
             "height": 13,
-            "photo": "/assets/artefacts/7.png"
+            "photo": "/assets/artefacts/7.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
         },
         {
             "id": 8,
@@ -116,7 +123,8 @@
             "region": "Greece",
             "condition": "Intact",
             "height": 120,
-            "photo": "/assets/artefacts/8.png"
+            "photo": "/assets/artefacts/8.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
         },
         {
             "id": 9,
@@ -131,7 +139,804 @@
             "artist": "Peleus Painter",
             "condition": "Intact",
             "height": 36,
-            "photo": "/assets/artefacts/9.png"
+            "photo": "/assets/artefacts/9.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 10,
+            "title": "David Vases",
+            "type": "Vase",
+            "ware": "Porcelain",
+            "culturePeriod": "Yuan Dynasty",
+            "date": {
+                "start": 1351,
+                "end": 1351
+            },
+            "region": "China",
+            "condition": "Intact",
+            "height": 63,
+            "photo": "/assets/artefacts/10.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 11,
+            "title": "Meidias Hydria",
+            "type": "Hydria",
+            "ware": "Red-Figure",
+            "culturePeriod": "Greek",
+            "date": {
+                "start": -420,
+                "end": -400
+            },
+            "region": "Greece",
+            "condition": "Intact",
+            "height": 52,
+            "photo": "/assets/artefacts/11.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 12,
+            "title": "Warka Vase",
+            "type": "Vase",
+            "ware": "Stoneware",
+            "culturePeriod": "Iraq",
+            "date": {
+                "start": -3200,
+                "end": -3000
+            },
+            "region": "Iraq",
+            "condition": "Repaired",
+            "height": 90,
+            "photo": "/assets/artefacts/12.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 13,
+            "type": "Vase",
+            "ware": "Earthenware",
+            "culturePeriod": "Renaissance",
+            "date": {
+                "start": 1580,
+                "end": 1590
+            },
+            "region": "Italy",
+            "artist": "Workshop of Fontana",
+            "condition": "Intact",
+            "height": 54,
+            "photo": "/assets/artefacts/13.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 14,
+            "type": "Amphora",
+            "ware": "Egyptian",
+            "culturePeriod": "Ptolemaic",
+            "date": {
+                "start": -150,
+                "end": -50
+            },
+            "region": "Egypt",
+            "condition": "Intact",
+            "height": 10,
+            "photo": "/assets/artefacts/14.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 15,
+            "type": "Askos",
+            "ware": "Earthenware",
+            "culturePeriod": "Greek",
+            "date": {
+                "start": -400,
+                "end": -301
+            },
+            "region": "Greece",
+            "condition": "Intact",
+            "height": 10,
+            "photo": "/assets/artefacts/15.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 16,
+            "type": "Askos",
+            "ware": "Earthenware",
+            "culturePeriod": "Greek",
+            "date": {
+                "start": -400,
+                "end": -301
+            },
+            "region": "Greece",
+            "condition": "Semi-intact",
+            "height": 12,
+            "photo": "/assets/artefacts/16.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 17,
+            "type": "Hydria",
+            "ware": "Red-Figure",
+            "culturePeriod": "Greek",
+            "date": {
+                "start": -350,
+                "end": -320
+            },
+            "region": "Greece",
+            "artist": "Attributed to the Group of Naples 3227",
+            "condition": "Intact",
+            "height": 60,
+            "photo": "/assets/artefacts/17.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 18,
+            "type": "Askos",
+            "ware": "Earthenware",
+            "culturePeriod": "Greek",
+            "date": {
+                "start": -400,
+                "end": -301
+            },
+            "region": "Greece",
+            "condition": "Intact",
+            "height": 9,
+            "photo": "/assets/artefacts/18.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 19,
+            "type": "Lekythos",
+            "ware": "Red-Figure",
+            "culturePeriod": "Greek",
+            "date": {
+                "start": -400,
+                "end": -301
+            },
+            "region": "Greece",
+            "condition": "Intact",
+            "height": 12,
+            "photo": "/assets/artefacts/19.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 20,
+            "type": "Jug",
+            "ware": "Earthenware",
+            "culturePeriod": "French",
+            "date": {
+                "start": 1250,
+                "end": 1350
+            },
+            "region": "France",
+            "condition": "Intact",
+            "height": 27,
+            "photo": "/assets/artefacts/20.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 21,
+            "type": "Jug",
+            "ware": "Earthenware",
+            "culturePeriod": "Spanish",
+            "date": {
+                "start": 1450,
+                "end": 1500
+            },
+            "region": "Spain",
+            "condition": "Intact",
+            "height": 22,
+            "photo": "/assets/artefacts/21.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 22,
+            "type": "Ewer",
+            "ware": "Earthenware",
+            "culturePeriod": "Iraq",
+            "date": {
+                "start": 801,
+                "end": 900
+            },
+            "region": "Iraq",
+            "condition": "Intact",
+            "height": 35,
+            "photo": "/assets/artefacts/22.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 23,
+            "type": "Ewer",
+            "ware": "Porcelain",
+            "culturePeriod": "Kangxi",
+            "date": {
+                "start": 1662,
+                "end": 1722
+            },
+            "region": "China",
+            "condition": "Intact",
+            "height": 26,
+            "photo": "/assets/artefacts/23.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 24,
+            "type": "Jar",
+            "ware": "Stoneware",
+            "culturePeriod": "Han Dynasty",
+            "date": {
+                "start": -206,
+                "end": 220
+            },
+            "region": "China",
+            "condition": "Intact",
+            "height": 34,
+            "photo": "/assets/artefacts/24.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 25,
+            "type": "Jar",
+            "ware": "Earthenware",
+            "culturePeriod": "A:shiwi (zuni pueblo)",
+            "date": {
+                "start": 1850,
+                "end": 1950
+            },
+            "region": "USA",
+            "condition": "Semi-intact",
+            "height": 30,
+            "photo": "/assets/artefacts/25.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 26,
+            "type": "Maubyeong",
+            "ware": "Stoneware",
+            "culturePeriod": "Goryeo Dynasty",
+            "date": {
+                "start": 1250,
+                "end": 1300
+            },
+            "region": "Korea",
+            "condition": "Intact",
+            "height": 29,
+            "photo": "/assets/artefacts/26.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 27,
+            "type": "Urpu",
+            "ware": "Earthenware",
+            "culturePeriod": "Inca",
+            "date": {
+                "start": 1401,
+                "end": 1500
+            },
+            "region": "Peru",
+            "condition": "Intact",
+            "height": 34,
+            "photo": "/assets/artefacts/27.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 28,
+            "type": "Aryballos",
+            "ware": "Earthenware",
+            "culturePeriod": "Proto-Corinthian",
+            "date": {
+                "start": -640,
+                "end": -640
+            },
+            "region": "Greece",
+            "condition": "Intact",
+            "height": 7,
+            "photo": "/assets/artefacts/28.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 29,
+            "type": "Urpu",
+            "ware": "Earthenware",
+            "culturePeriod": "Inca",
+            "date": {
+                "start": 1400,
+                "end": 1550
+            },
+            "region": "Peru",
+            "condition": "Intact",
+            "height": 76,
+            "photo": "/assets/artefacts/29.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 30,
+            "type": "Beaker",
+            "ware": "Earthenware",
+            "culturePeriod": "Kerma",
+            "date": {
+                "start": -1640,
+                "end": -1802
+            },
+            "region": "Egypt",
+            "condition": "Intact",
+            "height": 10,
+            "photo": "/assets/artefacts/30.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 31,
+            "type": "Kylix",
+            "ware": "Black-Figure",
+            "culturePeriod": "Greek",
+            "date": {
+                "start": -500,
+                "end": -480
+            },
+            "region": "Greece",
+            "condition": "Semi-intact",
+            "height": 9,
+            "photo": "/assets/artefacts/31.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 32,
+            "type": "Kylix",
+            "ware": "Black-Figure",
+            "culturePeriod": "Greek",
+            "date": {
+                "start": -540,
+                "end": -480
+            },
+            "region": "Greece",
+            "artist": "The Leafless Group",
+            "condition": "Intact",
+            "height": 10,
+            "photo": "/assets/artefacts/32.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 33,
+            "type": "Kylix",
+            "ware": "White-Ground",
+            "culturePeriod": "Greek",
+            "date": {
+                "start": -460,
+                "end": -450
+            },
+            "region": "Greece",
+            "artist": "The Sotades Painter",
+            "condition": "Semi-intact",
+            "height": 8,
+            "photo": "/assets/artefacts/33.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 34,
+            "type": "Jug",
+            "ware": "Earthenware",
+            "culturePeriod": "Renaissance",
+            "date": {
+                "start": 1580,
+                "end": 1600
+            },
+            "region": "England",
+            "condition": "Intact",
+            "height": 20,
+            "photo": "/assets/artefacts/34.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 35,
+            "type": "Jug",
+            "ware": "White-Ware",
+            "culturePeriod": "Cypro-Classical",
+            "date": {
+                "start": -475,
+                "end": -300
+            },
+            "region": "Greece",
+            "condition": "Intact",
+            "height": 15,
+            "photo": "/assets/artefacts/35.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 36,
+            "type": "Jug",
+            "ware": "Earthenware",
+            "culturePeriod": "Middle Ages",
+            "date": {
+                "start": 1200,
+                "end": 1600
+            },
+            "region": "England",
+            "condition": "Intact",
+            "height": 25,
+            "photo": "/assets/artefacts/36.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 37,
+            "type": "Urn",
+            "ware": "Stoneware",
+            "culturePeriod": "Modern",
+            "date": {
+                "start": 1891,
+                "end": 1895
+            },
+            "region": "England",
+            "artist": "Doulton & Co Ltd",
+            "condition": "Intact",
+            "height": 30,
+            "photo": "/assets/artefacts/37.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 38,
+            "type": "Amphora",
+            "ware": "Egyptian",
+            "culturePeriod": "Egyptian",
+            "region": "Egypt",
+            "condition": "Intact",
+            "height": 108,
+            "photo": "/assets/artefacts/38.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 39,
+            "type": "Psykter",
+            "ware": "Red-Figure",
+            "culturePeriod": "Greek",
+            "date": {
+                "start": -490,
+                "end": -490
+            },
+            "region": "Greece",
+            "artist": "Douris",
+            "condition": "Intact",
+            "height": 29,
+            "photo": "/assets/artefacts/39.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 40,
+            "type": "Jar",
+            "ware": "Porcelain",
+            "culturePeriod": "Chinese",
+            "date": {
+                "start": -1601,
+                "end": -1700
+            },
+            "region": "China",
+            "condition": "Intact",
+            "height": 23,
+            "photo": "/assets/artefacts/40.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 41,
+            "type": "Jar",
+            "ware": "Earthenware",
+            "culturePeriod": "New Kingdom",
+            "date": {
+                "start": -1250,
+                "end": -1250
+            },
+            "region": "Egypt",
+            "condition": "Intact",
+            "height": 30,
+            "photo": "/assets/artefacts/41.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 42,
+            "type": "Jar",
+            "ware": "Earthenware",
+            "culturePeriod": "Israel",
+            "date": {
+                "start": -800,
+                "end": -586
+            },
+            "region": "Israel",
+            "condition": "Intact",
+            "height": 47,
+            "photo": "/assets/artefacts/42.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 43,
+            "type": "Urpu",
+            "ware": "Earthenware",
+            "culturePeriod": "Inca",
+            "date": {
+                "start": -1400,
+                "end": -1535
+            },
+            "region": "Peru",
+            "condition": "Intact",
+            "height": 22,
+            "photo": "/assets/artefacts/43.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 44,
+            "type": "Lekythos",
+            "ware": "White-Ground",
+            "culturePeriod": "Greek",
+            "date": {
+                "start": -430,
+                "end": -430
+            },
+            "region": "Greece",
+            "artist": "Attributed to the Thanatos painter",
+            "condition": "Intact",
+            "height": "28",
+            "photo": "/assets/artefacts/44.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 45,
+            "type": "Flagon",
+            "ware": "Earthenware",
+            "culturePeriod": "Roman",
+            "date": {
+                "start": -300,
+                "end": -201
+            },
+            "region": "Africa",
+            "condition": "Intact",
+            "height": 19,
+            "photo": "/assets/artefacts/45.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": 46,
+            "type": "Bowl",
+            "ware": "Yellow-Ware",
+            "culturePeriod": "Ancestral Puebloan",
+            "date": {
+                "start": 1375,
+                "end": 1625
+            },
+            "region": "USA",
+            "condition": "Intact",
+            "height": 7,
+            "photo": "/assets/artefacts/46.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": "47",
+            "type": "Vase",
+            "ware": "Bronze",
+            "culturePeriod": "Russian",
+            "date": {
+                "start": 1839,
+                "end": 1845
+            },
+            "region": "Russia",
+            "artist": "Ivan Galberg",
+            "condition": "Intact",
+            "height": "170",
+            "photo": "/assets/artefacts/47.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": "48",
+            "type": "Vase",
+            "ware": "Majolica",
+            "culturePeriod": "Italian",
+            "date": {
+                "start": 1580,
+                "end": 1590
+            },
+            "region": "Italy",
+            "artist": "Workshop of Fontana",
+            "condition": "Intact",
+            "height": "54",
+            "photo": "/assets/artefacts/48.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": "49",
+            "title": "Alabaster Perfume Vase of Tutankamun",
+            "type": "Vase",
+            "ware": "Alabaster",
+            "culturePeriod": "Egyptian",
+            "date": {
+                "start": -1332,
+                "end": -1323
+            },
+            "region": "Egypt",
+            "condition": "Intact",
+            "photo": "/assets/artefacts/49.webp",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": "50",
+            "type": "Ewer",
+            "ware": "Brass",
+            "culturePeriod": "Muslim",
+            "date": {
+                "start": 1550,
+                "end": 1650
+            },
+            "region": "Persia",
+            "condition": "Intact",
+            "height": "35",
+            "photo": "/assets/artefacts/50.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": "51",
+            "title": "The Ardagh Chalice",
+            "type": "Chalice",
+            "ware": "Copper-Alloy",
+            "culturePeriod": "Irish",
+            "date": {
+                "start": 701,
+                "end": 800
+            },
+            "region": "Ireland",
+            "condition": "Intact",
+            "photo": "/assets/artefacts/51.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": "52",
+            "type": "Jug",
+            "ware": "Glass",
+            "culturePeriod": "Modern",
+            "date": {
+                "start": 1960,
+                "end": 1960
+            },
+            "region": "New Zealand",
+            "artist": "Crown Crystal Glass",
+            "condition": "Intact",
+            "height": "20",
+            "photo": "/assets/artefacts/52.jpeg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": "53",
+            "type": "Bowl",
+            "ware": "Silver",
+            "culturePeriod": "Early Modern",
+            "date": {
+                "start": 1698,
+                "end": 1710
+            },
+            "region": "USA",
+            "artist": "Benjamin Wynkoop",
+            "condition": "Intact",
+            "height": "12",
+            "photo": "/assets/artefacts/53.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": "54",
+            "title": "",
+            "type": "Teapot",
+            "ware": "Silver",
+            "culturePeriod": "Early Modern",
+            "date": {
+                "start": 1760,
+                "end": 1770
+            },
+            "region": "USA",
+            "artist": "Paul Revere, Jr",
+            "condition": "Intact",
+            "height": "15",
+            "photo": "/assets/artefacts/54.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": "55",
+            "type": "Sauceboat",
+            "ware": "Silver",
+            "culturePeriod": "Early Modern",
+            "date": {
+                "start": 1760,
+                "end": 1770
+            },
+            "region": "USA",
+            "artist": "Paul Revere, Jr",
+            "condition": "Intact",
+            "height": "13",
+            "photo": "/assets/artefacts/55.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": "56",
+            "type": "Tankard",
+            "ware": "Mulberry Wood",
+            "culturePeriod": "Early Modern",
+            "date": {
+                "start": 1760,
+                "end": 1825
+            },
+            "region": "England",
+            "creator": "",
+            "artist": "",
+            "condition": "Intact",
+            "photo": "/assets/artefacts/56.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": "57",
+            "type": "Tankard",
+            "ware": "Amber",
+            "culturePeriod": "Early Modern",
+            "date": {
+                "start": 1640,
+                "end": 1660
+            },
+            "region": "Russia",
+            "condition": "Intact",
+            "height": "20",
+            "photo": "/assets/artefacts/57.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": "58",
+            "type": "Krater",
+            "ware": "Bronze",
+            "culturePeriod": "Greek",
+            "date": {
+                "start": -530,
+                "end": -520
+            },
+            "region": "Greece",
+            "condition": "Intact",
+            "height": "164",
+            "photo": "/assets/artefacts/58.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": "59",
+            "title": "The Portland Vase",
+            "type": "Vase",
+            "ware": "Glass",
+            "culturePeriod": "Roman",
+            "date": {
+                "start": 1,
+                "end": 25
+            },
+            "region": "Rome",
+            "condition": "Intact",
+            "height": "10",
+            "photo": "/assets/artefacts/59.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": "60",
+            "type": "Urn",
+            "ware": "Malachite",
+            "culturePeriod": "Russian",
+            "date": {
+                "start": 1836,
+                "end": 1836
+            },
+            "region": "Russia",
+            "artist": "Imperial Peterhof Lapidary Factory",
+            "condition": "Intact",
+            "height": "180",
+            "photo": "/assets/artefacts/60.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+        },
+        {
+            "id": "61",
+            "type": "Jug",
+            "ware": "Copper-Alloy",
+            "culturePeriod": "Arabic",
+            "date": {
+                "start": 1150,
+                "end": 1250
+            },
+            "region": "Iran",
+            "condition": "Intact",
+            "height": "14",
+            "photo": "/assets/artefacts/61.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
         }
     ]
 }

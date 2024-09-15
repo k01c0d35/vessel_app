@@ -6,29 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/journeys.css">
 </head>
-
+<!-- Get rid of intro stages and create reusable intro html with js logic if stage = 1 make text content clay and display clay animation etc. -->
 <body>
-    <div class="page-container">
-        <div class="content-wrap">
-            <div class="nav">
-                <div class="nav"></div>
-                <div class="bottom-section-nav">
-                    <div class="page-titles">
-                        <a href="/pages/s1.html">ACTIVATION 1</a>
-                        <a href="/pages/s2.html">ACTIVATION 2</a>
-                        <a class="active">ACTIVATION 3</a>
+    <main>
+        <div class="nav"></div>
+        <div class="content">
+            <div class="search-container">
+                <span>
+                    <a class="filter-item" href="/pages/journeys.html">Back to selection</a>
+                </span>
+                <span>
+                    <a class="filter-item">Voice Narration</a>
+                    <a class="filter-item" href="">View Artefact</a>
+                </span>
+            </div>
+            <div class="activation-container">
+                <div class="activation">
+                    <div class="stage" id="start-journey">
+                        <h3>The Manunggul Jar is a burial vessel dating back to the Neolithic period. The jar's
+                            craftmanship and symbolism reflect early Filipino's spiritual beliefs and reverence for the
+                            dead.</h3>
+                        <div class="start-button" onclick="goToStage('intro-stage1')">
+                            <h2>Start</h2>
+                        </div>
+                    </div>
+                    <div class="stage " id="stage1" style="display: none;">
+                        <!-- diagram -->
+                        <h2>Clay Stage</h2>
+                    </div>
+                    <div class="stage" id="stage2" style="display: none;">
+                        <!-- diagram -->
+                        <h2>Design Stage</h2>
+                    </div>
+                    <div class="stage" id="stage3" style="display: none;">
+                        <!-- diagram -->
+                        <h2>Figurehead Stage</h2>
                     </div>
                 </div>
-            </div>
-            <div class="content">
-
+                <!-- Bottom buttons -->
+                <div class="search-container">
+                    <span>
+                        <a class="filter-item" id="prevButton" style="display: none;">Previous</a>
+                    </span>
+                    <span>
+                        <a class="filter-item" id="nextButton" style="display: none;">Next</a>
+                    </span>
+                </div>
             </div>
         </div>
-        <div id="footer"></div>
+    </main>
+    <footer></footer>
 
-        <script src="/js/index.js"></script>
-    </div>
+    <script src="/js/index.js"></script>
+    <script src="/js/journeys.js"></script>
 </body>
 
 </html>

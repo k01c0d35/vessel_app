@@ -6,35 +6,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Historic Vessels</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/collection_gallery.css">
 </head>
 
 <body>
-    <div class="page-container">
         <div class="content-wrap">
-            <div class="nav">
+            <div class="nav"></div>
+            <div class="bottom-section-nav">
+                <div class="svg-container">
+                </div>
+                <div class="search-container">
+                    <button class="filter-item backToGallery">Back to Gallery</button>
+                </div>
             </div>
             <div class="content">
-                <div id="artefactDetails">
-                    <h1 id="title"></h1>
-                    <img id="photo" alt="Artefact Image">
-                    <p id="type"></p>
-                    <p id="ware"></p>
-                    <p id="culturePeriod"></p>
-                    <p id="date"></p>
-                    <p id="region"></p>
-                    <p id="artist"></p>
-                    <p id="condition"></p>
-                    <p id="height"></p>
+                <div class="artefactDetails">
+                    <h1 class="title"></h1>
+                    <div class="details">
+                        <div class="left">
+                            <div class="detailItem img-container">
+                                <img class="photo" alt="Artefact Image">
+                            </div>
+                            <div class="detailItem">
+                                <h3>Type</h3>
+                                <div class="type-link">
+                                    <p class="text"></p>
+                                </div>
+                            </div>
+                            <div class="detailItem">
+                                <h3>Date Estimate</h3>
+                                <div class="date-link">
+                                    <p class="text"></p>
+                                </div>
+                            </div>
+                            <div class="detailItem">
+                                <h3>Condition</h3>
+                                <div class="condition-link">
+                                    <p class="text"></p>
+                                </div>
+                            </div>
+                            <div class="detailItem">
+                                <h3>Height</h3>
+                                <div class="height-link">
+                                    <p class="text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="detailItem">
+                                <h3>Region</h3>
+                                <div class="region-link">
+                                    <p class="text"></p>
+                                </div>
+                            </div>
+                            <div class="detailItem">
+                                <h3>Culture/Period</h3>
+                                <div class="culture-link">
+                                    <p class="text"></p>
+                                </div>
+                            </div>
+                            <div class="detailItem">
+                                <h3>Ware</h3>
+                                <div class="ware-link">
+                                    <p class="text"></p>
+                                </div>
+                            </div>
+                            <div class="detailItem">
+                                <h3>Artist</h3>
+                                <div class="artist-link">
+                                    <p class="text"></p>
+                                </div>
+                            </div>
+                            <div class="detailItem">
+                                <h3>Description</h3>
+                                <div class="description-link">
+                                    <p class="text"></p>
+                                </div>
+                            </div>
+                            <div class="detailItem">
+                                <h3>Related Artefacts</h3>
+                                <div class="related-link">
+                                    
+                                </div>
+                            </div>
+                            <div class="detailItem">
+                                <h3>External Links</h3>
+                                <div class="external-link">
+                                    <p class="text"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <button id="backToGallery">Back to Gallery</button>
             </div>
         </div>
-        <div id="footer"></div>
+        <footer></footer>
         
         <script src="/js/index.js"></script>
         <script src="/js/artefact.js"></script>
-    </div>
 </body>
 
 </html>
