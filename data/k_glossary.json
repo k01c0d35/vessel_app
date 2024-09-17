@@ -333,6 +333,11 @@
             "glossary-filter": "Material",
             "description": "Organic substance found in stems and roots of trees and plants.",
             "defining-features": "Hard, fibrous."
+        },
+        {
+            "term": "Ware",
+            "glossary-filter": "Ware",
+            "description": "Pottery of a specific type."
         }
     ]
 }

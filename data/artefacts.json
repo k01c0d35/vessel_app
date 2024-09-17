@@ -2,6 +2,12 @@
     "artefacts": [
         {
             "id": 1,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Asia",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Medieval"
+            },
             "title": "Manunggul Jar",
             "type": "Jar",
             "ware": "Earthenware",
@@ -16,9 +22,14 @@
             "photo": "/assets/artefacts/1.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
         },
-
         {
             "id": 2,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
             "type": "Amphora",
             "ware": "Black-Figure",
             "culturePeriod": "Greek",
@@ -33,9 +44,14 @@
             "photo": "/assets/artefacts/2.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
         },
-
         {
             "id": 3,
+            "filters": {
+                "filterType": "Drinking",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
             "type": "Kantharos",
             "ware": "Earthenware",
             "culturePeriod": "Greek",
@@ -49,9 +65,14 @@
             "photo": "/assets/artefacts/3.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
         },
-
         {
             "id": 4,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
             "type": "Oinochoe",
             "ware": "Earthenware",
             "culturePeriod": "Greek",
@@ -65,9 +86,14 @@
             "photo": "/assets/artefacts/4.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
         },
-
         {
             "id": 5,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Africa",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Modern"
+            },
             "type": "Ukhamba",
             "ware": "Earthenware",
             "culturePeriod": "Northern Nguni",
@@ -83,10 +109,16 @@
         },
         {
             "id": 6,
+            "filters": {
+                "filterType": "Drinking",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
             "type": "Kylix",
             "ware": "Red-Figure",
             "culturePeriod": "Greek",
-            "dateRange": {
+            "date": {
                 "start": -485,
                 "end": -480
             },
@@ -98,6 +130,12 @@
         },
         {
             "id": 7,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Americas",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Medieval"
+            },
             "type": "Olla",
             "ware": "Yellow-Ware",
             "culturePeriod": "Ancestral Puebloan",
@@ -113,9 +151,15 @@
         },
         {
             "id": 8,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
             "type": "Pithos",
             "ware": "Earthenware",
-            "culture_period": "Late Minoan II",
+            "culturePeriod": "Late Minoan II",
             "date": {
                 "start": -1450,
                 "end": -1375
@@ -128,14 +172,20 @@
         },
         {
             "id": 9,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
             "type": "Krater",
             "ware": "Red-Figure",
-            "culture_period": "Greek",
+            "culturePeriod": "Greek",
             "date": {
                 "start": -430,
                 "end": -420
             },
-            "country_of_origin": "Greece",
+            "region": "Greece",
             "artist": "Peleus Painter",
             "condition": "Intact",
             "height": 36,
@@ -144,7 +194,12 @@
         },
         {
             "id": 10,
-            "title": "David Vases",
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Asia",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Renaissance to Early Modern"
+            },
             "type": "Vase",
             "ware": "Porcelain",
             "culturePeriod": "Yuan Dynasty",
@@ -160,6 +215,12 @@
         },
         {
             "id": 11,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
             "title": "Meidias Hydria",
             "type": "Hydria",
             "ware": "Red-Figure",
@@ -176,6 +237,12 @@
         },
         {
             "id": 12,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Asia",
+                "filterMaterial": "Stone",
+                "filterHistoricPeriod": "Ancient"
+            },
             "title": "Warka Vase",
             "type": "Vase",
             "ware": "Stoneware",
@@ -192,6 +259,13 @@
         },
         {
             "id": 13,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Renaissance to Early Modern"
+            },
+            "title": "Vase",
             "type": "Vase",
             "ware": "Earthenware",
             "culturePeriod": "Renaissance",
@@ -208,6 +282,13 @@
         },
         {
             "id": 14,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Africa",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
+            "title": "Amphora",
             "type": "Amphora",
             "ware": "Egyptian",
             "culturePeriod": "Ptolemaic",
@@ -223,6 +304,13 @@
         },
         {
             "id": 15,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
+            "title": "Askos",
             "type": "Askos",
             "ware": "Earthenware",
             "culturePeriod": "Greek",
@@ -238,6 +326,13 @@
         },
         {
             "id": 16,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
+            "title": "Askos",
             "type": "Askos",
             "ware": "Earthenware",
             "culturePeriod": "Greek",
@@ -253,6 +348,13 @@
         },
         {
             "id": 17,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
+            "title": "Hydria",
             "type": "Hydria",
             "ware": "Red-Figure",
             "culturePeriod": "Greek",
@@ -269,6 +371,13 @@
         },
         {
             "id": 18,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
+            "title": "Askos",
             "type": "Askos",
             "ware": "Earthenware",
             "culturePeriod": "Greek",
@@ -284,6 +393,13 @@
         },
         {
             "id": 19,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
+            "title": "Lekythos",
             "type": "Lekythos",
             "ware": "Red-Figure",
             "culturePeriod": "Greek",
@@ -299,6 +415,12 @@
         },
         {
             "id": 20,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Medieval"
+            },
             "type": "Jug",
             "ware": "Earthenware",
             "culturePeriod": "French",
@@ -314,6 +436,12 @@
         },
         {
             "id": 21,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Renaissance to Early Modern"
+            },
             "type": "Jug",
             "ware": "Earthenware",
             "culturePeriod": "Spanish",
@@ -329,6 +457,12 @@
         },
         {
             "id": 22,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Asia",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Medieval"
+            },
             "type": "Ewer",
             "ware": "Earthenware",
             "culturePeriod": "Iraq",
@@ -344,6 +478,12 @@
         },
         {
             "id": 23,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Asia",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Modern"
+            },
             "type": "Ewer",
             "ware": "Porcelain",
             "culturePeriod": "Kangxi",
@@ -359,6 +499,12 @@
         },
         {
             "id": 24,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Asia",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
             "type": "Jar",
             "ware": "Stoneware",
             "culturePeriod": "Han Dynasty",
@@ -374,6 +520,12 @@
         },
         {
             "id": 25,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Americas",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Modern"
+            },
             "type": "Jar",
             "ware": "Earthenware",
             "culturePeriod": "A:shiwi (zuni pueblo)",
@@ -389,6 +541,12 @@
         },
         {
             "id": 26,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Asia",
+                "filterMaterial": "Stone",
+                "filterHistoricPeriod": "Medieval"
+            },
             "type": "Maubyeong",
             "ware": "Stoneware",
             "culturePeriod": "Goryeo Dynasty",
@@ -404,6 +562,12 @@
         },
         {
             "id": 27,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Americas",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Renaissance to Early Modern"
+            },
             "type": "Urpu",
             "ware": "Earthenware",
             "culturePeriod": "Inca",
@@ -419,6 +583,12 @@
         },
         {
             "id": 28,
+            "filters": {
+                "filterType": "Drinking",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
             "type": "Aryballos",
             "ware": "Earthenware",
             "culturePeriod": "Proto-Corinthian",
@@ -434,6 +604,12 @@
         },
         {
             "id": 29,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Americas",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Modern"
+            },
             "type": "Urpu",
             "ware": "Earthenware",
             "culturePeriod": "Inca",
@@ -449,6 +625,12 @@
         },
         {
             "id": 30,
+            "filters": {
+                "filterType": "Drinking",
+                "filterRegion": "Africa",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
             "type": "Beaker",
             "ware": "Earthenware",
             "culturePeriod": "Kerma",
@@ -464,6 +646,12 @@
         },
         {
             "id": 31,
+            "filters": {
+                "filterType": "Drinking",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
             "type": "Kylix",
             "ware": "Black-Figure",
             "culturePeriod": "Greek",
@@ -479,6 +667,12 @@
         },
         {
             "id": 32,
+            "filters": {
+                "filterType": "Drinking",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
             "type": "Kylix",
             "ware": "Black-Figure",
             "culturePeriod": "Greek",
@@ -495,6 +689,12 @@
         },
         {
             "id": 33,
+            "filters": {
+                "filterType": "Drinking",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
             "type": "Kylix",
             "ware": "White-Ground",
             "culturePeriod": "Greek",
@@ -511,6 +711,12 @@
         },
         {
             "id": 34,
+            "filters": {
+                "filterType": "Pouring",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Renaissance to Early Modern"
+            },
             "type": "Jug",
             "ware": "Earthenware",
             "culturePeriod": "Renaissance",
@@ -526,6 +732,12 @@
         },
         {
             "id": 35,
+            "filters": {
+                "filterType": "Pouring",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
             "type": "Jug",
             "ware": "White-Ware",
             "culturePeriod": "Cypro-Classical",
@@ -541,6 +753,12 @@
         },
         {
             "id": 36,
+            "filters": {
+                "filterType": "Pouring",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Medieval"
+            },
             "type": "Jug",
             "ware": "Earthenware",
             "culturePeriod": "Middle Ages",
@@ -556,6 +774,12 @@
         },
         {
             "id": 37,
+            "filters": {
+                "filterType": "Pouring",
+                "filterRegion": "Europe",
+                "filterMaterial": "Stone",
+                "filterHistoricPeriod": "Modern"
+            },
             "type": "Urn",
             "ware": "Stoneware",
             "culturePeriod": "Modern",
@@ -572,6 +796,12 @@
         },
         {
             "id": 38,
+            "filters": {
+                "filterType": "Pouring",
+                "filterRegion": "Africa",
+                "filterMaterial": "Other",
+                "filterHistoricPeriod": "Ancient"
+            },
             "type": "Amphora",
             "ware": "Egyptian",
             "culturePeriod": "Egyptian",
@@ -583,6 +813,12 @@
         },
         {
             "id": 39,
+            "filters": {
+                "filterType": "Drinking",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
             "type": "Psykter",
             "ware": "Red-Figure",
             "culturePeriod": "Greek",
@@ -599,6 +835,12 @@
         },
         {
             "id": 40,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Asia",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
             "type": "Jar",
             "ware": "Porcelain",
             "culturePeriod": "Chinese",
@@ -614,6 +856,12 @@
         },
         {
             "id": 41,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Africa",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
             "type": "Jar",
             "ware": "Earthenware",
             "culturePeriod": "New Kingdom",
@@ -629,6 +877,12 @@
         },
         {
             "id": 42,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Asia",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
             "type": "Jar",
             "ware": "Earthenware",
             "culturePeriod": "Israel",
@@ -644,6 +898,12 @@
         },
         {
             "id": 43,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "South America",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
             "type": "Urpu",
             "ware": "Earthenware",
             "culturePeriod": "Inca",
@@ -659,6 +919,12 @@
         },
         {
             "id": 44,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
             "type": "Lekythos",
             "ware": "White-Ground",
             "culturePeriod": "Greek",
@@ -675,6 +941,12 @@
         },
         {
             "id": 45,
+            "filters": {
+                "filterType": "Pouring",
+                "filterRegion": "Africa",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Ancient"
+            },
             "type": "Flagon",
             "ware": "Earthenware",
             "culturePeriod": "Roman",
@@ -690,6 +962,12 @@
         },
         {
             "id": 46,
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Americas",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Renaissance to Early Modern"
+            },
             "type": "Bowl",
             "ware": "Yellow-Ware",
             "culturePeriod": "Ancestral Puebloan",
@@ -705,6 +983,12 @@
         },
         {
             "id": "47",
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Europe",
+                "filterMaterial": "Metal",
+                "filterHistoricPeriod": "Modern"
+            },
             "type": "Vase",
             "ware": "Bronze",
             "culturePeriod": "Russian",
@@ -721,6 +1005,12 @@
         },
         {
             "id": "48",
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Europe",
+                "filterMaterial": "Ceramic",
+                "filterHistoricPeriod": "Renaissance to Early Modern"
+            },
             "type": "Vase",
             "ware": "Majolica",
             "culturePeriod": "Italian",
@@ -737,6 +1027,12 @@
         },
         {
             "id": "49",
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Africa",
+                "filterMaterial": "Stone",
+                "filterHistoricPeriod": "Ancient"
+            },
             "title": "Alabaster Perfume Vase of Tutankamun",
             "type": "Vase",
             "ware": "Alabaster",
@@ -752,6 +1048,12 @@
         },
         {
             "id": "50",
+            "filters": {
+                "filterType": "Pouring",
+                "filterRegion": "Asia",
+                "filterMaterial": "Metal",
+                "filterHistoricPeriod": "Renaissance to Early Modern"
+            },
             "type": "Ewer",
             "ware": "Brass",
             "culturePeriod": "Muslim",
@@ -767,6 +1069,12 @@
         },
         {
             "id": "51",
+            "filters": {
+                "filterType": "Drinking",
+                "filterRegion": "Europe",
+                "filterMaterial": "Metal",
+                "filterHistoricPeriod": "Medieval"
+            },
             "title": "The Ardagh Chalice",
             "type": "Chalice",
             "ware": "Copper-Alloy",
@@ -782,6 +1090,12 @@
         },
         {
             "id": "52",
+            "filters": {
+                "filterType": "Pouring",
+                "filterRegion": "Oceania",
+                "filterMaterial": "Other",
+                "filterHistoricPeriod": "Modern"
+            },
             "type": "Jug",
             "ware": "Glass",
             "culturePeriod": "Modern",
@@ -798,6 +1112,12 @@
         },
         {
             "id": "53",
+            "filters": {
+                "filterType": "Drinking",
+                "filterRegion": "Americas",
+                "filterMaterial": "Metal",
+                "filterHistoricPeriod": "Renaissance to Early Modern"
+            },
             "type": "Bowl",
             "ware": "Silver",
             "culturePeriod": "Early Modern",
@@ -814,7 +1134,12 @@
         },
         {
             "id": "54",
-            "title": "",
+            "filters": {
+                "filterType": "Pouring",
+                "filterRegion": "Americas",
+                "filterMaterial": "Metal",
+                "filterHistoricPeriod": "Renaissance to Early Modern"
+            },
             "type": "Teapot",
             "ware": "Silver",
             "culturePeriod": "Early Modern",
@@ -831,6 +1156,12 @@
         },
         {
             "id": "55",
+            "filters": {
+                "filterType": "Pouring",
+                "filterRegion": "Americas",
+                "filterMaterial": "Metal",
+                "filterHistoricPeriod": "Renaissance to Early Modern"
+            },
             "type": "Sauceboat",
             "ware": "Silver",
             "culturePeriod": "Early Modern",
@@ -847,6 +1178,12 @@
         },
         {
             "id": "56",
+            "filters": {
+                "filterType": "Drinking",
+                "filterRegion": "Europe",
+                "filterMaterial": "Other",
+                "filterHistoricPeriod": "Renaissance to Early Modern"
+            },
             "type": "Tankard",
             "ware": "Mulberry Wood",
             "culturePeriod": "Early Modern",
@@ -855,7 +1192,6 @@
                 "end": 1825
             },
             "region": "England",
-            "creator": "",
             "artist": "",
             "condition": "Intact",
             "photo": "/assets/artefacts/56.jpg",
@@ -863,6 +1199,12 @@
         },
         {
             "id": "57",
+            "filters": {
+                "filterType": "Drinking",
+                "filterRegion": "Europe",
+                "filterMaterial": "Other",
+                "filterHistoricPeriod": "Renaissance to Early Modern"
+            },
             "type": "Tankard",
             "ware": "Amber",
             "culturePeriod": "Early Modern",
@@ -878,6 +1220,12 @@
         },
         {
             "id": "58",
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Europe",
+                "filterMaterial": "Metal",
+                "filterHistoricPeriod": "Ancient"
+            },
             "type": "Krater",
             "ware": "Bronze",
             "culturePeriod": "Greek",
@@ -893,6 +1241,12 @@
         },
         {
             "id": "59",
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Europe",
+                "filterMaterial": "Other",
+                "filterHistoricPeriod": "Renaissance to Early Modern"
+            },
             "title": "The Portland Vase",
             "type": "Vase",
             "ware": "Glass",
@@ -909,6 +1263,12 @@
         },
         {
             "id": "60",
+            "filters": {
+                "filterType": "Storage",
+                "filterRegion": "Europe",
+                "filterMaterial": "Other",
+                "filterHistoricPeriod": "Renaissance to Early Modern"
+            },
             "type": "Urn",
             "ware": "Malachite",
             "culturePeriod": "Russian",
@@ -925,6 +1285,12 @@
         },
         {
             "id": "61",
+            "filters": {
+                "filterType": "Pouring",
+                "filterRegion": "Asia",
+                "filterMaterial": "Metal",
+                "filterHistoricPeriod": "Medieval"
+            },
             "type": "Jug",
             "ware": "Copper-Alloy",
             "culturePeriod": "Arabic",

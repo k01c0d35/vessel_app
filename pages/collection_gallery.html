@@ -13,8 +13,6 @@
 <body>
     <main>
         <div class="nav"></div>
-        <!-- <div class="bottom-section-nav">
-                </div> -->
         <div class="content">
             <div class="search-container">
                 <span>
@@ -37,15 +35,25 @@
                         <div id="regionFilter" class="dropdown-content"></div>
                     </div>
                     <div class="dropdown">
-                        <button onclick="toggleDropdown(this)" class="filter-item dropdown-button">Ware <i
+                        <button onclick="toggleDropdown(this)" class="filter-item dropdown-button">Material <i
                                 class="fa fa-caret-down"></i></button>
-                        <div id="wareFilter" class="dropdown-content"></div>
+                        <div id="materialFilter" class="dropdown-content"></div>
                     </div>
                     <div class="dropdown">
-                        <button onclick="toggleDropdown(this)" class="filter-item dropdown-button">Period <i
+                        <button onclick="toggleDropdown(this)" class="filter-item dropdown-button">Historic Period <i
                                 class="fa fa-caret-down"></i></button>
-                        <div id="culturePeriodFilter" class="dropdown-content"></div>
+                        <div id="historicPeriodFilter" class="dropdown-content"></div>
                     </div>
+                </span>
+            </div>
+            <div class="searchStatusContainer">
+                <span class="displayAmountContainer">
+                    <p>Results:</p>
+                    <span id="displayAmount"></span>
+                </span>
+                <span class="selectedFiltersContainer">
+                    <p>Selected Filters:</p>
+                    <span class="selectedFilters"></span>
                 </span>
             </div>
             <div id="gallery" class="gallery-container">
