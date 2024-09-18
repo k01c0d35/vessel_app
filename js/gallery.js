@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Display gallery on page load
             displayGallery(artefacts);
+            updateSearchStatus(artefacts, getSelectedFilters());
 
             // Generate filter options
             generateFilters(artefacts, 'filterType', typeFilterContainer);
@@ -51,19 +52,17 @@ document.addEventListener('DOMContentLoaded', function () {
             const filterContainers = document.querySelectorAll('.dropdown-content input[type="checkbox"]');
             filterContainers.forEach((checkbox) => {
                 checkbox.addEventListener('change', function () {
-                    const selectedTypes = getSelectedFilters('filterType');
-                    const selectedRegions = getSelectedFilters('filterRegion');
-                    const selectedMaterials = getSelectedFilters('filterMaterial');
-                    const selectedHistoricPeriods = getSelectedFilters('filterHistoricPeriod');
+                    const selectedFilters = getSelectedFilters();
 
+                    // Use selectedFilters object properties to filter artefacts
                     const filteredData = artefacts.filter(artefact =>
-                        (selectedTypes.length === 0 || selectedTypes.includes(artefact.filters.filterType)) &&
-                        (selectedRegions.length === 0 || selectedRegions.includes(artefact.filters.filterRegion)) &&
-                        (selectedMaterials.length === 0 || selectedMaterials.includes(artefact.filters.filterMaterial)) &&
-                        (selectedHistoricPeriods.length === 0 || selectedHistoricPeriods.includes(artefact.filters.filterHistoricPeriod))
+                        (selectedFilters.type.length === 0 || selectedFilters.type.includes(artefact.filters.filterType)) &&
+                        (selectedFilters.region.length === 0 || selectedFilters.region.includes(artefact.filters.filterRegion)) &&
+                        (selectedFilters.material.length === 0 || selectedFilters.material.includes(artefact.filters.filterMaterial)) &&
+                        (selectedFilters.historicPeriod.length === 0 || selectedFilters.historicPeriod.includes(artefact.filters.filterHistoricPeriod))
                     );
 
-                    updateSearchStatus(filteredData, getSelectedFilters());
+                    updateSearchStatus(filteredData, selectedFilters);
                     displayGallery(filteredData);
                 });
             });
@@ -184,10 +183,14 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Get selected filters
-    function getSelectedFilters(filterName) {
-        return [...document.querySelectorAll(`input[name="${filterName}"]:checked`)]
-            .map(checkbox => checkbox.value);
+    // Get selected filters for all categories
+    function getSelectedFilters() {
+        return {
+            type: [...document.querySelectorAll('input[name="filterType"]:checked')].map(checkbox => checkbox.value),
+            region: [...document.querySelectorAll('input[name="filterRegion"]:checked')].map(checkbox => checkbox.value),
+            material: [...document.querySelectorAll('input[name="filterMaterial"]:checked')].map(checkbox => checkbox.value),
+            historicPeriod: [...document.querySelectorAll('input[name="filterHistoricPeriod"]:checked')].map(checkbox => checkbox.value)
+        };
     }
 
     // Update search status (results count and selected filters display)
@@ -197,20 +200,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Update the selected filters display
         const filters = [];
-        if (selectedFilters['filterType'] && selectedFilters['filterType'].length > 0) {
-            filters.push(`Type: ${selectedFilters['filterType'].join(', ')}`);
+        if (selectedFilters.type.length > 0) {
+            filters.push(`Type: ${selectedFilters.type.join(', ')}`);
         }
-        if (selectedFilters['filterRegion'] && selectedFilters['filterRegion'].length > 0) {
-            filters.push(`Region: ${selectedFilters['filterRegion'].join(', ')}`);
+        if (selectedFilters.region.length > 0) {
+            filters.push(`Region: ${selectedFilters.region.join(', ')}`);
         }
-        if (selectedFilters['filterMaterial'] && selectedFilters['filterMaterial'].length > 0) {
-            filters.push(`Material: ${selectedFilters['filterMaterial'].join(', ')}`);
+        if (selectedFilters.material.length > 0) {
+            filters.push(`Material: ${selectedFilters.material.join(', ')}`);
         }
-        if (selectedFilters['filterHistoricPeriod'] && selectedFilters['filterHistoricPeriod'].length > 0) {
-            filters.push(`Period: ${selectedFilters['filterHistoricPeriod'].join(', ')}`);
+        if (selectedFilters.historicPeriod.length > 0) {
+            filters.push(`Period: ${selectedFilters.historicPeriod.join(', ')}`);
         }
 
         selectedFiltersContainer.textContent = filters.length > 0 ? filters.join(' | ') : 'None';
     }
 });
+
 

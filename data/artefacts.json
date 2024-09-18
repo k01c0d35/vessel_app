@@ -20,7 +20,7 @@
             "condition": "Intact",
             "height": "60",
             "photo": "/assets/artefacts/1.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This Neolithic earthenware jar from the Philippines, dating between 890 BCE and 710 BCE, was used for burial purposes. Its intricate design reflects the rich traditions of ancient Filipino culture. The Manunggul Jar is one of the most important archaeological artifacts in the region, highlighting the advanced pottery techniques and spiritual beliefs of early Filipino societies."
         },
         {
             "id": 2,
@@ -42,7 +42,7 @@
             "condition": "Intact",
             "height": "53",
             "photo": "/assets/artefacts/2.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This black-figure amphora, crafted by the renowned artist Exekais between 550 BCE and 530 BCE, was used for storing wine and oil in ancient Greece. The vessel showcases intricate depictions of mythological scenes, a testament to the cultural and artistic prowess of the Greek civilization during the Archaic period."
         },
         {
             "id": 3,
@@ -63,7 +63,7 @@
             "condition": "Intact",
             "height": "20",
             "photo": "/assets/artefacts/3.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This ancient Greek drinking vessel, dating from 500 BCE to 401 BCE, was commonly used during banquets and religious ceremonies. The kantharos, made of earthenware, is characterized by its high handles and wide mouth, symbolizing the social and ceremonial importance of wine in Greek culture."
         },
         {
             "id": 4,
@@ -84,7 +84,7 @@
             "condition": "Intact",
             "height": "24",
             "photo": "/assets/artefacts/4.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This ancient Greek oinochoe, dating from 325 BCE to 300 BCE, served as a wine jug. The oinochoe’s elegant form and craftsmanship illustrate its functional and aesthetic value in both daily life and ceremonial contexts in ancient Greece."
         },
         {
             "id": 5,
@@ -105,7 +105,7 @@
             "condition": "Intact",
             "height": "21",
             "photo": "/assets/artefacts/5.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "The ukhamba is a traditional Zulu earthenware pot used for brewing and serving beer, dating from 1925 to 1975. Its rounded form and burnished surface reflect the cultural significance of communal drinking practices among the Northern Nguni people in South Africa."
         },
         {
             "id": 6,
@@ -126,7 +126,7 @@
             "artist": "Douris",
             "condition": "Repaired",
             "photo": "/assets/artefacts/6.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This red-figure kylix, attributed to the renowned Greek artist Douris, dates back to 485 BCE to 480 BCE. Kylixes were commonly used for drinking wine during symposia, with scenes often painted on the inside, offering guests artistic surprises as they drank."
         },
         {
             "id": 7,
@@ -147,7 +147,7 @@
             "condition": "Intact",
             "height": 13,
             "photo": "/assets/artefacts/7.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This ancestral Puebloan olla, made between 1300 CE and 1400 CE, served as a water storage vessel. Its yellow-ware construction and distinct shape were typical of the pottery traditions of the American Southwest, where water was a precious resource."
         },
         {
             "id": 8,
@@ -168,7 +168,7 @@
             "condition": "Intact",
             "height": 120,
             "photo": "/assets/artefacts/8.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This Late Minoan II pithos, created between 1450 BCE and 1375 BCE, was used to store grains and other provisions. The large size and sturdy earthenware construction highlight the practical yet highly developed pottery traditions of ancient Crete."
         },
         {
             "id": 9,
@@ -190,7 +190,7 @@
             "condition": "Intact",
             "height": 36,
             "photo": "/assets/artefacts/9.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This red-figure krater, attributed to the Peleus Painter, dates back to 430 BCE to 420 BCE. Used to mix wine and water, kraters like this one were central to social gatherings in ancient Greece, where wine played an important role in both daily life and religious rites."
         },
         {
             "id": 10,
@@ -200,6 +200,7 @@
                 "filterMaterial": "Ceramic",
                 "filterHistoricPeriod": "Renaissance to Early Modern"
             },
+            "title": "David Vases",
             "type": "Vase",
             "ware": "Porcelain",
             "culturePeriod": "Yuan Dynasty",
@@ -211,7 +212,7 @@
             "condition": "Intact",
             "height": 63,
             "photo": "/assets/artefacts/10.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This Yuan Dynasty porcelain vase, dated 1351 CE, represents the height of Chinese ceramic craftsmanship. The delicate form and vibrant blue glaze demonstrate the technical and artistic achievements of the Yuan period, known for its refined porcelain works."
         },
         {
             "id": 11,
@@ -233,7 +234,7 @@
             "condition": "Intact",
             "height": 52,
             "photo": "/assets/artefacts/11.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This beautifully preserved red-figure hydria from ancient Greece, dating between 420 BCE and 400 BCE, was used for carrying water. Its elegant design and fine details, attributed to the Meidias painter, make it an exceptional example of Greek ceramic art from the Classical period."
         },
         {
             "id": 12,
@@ -255,7 +256,7 @@
             "condition": "Repaired",
             "height": 90,
             "photo": "/assets/artefacts/12.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "The Warka Vase, dating from 3200 BCE to 3000 BCE, is one of the earliest known examples of narrative relief sculpture. Found in the ruins of Uruk (modern-day Iraq), this stoneware vase depicts religious rituals and offerings to the goddess Inanna, showcasing the artistic and spiritual values of early Mesopotamian civilization."
         },
         {
             "id": 13,
@@ -278,7 +279,7 @@
             "condition": "Intact",
             "height": 54,
             "photo": "/assets/artefacts/13.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This Renaissance earthenware vase, crafted between 1580 and 1590, comes from the renowned Italian Workshop of Fontana. With its intricate painted decorations and classical motifs, the vase is a testament to the revival of ancient artistic traditions during the European Renaissance."
         },
         {
             "id": 14,
@@ -300,7 +301,7 @@
             "condition": "Intact",
             "height": 10,
             "photo": "/assets/artefacts/14.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This Egyptian amphora, made during the Ptolemaic period (150 BCE to 50 BCE), exemplifies the blending of Greek and Egyptian influences. The vessel, used for storing wine or grain, showcases typical ceramic techniques from ancient Egypt, with a focus on function and durability."
         },
         {
             "id": 15,
@@ -322,7 +323,7 @@
             "condition": "Intact",
             "height": 10,
             "photo": "/assets/artefacts/15.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "The askos, dating between 400 BCE and 301 BCE, was used for pouring small quantities of liquids such as oil. Its compact, earthenware form and simple design reflect the utilitarian yet artistic nature of ancient Greek pottery."
         },
         {
             "id": 16,
@@ -344,7 +345,7 @@
             "condition": "Semi-intact",
             "height": 12,
             "photo": "/assets/artefacts/16.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This ancient Greek askos, made between 400 BCE and 301 BCE, retains much of its original form despite signs of repair. Used primarily for holding oil, the askos was a common household item in ancient Greece, with variations in shape and decoration depending on the region."
         },
         {
             "id": 17,
@@ -367,7 +368,7 @@
             "condition": "Intact",
             "height": 60,
             "photo": "/assets/artefacts/17.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "Attributed to the Group of Naples 3227, this red-figure hydria from Greece, dating between 350 BCE and 320 BCE, combines beauty and functionality. Hydrias were typically used for water storage and pouring, and this piece stands out due to its elegant proportions and artistic detailing."
         },
         {
             "id": 18,
@@ -389,7 +390,7 @@
             "condition": "Intact",
             "height": 9,
             "photo": "/assets/artefacts/18.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This small askos from ancient Greece, dated between 400 BCE and 301 BCE, was used for pouring oil. The intact earthenware piece showcases the skilled craftsmanship of Greek potters, with its smooth surface and functional form."
         },
         {
             "id": 19,
@@ -411,7 +412,7 @@
             "condition": "Intact",
             "height": 12,
             "photo": "/assets/artefacts/19.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This lekythos, dating between 400 BCE and 301 BCE, was used in funerary rituals to hold oil. The red-figure decoration, a hallmark of ancient Greek pottery, depicts scenes related to the afterlife, reflecting the importance of burial customs in Greek society."
         },
         {
             "id": 20,
@@ -432,7 +433,7 @@
             "condition": "Intact",
             "height": 27,
             "photo": "/assets/artefacts/20.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This medieval French jug, crafted between 1250 CE and 1350 CE, exemplifies the earthenware traditions of the time. Used for pouring liquids, the jug’s simple yet durable design reflects the practical needs of medieval households."
         },
         {
             "id": 21,
@@ -453,7 +454,7 @@
             "condition": "Intact",
             "height": 22,
             "photo": "/assets/artefacts/21.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This Renaissance Spanish jug, made between 1450 CE and 1500 CE, is a fine example of Spanish earthenware pottery. The jug’s form and decoration reflect the influence of Islamic ceramic traditions, which greatly impacted Spanish pottery during the Renaissance."
         },
         {
             "id": 22,
@@ -474,7 +475,7 @@
             "condition": "Intact",
             "height": 35,
             "photo": "/assets/artefacts/22.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This intact earthenware ewer from Iraq, dating from 801 CE to 900 CE, showcases the advanced ceramic techniques of medieval Iraq. Ewers were commonly used for serving liquids, and this piece's simple yet elegant form highlights the region’s rich pottery heritage."
         },
         {
             "id": 23,
@@ -495,7 +496,7 @@
             "condition": "Intact",
             "height": 26,
             "photo": "/assets/artefacts/23.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This exquisite porcelain ewer, made during the reign of Emperor Kangxi (1662 to 1722), is a testament to the artistic achievements of China’s Qing Dynasty. The fine detailing and delicate form make it a prized example of Kangxi porcelain."
         },
         {
             "id": 24,
@@ -516,7 +517,7 @@
             "condition": "Intact",
             "height": 34,
             "photo": "/assets/artefacts/24.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This Han Dynasty stoneware jar, dating from 206 BCE to 220 CE, exemplifies the craftsmanship of early Chinese potters. Jars like this one were used for storing food and liquids, and the simplicity of its design reflects the practical nature of Han-era ceramics."
         },
         {
             "id": 25,
@@ -537,7 +538,7 @@
             "condition": "Semi-intact",
             "height": 30,
             "photo": "/assets/artefacts/25.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This A(Zuni Pueblo) jar, dating between 1850 CE and 1950 CE, is an example of traditional Southwestern Native American pottery. The jar’s distinct design and semi-intact condition highlight the enduring cultural practices of the Apeople in pottery-making."
         },
         {
             "id": 26,
@@ -558,7 +559,7 @@
             "condition": "Intact",
             "height": 29,
             "photo": "/assets/artefacts/26.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This elegant stoneware maubyeong, dating from 1250 CE to 1300 CE, is a fine example of Goryeo Dynasty ceramics. Known for its subtle curves and graceful proportions, the maubyeong reflects the sophistication of Korean pottery during this period."
         },
         {
             "id": 27,
@@ -579,7 +580,7 @@
             "condition": "Intact",
             "height": 34,
             "photo": "/assets/artefacts/27.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This Inca earthenware urpu, crafted between 1401 CE and 1500 CE, was traditionally used for storing and transporting maize beer. The vessel’s unique form and robust construction reflect the Inca civilization's mastery of pottery techniques and the importance of communal feasting in their culture."
         },
         {
             "id": 28,
@@ -600,7 +601,7 @@
             "condition": "Intact",
             "height": 7,
             "photo": "/assets/artefacts/28.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This small Proto-Corinthian aryballos, dating to 640 BCE, was used for storing perfumed oils. Its compact size and detailed surface decoration exemplify the precision and artistry of ancient Greek potters from the Corinthian region."
         },
         {
             "id": 29,
@@ -621,7 +622,7 @@
             "condition": "Intact",
             "height": 76,
             "photo": "/assets/artefacts/29.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This large Inca urpu, dating between 1400 CE and 1550 CE, served as a storage vessel for maize beer. The robust earthenware construction and symmetrical design are characteristic of Inca pottery, reflecting its role in both daily life and ceremonial practices."
         },
         {
             "id": 30,
@@ -642,7 +643,7 @@
             "condition": "Intact",
             "height": 10,
             "photo": "/assets/artefacts/30.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This intact earthenware beaker from the Kerma culture, dating between 1640 BCE and 1802 BCE, was likely used for drinking. The beaker’s slender form and simple decoration reflect the functional yet artistic nature of pottery in ancient Nubia."
         },
         {
             "id": 31,
@@ -663,7 +664,7 @@
             "condition": "Semi-intact",
             "height": 9,
             "photo": "/assets/artefacts/31.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This semi-intact black-figure kylix, made between 500 BCE and 480 BCE, was a drinking vessel used during symposia. Its delicate handles and wide bowl allowed for both practical use and decorative display, with painted scenes revealing the social importance of drinking in ancient Greece."
         },
         {
             "id": 32,
@@ -685,7 +686,7 @@
             "condition": "Intact",
             "height": 10,
             "photo": "/assets/artefacts/32.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "Attributed to the Leafless Group, this black-figure kylix from 540 BCE to 480 BCE is a beautiful example of Greek drinking ware. The intact vessel was used in banquets, and its elegant form with painted mythological scenes represents the social and cultural practices of the time."
         },
         {
             "id": 33,
@@ -707,7 +708,7 @@
             "condition": "Semi-intact",
             "height": 8,
             "photo": "/assets/artefacts/33.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This semi-intact white-ground kylix, attributed to the Sotades Painter, dates from 460 BCE to 450 BCE. White-ground kylixes were prized for their fine detail, and this particular piece, despite some wear, remains a testament to the painter’s skill and creativity."
         },
         {
             "id": 34,
@@ -728,7 +729,7 @@
             "condition": "Intact",
             "height": 20,
             "photo": "/assets/artefacts/34.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This English earthenware jug, dating between 1580 CE and 1600 CE, was used for pouring liquids. Its durable construction and simple design reflect the functional yet refined pottery traditions of Renaissance England, where earthenware jugs were common household items."
         },
         {
             "id": 35,
@@ -749,7 +750,7 @@
             "condition": "Intact",
             "height": 15,
             "photo": "/assets/artefacts/35.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This intact white-ware jug, dating between 475 BCE and 300 BCE, hails from Cyprus during the Cypro-Classical period. Its slender neck and smooth surface are characteristic of the functional pottery used for storing and pouring liquids in everyday life."
         },
         {
             "id": 36,
@@ -770,7 +771,7 @@
             "condition": "Intact",
             "height": 25,
             "photo": "/assets/artefacts/36.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This earthenware jug, crafted between 1200 CE and 1600 CE, exemplifies the robust pottery traditions of medieval England. Its simple, utilitarian design made it a staple in households for storing and pouring liquids such as water or ale."
         },
         {
             "id": 37,
@@ -792,7 +793,7 @@
             "condition": "Intact",
             "height": 30,
             "photo": "/assets/artefacts/37.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This stoneware urn, created by Doulton & Co Ltd between 1891 and 1895, showcases the exceptional craftsmanship of Victorian-era England. Its tall, stately form and intricate detailing reflect the tastes of the time, combining both form and function in a decorative piece."
         },
         {
             "id": 38,
@@ -809,7 +810,7 @@
             "condition": "Intact",
             "height": 108,
             "photo": "/assets/artefacts/38.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This tall Egyptian amphora, dating back to ancient times, was used for storing and transporting goods such as wine and olive oil. Its impressive height and slender shape highlight the amphora’s central role in trade and daily life along the Nile."
         },
         {
             "id": 39,
@@ -831,7 +832,7 @@
             "condition": "Intact",
             "height": 29,
             "photo": "/assets/artefacts/39.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This red-figure psykter, created by the Greek artist Douris around 490 BCE, was used to cool wine. The vessel’s rounded body and detailed painted scenes offer insight into the rituals and customs surrounding Greek symposia and the enjoyment of wine."
         },
         {
             "id": 40,
@@ -852,7 +853,7 @@
             "condition": "Intact",
             "height": 23,
             "photo": "/assets/artefacts/40.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This ancient Chinese porcelain jar, crafted between 1601 BCE and 1700 BCE, reflects the technical and artistic advancements in ceramics of ancient China. Porcelain jars like this one were prized for their fine, smooth surface and elegant proportions, often used for storing valuable goods."
         },
         {
             "id": 41,
@@ -873,7 +874,7 @@
             "condition": "Intact",
             "height": 30,
             "photo": "/assets/artefacts/41.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This earthenware jar from Egypt’s New Kingdom, dated to 1250 BCE, was used for storing provisions. Its simple, functional design reflects the utilitarian nature of pottery during this period, though the jar’s sturdy construction ensured its preservation over millennia."
         },
         {
             "id": 42,
@@ -894,7 +895,7 @@
             "condition": "Intact",
             "height": 47,
             "photo": "/assets/artefacts/42.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This ancient jar from Israel, dating between 800 BCE and 586 BCE, is a fine example of early earthenware pottery. Used for storage, the jar’s large size and practical design reflect the daily needs of ancient communities in the Levant region."
         },
         {
             "id": 43,
@@ -915,7 +916,7 @@
             "condition": "Intact",
             "height": 22,
             "photo": "/assets/artefacts/43.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This intact Inca urpu from Peru, dating between 1400 BCE and 1535 BCE, was used for storing and transporting maize beer. Its bulbous shape and strong handles are characteristic of Inca pottery, designed for both practical and ceremonial use."
         },
         {
             "id": 44,
@@ -937,7 +938,7 @@
             "condition": "Intact",
             "height": "28",
             "photo": "/assets/artefacts/44.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This lekythos, attributed to the Thanatos Painter, dates to 430 BCE. A vessel commonly used in funerary rites, its white-ground decoration and elegant form make it a poignant artifact of Greek burial practices."
         },
         {
             "id": 45,
@@ -958,7 +959,7 @@
             "condition": "Intact",
             "height": 19,
             "photo": "/assets/artefacts/45.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This Roman flagon, dating between 300 BCE and 201 BCE, was used for pouring liquids, likely during meals or religious ceremonies. The earthenware piece, intact and functional, exemplifies the everyday pottery used in Roman households across the empire."
         },
         {
             "id": 46,
@@ -979,7 +980,7 @@
             "condition": "Intact",
             "height": 7,
             "photo": "/assets/artefacts/46.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This yellow-ware bowl from the Ancestral Puebloan culture, dating between 1375 CE and 1625 CE, was used for food storage or preparation. Its simple design reflects the practical needs of daily life in the American Southwest, where pottery played an essential role."
         },
         {
             "id": "47",
@@ -1001,7 +1002,7 @@
             "condition": "Intact",
             "height": "170",
             "photo": "/assets/artefacts/47.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This Russian bronze vase, crafted by Ivan Galberg between 1839 and 1845, exemplifies the neoclassical style that was popular during the 19th century. Its grand size and intricate details make it a striking piece of decorative art, reflecting the influence of classical antiquity on Russian metalwork."
         },
         {
             "id": "48",
@@ -1022,8 +1023,8 @@
             "artist": "Workshop of Fontana",
             "condition": "Intact",
             "height": "54",
-            "photo": "/assets/artefacts/48.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "photo": "/assets/artefacts/48.png",
+            "description": "This Italian majolica vase, made between 1580 and 1590, showcases the vibrant colors and intricate designs typical of Renaissance pottery. The workshop of Fontana, known for its high-quality ceramics, produced vases that combined both functionality and artistic flair."
         },
         {
             "id": "49",
@@ -1044,7 +1045,7 @@
             "region": "Egypt",
             "condition": "Intact",
             "photo": "/assets/artefacts/49.webp",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This alabaster vase, dating from 1332 BCE to 1323 BCE, belonged to the famous Egyptian pharaoh Tutankhamun. Used to hold perfumed oils, the vase is a symbol of the luxurious and intricate artifacts found in the tombs of Egypt's elite."
         },
         {
             "id": "50",
@@ -1064,8 +1065,8 @@
             "region": "Persia",
             "condition": "Intact",
             "height": "35",
-            "photo": "/assets/artefacts/50.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "photo": "/assets/artefacts/50.png",
+            "description": "This brass ewer, crafted in Persia between 1550 CE and 1650 CE, was used for pouring water or wine. Its elegant shape and intricate engravings reflect the influence of Islamic art on metalwork, with an emphasis on both beauty and utility."
         },
         {
             "id": "51",
@@ -1085,8 +1086,8 @@
             },
             "region": "Ireland",
             "condition": "Intact",
-            "photo": "/assets/artefacts/51.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "photo": "/assets/artefacts/51.png",
+            "description": "This copper-alloy chalice, dating between 701 CE and 800 CE, is one of the finest examples of Irish metalwork from the early medieval period. The Ardagh Chalice was likely used during religious ceremonies and showcases the intricate designs and craftsmanship characteristic of early Christian Ireland."
         },
         {
             "id": "52",
@@ -1108,7 +1109,7 @@
             "condition": "Intact",
             "height": "20",
             "photo": "/assets/artefacts/52.jpeg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This modern glass jug, produced by Crown Crystal Glass in New Zealand in 1960, reflects the mid-20th-century shift towards industrial glass production. Its clean lines and simple form made it a functional yet stylish household item."
         },
         {
             "id": "53",
@@ -1130,7 +1131,7 @@
             "condition": "Intact",
             "height": "12",
             "photo": "/assets/artefacts/53.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This silver bowl, crafted by Benjamin Wynkoop between 1698 and 1710, represents early American silversmithing. Its fine detailing and smooth finish make it a beautiful and practical example of colonial American silverware."
         },
         {
             "id": "54",
@@ -1152,7 +1153,7 @@
             "condition": "Intact",
             "height": "15",
             "photo": "/assets/artefacts/54.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This silver teapot, made by the famous American silversmith Paul Revere, Jr between 1760 and 1770, exemplifies the craftsmanship of the early modern period. The teapot's graceful form and fine decoration reflect the refined tastes of the American colonial elite."
         },
         {
             "id": "55",
@@ -1174,7 +1175,7 @@
             "condition": "Intact",
             "height": "13",
             "photo": "/assets/artefacts/55.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This silver sauceboat, also crafted by Paul Revere, Jr between 1760 and 1770, was used to serve sauces during meals. Its elegant curves and polished surface highlight the skill of one of America’s most celebrated silversmiths."
         },
         {
             "id": "56",
@@ -1194,8 +1195,8 @@
             "region": "England",
             "artist": "",
             "condition": "Intact",
-            "photo": "/assets/artefacts/56.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "photo": "/assets/artefacts/56.png",
+            "description": "This mulberry wood tankard from England, made between 1760 and 1825, is a unique example of wooden drinking vessels used during the early modern period. Its sturdy construction and natural material make it both functional and distinctive."
         },
         {
             "id": "57",
@@ -1216,7 +1217,7 @@
             "condition": "Intact",
             "height": "20",
             "photo": "/assets/artefacts/57.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This amber tankard from Russia, dating between 1640 and 1660, is a rare and valuable example of early modern craftsmanship. Amber was prized for its beauty and believed to have protective qualities, making this tankard a symbol of wealth and status."
         },
         {
             "id": "58",
@@ -1237,7 +1238,7 @@
             "condition": "Intact",
             "height": "164",
             "photo": "/assets/artefacts/58.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This monumental bronze krater from Greece, dating between 530 BCE and 520 BCE, was used for mixing wine and water during social gatherings. Its large size and intricate detailing highlight the importance of communal feasting in ancient Greek culture."
         },
         {
             "id": "59",
@@ -1259,7 +1260,7 @@
             "condition": "Intact",
             "height": "10",
             "photo": "/assets/artefacts/59.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This Roman glass vase, crafted between 1 CE and 25 CE, is one of the most famous pieces of glassware from the ancient world. The Portland Vase is celebrated for its detailed cameo work, depicting mythological scenes, and its role as a symbol of the artistic achievements of ancient Rome."
         },
         {
             "id": "60",
@@ -1281,7 +1282,7 @@
             "condition": "Intact",
             "height": "180",
             "photo": "/assets/artefacts/60.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This grand malachite urn, made by the Imperial Peterhof Lapidary Factory in 1836, is an example of Russia’s mastery of hardstone carving. The malachite's rich green hues and the urn’s monumental size make it a striking decorative piece, reflecting the opulence of the Russian Empire."
         },
         {
             "id": "61",
@@ -1302,7 +1303,7 @@
             "condition": "Intact",
             "height": "14",
             "photo": "/assets/artefacts/61.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at accumsan ipsum, id suscipit lectus. Integer rutrum sodales consequat. Fusce condimentum sapien vitae erat cursus sollicitudin. Morbi aliquet lectus eu diam posuere, vitae lacinia ante consectetur. In at diam id lectus dictum porta. Ut finibus massa sem, at interdum nunc ullamcorper ac. Donec consequat elit ipsum, nec rhoncus felis posuere non. Mauris ut ex feugiat, pretium risus ut, vulputate urna. Phasellus ac tellus dui. Ut eget arcu et tellus efficitur imperdiet ut ac est. In hac habitasse platea dictumst. Fusce velit enim, lacinia vitae elit a, accumsan lacinia dolor. Etiam maximus est ac turpis viverra faucibus. Vivamus pulvinar condimentum semper."
+            "description": "This medieval copper-alloy jug, dating between 1150 CE and 1250 CE, was used for pouring water or wine in Islamic Iran. The intricate engravings on the jug reflect the rich artistic traditions of the region, where metalwork was highly prized for both its functionality and beauty."
         }
     ]
 }

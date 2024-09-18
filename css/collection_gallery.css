@@ -74,6 +74,12 @@
     flex-direction: column;
 }
 
+.searchStatusContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
 /* MEDIA */
 @media only screen and (max-width: 992px) {
     .gallery-item {
