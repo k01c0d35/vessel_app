@@ -1,7 +1,3 @@
-.content {
-    gap: 8vw;
-}
-
 .description {
     display: flex;
     flex-direction: column;
@@ -29,18 +25,21 @@ h3 {
     flex-direction: column;
     align-items: center;
     transition: all 0.3s ease;
+    padding: 0 1vw;
+    gap: 1vw;
 }
 
 .page-link h1 {
     font-weight: 500;
 }
 
-.search-container a {
-    color: black;
+.page-link p {
+    text-align: center;
 }
 
 .page-links-container img {
-    width: 100%;
+    width: 300px;
+    height: auto;
     scale: 0.6;
 }
 
@@ -48,11 +47,9 @@ h3 {
     font-size: 1.3em;
 }
 
-.page-link img {
-    filter: blur(6px);
-}
-
-.page-link:hover img, .page-link:hover, .page-link:hover h1 {
+.page-link:hover img,
+.page-link:hover,
+.page-link:hover h1 {
     filter: blur(0);
     /* font-size: larger; */
     transform: scale(1.05);
@@ -63,16 +60,137 @@ h3 {
 .activation-container {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 70vh;
 }
 
 .stage {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 70vh;
+}
+
+.stage img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+}
+
+.intro {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+.intro img {
+    width: 80px;
+    transition: all 1s ease;
+    margin: 0;
+}
+
+.intro h1 {
+    font-size: 2rem;
+    text-align: center;
+    transition: all 1s ease;
+}
+
+.intro-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.stageContent {
+    text-align: center;
+    transition: opacity 1s ease;
     align-items: center;
 }
 
-.start-button {
+#start-journey h3 {
+    text-align: center;
+}
+
+/* Basic dot style for clickable points */
+.dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
     cursor: pointer;
+    transition: transform 0.2s ease-in-out, width 0.5s ease, height 0.5s ease;
+}
+
+/* Expanded dot with info box */
+.dot.expanded {
+    width: 300px;
+    height: 200px;
+    border-radius: 2px;
+    background-color: #cecece;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+    cursor: default;
+}
+
+.dot .info-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Style for the info box inside the expanded dot */
+.dot .info-box h3 {
+    margin: 0;
+    border-bottom: 1px solid #c68d46;
+}
+
+.dot .info-box p {
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+
+.dot .info-box button {
+    padding: 5px 15px;
+    border: none;
+    background-color: #c68d46;
+    color: black;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.dot .info-box button:hover {
+    background-color: #c68c4686;
+}
+
+/* Shrink the intro content to the top-left */
+.shrink-to-top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+    transition: all 1s ease;
+    align-items: flex-start;
+}
+
+.search-container {
+    justify-content: space-between;
+    width: 100%;
 }

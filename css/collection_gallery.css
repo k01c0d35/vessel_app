@@ -2,20 +2,26 @@
 .gallery-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 20px;
+    justify-content: center;
+    gap: 2vw;
     
 }
 
 .gallery-item, .related-artefact {
-    flex: 1 1 calc(20% - 20px);
+    flex: 1 1 calc(20% - 2vw);
     max-width: 20%;
     text-align: center;
-    background-color: #e2e2e2;
+    background-color: #faf4ed;
+    box-shadow: rgba(198,141,70, 0.5) 0px 4px 6px; 
+    transition: box-shadow 0.3s ease;
     box-sizing: border-box;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 2px;
     padding-top: 10px;
+}
+
+.gallery-item:hover, .related-artefact:hover {
+    box-shadow: rgba(198,141,70, 0.8) 4px 4px 0px; 
 }
 
 .gallery-item .img-container, .related-artefact {

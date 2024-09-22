@@ -67,8 +67,12 @@ li {
 a {
     color: white;
     text-decoration: none;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 0.9em;
+}
+
+.website-title:hover {
+    color: black;
 }
 
 /* CONTENT */
@@ -76,18 +80,10 @@ a {
     display: flex;
     flex-direction: column;
     padding: 4vh 8vw;
-    /* background-color: #e2e2e2; */
     width: 100%;
     box-sizing: border-box;
     gap: 4vh;
 }
-
-/* NAVIGATION */
-/* .nav {
-    position: sticky; 
-    z-index: 1;
-    top: 0;
-} */
 
 .top-section-nav {
     display: flex;
@@ -95,7 +91,6 @@ a {
     justify-content: space-between;
     height: 7vh;
     padding: 0 20px 10px 20px;
-    /* background-color: #e2e2e2; */
 }
 
 .nav-text {
@@ -108,6 +103,9 @@ a {
 
 .nav-link {
     margin-left: 20px;
+    padding: 0 0px 2px 0px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s ease;
 }
 
 .nav-buttons {
@@ -125,14 +123,16 @@ a {
 
 .nav-buttons .active h2 {
     font-weight: 800;
+    border-bottom: 1px solid #c68d46;
 }
 
 .nav a {
     color: #333;
 }
 
-.nav-link:not(.active) h2:hover, .glossary-quick-nav a:hover {
-    font-weight: bold;
+.nav-link:not(.active):hover, .glossary-quick-nav a:hover {
+    color: black;
+    border-bottom: 1px solid #c68d46;
 }
 
 /* SEARCH */
@@ -155,7 +155,7 @@ a {
 }
 
 ::placeholder {
-    color: black;
+    color: white;
     opacity: 1;
 }
 
@@ -163,15 +163,15 @@ a {
     padding: 10px;
     box-sizing: border-box;
     border: none;
-    border-radius: 4px;
-    /* box-shadow: 0px 3px 15px rgba(0,0,0,0.2); */
-    /* background-color: rgba(255, 255, 255, 0.4); */
-    background-color: #e2e2e2;
+    border-radius: 2px;
+    background-color: #333;
+    box-shadow: #c68d46 4px 4px;
     text-wrap: nowrap;
+    color: white;
 }
 
 .filter-item:hover {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #000;
     cursor: pointer;
 }
 
@@ -231,9 +231,10 @@ a {
     opacity: 0;
     pointer-events: none;
     background-color: #333;
+    box-shadow: #c68d46 4px 4px;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 2px;
     padding: 1vh 2vw;
     z-index: 1;
     transition: opacity 0.3s ease;
@@ -246,7 +247,7 @@ a {
 }
 
 #backToTop:hover {
-    background-color: #555;
+    background-color: #000;
 }
 
 /* FOOTER */
@@ -285,7 +286,7 @@ footer {
     line-height: 1.5;
 }
 
-
+/* TABLET */
 @media only screen and (max-width: 900px) {
     h1 {
         font-size: 1.3em;
@@ -308,6 +309,7 @@ footer {
     }
 }
 
+/* MOBILE */
 @media only screen and (max-width: 600px) {
     h1 {
         font-size: 1em;

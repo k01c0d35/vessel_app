@@ -1,14 +1,5 @@
 .content {
-    padding: 4vh 0;
-}
-
-.home-container {
-    padding-bottom: 8vh;
-}
-
-.home-statement {
-    text-align: center;
-    margin: 18vw 18vh 6vw 18vh;
+    padding: 4vh;
 }
 
 .home-navigations {
@@ -16,44 +7,54 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
+    gap: 5vh;
 }
 
 .section {
     display: flex;
     flex-direction: row;
-    /* margin: 6vh 0; */
-    /* gap: 2vw; */
-    height: 300px;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 6px; 
+    transition: box-shadow 0.3s ease; 
+    border-radius: 2px;
 }
 
-.section-text, .section-image {
-    width: calc(50% - 1vw);
-    box-sizing: border-box;
+.section:hover > h1 {
+    background-color: black;
 }
 
-/* .section-image {
-    background-color: greenyellow;
-    left: 0;
+.one {
+    background-image: url("../assets/porcelain.png");
 }
 
-.section-text {
-    background-color: rebeccapurple;
-    right: 0;
-} */
-
-.home-navigations .one {
-    background-color: salmon;
+.two {
+    background-image: url("../assets/clay.png");
 }
 
-.home-navigations .two {
-    background-color: transparent;
+.three {
+    background-image: url("../assets/grek1.png");
+    background-size: cover;
 }
 
-.home-navigations .three {
-    background-color: burlywood;
+.one h1 {
+    box-shadow: #4f6585 10px 10px;
 }
 
-.home-navigations .two img {
-    object-fit: cover;
+.two h1 {
+    box-shadow: #74694d 10px 10px;
 }
 
+.three h1 {
+    box-shadow: #c68d46 10px 10px;
+}
+
+.section h1 {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    border-radius: 2px;
+}
