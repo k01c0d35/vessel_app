@@ -44,13 +44,12 @@ h1 {
     font-weight: 700;
 }
 
-h2, .bottom-section-nav .svg-text {
-    font-weight: 600;
+h2 {
+    font-weight: 300;
     font-size: 1.2em;
-    display: inline-block;
 }
 
-h3, .filter-item, #backToTop {
+h3, .filter-item {
     font-weight: 500;
     font-size: 1em;
 }
@@ -79,10 +78,10 @@ a {
 .content {
     display: flex;
     flex-direction: column;
-    padding: 4vh 8vw;
+    padding: 4vh 8vw 8vh 8vh;
     width: 100%;
     box-sizing: border-box;
-    gap: 4vh;
+    gap: 8vh;
 }
 
 .top-section-nav {
@@ -122,7 +121,7 @@ a {
 }
 
 .nav-buttons .active h2 {
-    font-weight: 800;
+    font-weight: 700;
     border-bottom: 1px solid #c68d46;
 }
 
@@ -165,13 +164,13 @@ a {
     border: none;
     border-radius: 2px;
     background-color: #333;
-    box-shadow: #c68d46 4px 4px;
     text-wrap: nowrap;
     color: white;
+    transition: box-shadow 0.3s ease;
 }
 
 .filter-item:hover {
-    background-color: #000;
+    box-shadow: #c68d46 4px 4px;
     cursor: pointer;
 }
 
@@ -182,18 +181,16 @@ a {
 .dropdown {
     position: relative;
     display: inline-block;
-    width: 10vw;
-}
-
-.dropdown-button i {
-    right: 10px;
-    position: absolute;
+    min-width: 10vw;
 }
 
 .dropdown-button {
     cursor: pointer;
     text-align: left;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
 }
 
 .dropdown-content.show {
@@ -203,11 +200,13 @@ a {
 .dropdown-content {
     display: none;
     position: absolute;
+    top: 90%;
     width: 100%;
     z-index: 1;
     max-height: 200px;
     overflow-y: auto;
-    background-color: white;
+    background-color: #333;
+    color: white;
     border-radius: 0 0 4px 4px;
 }
 
@@ -231,13 +230,12 @@ a {
     opacity: 0;
     pointer-events: none;
     background-color: #333;
-    box-shadow: #c68d46 4px 4px;
     color: #fff;
     border: none;
     border-radius: 2px;
     padding: 1vh 2vw;
     z-index: 1;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease, box-shadow 0.3s ease;
 }
 
 #backToTop.show {
@@ -247,7 +245,7 @@ a {
 }
 
 #backToTop:hover {
-    background-color: #000;
+    box-shadow: #c68d46 4px 4px;
 }
 
 /* FOOTER */
@@ -287,7 +285,7 @@ footer {
 }
 
 /* TABLET */
-@media only screen and (max-width: 900px) {
+@media (max-width: 900px) {
     h1 {
         font-size: 1.3em;
     }
@@ -299,18 +297,10 @@ footer {
     h3, .filter-item, #backToTop {
         font-size: 0.8em;
     }
-
-    a {
-        font-size: 0.7em;
-    }
-
-    p {
-        font-size: 0.7em;
-    }
 }
 
 /* MOBILE */
-@media only screen and (max-width: 600px) {
+@media (max-width: 768px) {
     h1 {
         font-size: 1em;
     }
@@ -334,9 +324,11 @@ footer {
     .footer-container {
         flex-direction: column;
         text-align: center;
+        align-items: center;
     }
 
     .footer-section {
         padding: 10px 0;
+        text-align: center;
     }
 }

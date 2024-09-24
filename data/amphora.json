@@ -1,0 +1,86 @@
+{
+    "stages": [
+      {
+        "id": "1",
+        "title": "The Amphora's Creation",
+        "clay_gif": "/assets/amphora_clay.gif",
+        "blurb": "The Greek amphora, an iconic vessel, was crafted for both practical and ceremonial use. Its large size made it ideal for storing oil, wine, or grain.",
+        "image": "/assets/amphora/stage1.png",
+        "content_blocks": [
+          {
+            "title": "Material and Shaping",
+            "text": "Made from fine clay, the amphora was shaped on a potter’s wheel, a technique that allowed for greater precision and speed in creating symmetrical forms.",
+            "voiceover": "/assets/amphora/voiceovers/s2_1_1.wav",
+            "dotPosition": { "top": "40%", "left": "55%" }
+          },
+          {
+            "title": "Firing in the Kiln",
+            "text": "The amphora was fired in a kiln at high temperatures, which made the clay durable. The firing process was essential to ensuring the amphora could hold liquids without leaking.",
+            "voiceover": "/assets/amphora/voiceovers/s2_1_2.wav",
+            "dotPosition": { "top": "50%", "left": "40%" }
+          },
+          {
+            "title": "Handles and Base",
+            "text": "The amphora's distinct handles and base allowed it to be easily carried and stored. These features reflect its use in both daily life and ceremonial settings.",
+            "voiceover": "/assets/amphora/voiceovers/s2_1_3.wav",
+            "dotPosition": { "top": "81%", "left": "51%" }
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "The Painted Designs",
+        "clay_gif": "/assets/amphora_clay.gif",
+        "blurb": "The amphora was often decorated with scenes from mythology, daily life, and athletic competitions. These designs reflected the cultural values of ancient Greece.",
+        "image": "/assets/amphora/stage2.png",
+        "content_blocks": [
+          {
+            "title": "Red-Figure Painting",
+            "text": "In red-figure painting, the background was painted black, leaving the figures in the natural red color of the clay. This technique allowed for more detailed and expressive figures.",
+            "voiceover": "/assets/amphora/voiceovers/s2_2_1.wav",
+            "dotPosition": { "top": "40%", "left": "55%" }
+          },
+          {
+            "title": "Depictions of Myths",
+            "text": "Many amphorae depict scenes from Greek mythology, featuring gods, heroes, and mythical creatures. These stories were central to Greek culture and often conveyed moral lessons.",
+            "voiceover": "/assets/amphora/voiceovers/s2_2_2.wav",
+            "dotPosition": { "top": "50%", "left": "40%" }
+          },
+          {
+            "title": "Athletic Competitions",
+            "text": "Some amphorae were awarded as prizes in athletic competitions, particularly during the Panathenaic Games. These vases were often decorated with scenes of athletes in action.",
+            "voiceover": "/assets/amphora/voiceovers/s2_2_3.wav",
+            "dotPosition": { "top": "81%", "left": "51%" }
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "The Amphora's Function",
+        "clay_gif": "/assets/amphora_clay.gif",
+        "blurb": "The Greek amphora served as both a functional object and a work of art. Its uses ranged from the storage of goods to its role in religious and social ceremonies.",
+        "image": "/assets/amphora/stage3.png",
+        "content_blocks": [
+          {
+            "title": "Storing Oil and Wine",
+            "text": "Amphorae were commonly used to store oil and wine. Their narrow necks and wide bodies helped preserve these valuable goods for longer periods.",
+            "voiceover": "/assets/amphora/voiceovers/s2_3_1.wav",
+            "dotPosition": { "top": "41%", "left": "55%" }
+          },
+          {
+            "title": "Ceremonial Uses",
+            "text": "Amphorae were often used in religious ceremonies, where they carried offerings of wine or oil to the gods. Their artistic designs made them suitable for sacred contexts.",
+            "voiceover": "/assets/amphora/voiceovers/s2_3_2.wav",
+            "dotPosition": { "top": "50%", "left": "40%" }
+          },
+          {
+            "title": "Enduring Legacy",
+            "text": "The Greek amphora remains an enduring symbol of ancient craftsmanship. Its shape and decorative elements influenced pottery across the Mediterranean.",
+            "voiceover": "/assets/amphora/voiceovers/s2_3_3.wav",
+            "dotPosition": { "top": "81%", "left": "51%" }
+          }
+        ]
+      }
+    ]
+  }
+  

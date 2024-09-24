@@ -11,38 +11,44 @@
 </head>
 
 <body>
-        <main>
-            <div class="nav"></div>
-            <div class="content">
-                <div class="description">
-                    <h1>Choose a Vessel to Begin Your Journey</h1>
-                    <h3>Delve into a visual narrative that explore layers of history and artistry.
-                        Each layer brings new insights through sound and illustration. Enjoy this immersive experience
-                        and discover the secrets of some of the most impactful vessel creations.
-                    </h3>
+    <main>
+        <div class="nav"></div>
+        <div class="content">
+            <div class="description">
+                <h1>Choose a Vessel to Begin Your Journey</h1>
+                <h2>Delve into a visual narrative that explore layers of history and artistry.
+                    Each layer brings new insights through sound and illustration. Enjoy this immersive experience
+                    and discover the secrets of some of the most impactful vessel creations.
+                </h2>
+            </div>
+            <div class="page-links-container">
+                <div onclick="location.href='/pages/s1.html?vessel=manunggul&stage=1'" class="page-link">
+                    <h2>The Manunggul Jar</h2>
+                    <p>The Manunggul Jar is a burial vessel dating back to the Neolithic period. The jar's
+                        craftmanship and symbolism reflect early Filipino's spiritual beliefs and reverence for the
+                        dead.</p>
+                    <img id="manunggul" src="/assets/man1.png" class="vase-blurred">
                 </div>
-                <div class="page-links-container">
-                    <div onclick="location.href='/pages/s2.html'" class="page-link">
-                        <h1>Greek Amphora</h1>
-                        <img id="amphora" src="/assets/amph1.png" class="vase-blurred">
-                    </div>
-                    <div onclick="location.href='/pages/s1.html?stage=1'" class="page-link">
-                        <h1>The Manunggul Jar</h1>
-                        <p>The Manunggul Jar is a burial vessel dating back to the Neolithic period. The jar's
-                            craftmanship and symbolism reflect early Filipino's spiritual beliefs and reverence for the
-                            dead.</p>
-                        <img id="manunggul" src="/assets/man1.png" class="vase-blurred">
-                    </div>
-                    <div onclick="location.href='/pages/s3.html'" class="page-link">
-                        <h1>The Warka Vase</h1>
-                        <img id="warka" src="/assets/warka1.png" class="vase-blurred">
-                    </div>
+                <div onclick="location.href='/pages/s1.html?vessel=warka&stage=1'" class="page-link">
+                    <h2>The Warka Vase</h2>
+                    <p>The Warka Vase is a significant artifact from ancient Mesopotamia. Its carved reliefs depict
+                        religious rituals and offerings, revealing insights into the spiritual practices of early
+                        civilizations.</p>
+                    <img id="warka" src="/assets/warka1.png" class="vase-blurred">
+                </div>
+                <div onclick="location.href='/pages/s1.html?vessel=amphora&stage=1'" class="page-link">
+                    <h2>Greek Amphora</h2>
+                    <p>The Greek Amphora is a symbol of classical pottery, often used to store oil, wine, or grain. Its
+                        intricate designs, depicting mythology and athletic feats, showcase the artistry of ancient
+                        Greece.</p>
+                    <img id="amphora" src="/assets/amph1.png" class="vase-blurred">
                 </div>
             </div>
-        </main>
-        <footer></footer>
-        
-        <script src="/js/index.js"></script>
+        </div>
+    </main>
+    <footer></footer>
+
+    <script src="/js/index.js"></script>
 </body>
 
 </html>

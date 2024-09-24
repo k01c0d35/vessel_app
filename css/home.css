@@ -1,15 +1,21 @@
-.content {
-    padding: 4vh;
-}
+/* Hero section for the main heading */
+.hero-section {
+    text-align: center;
+    margin: 10vh 4vh;
+    gap: 2vh;
+    display: flex;
+    flex-direction: column;
+ }
 
+/* Home navigation container */
 .home-navigations {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
     gap: 5vh;
+    padding: 0 4vh 10vh 4vh;
 }
 
+/* Individual sections */
 .section {
     display: flex;
     flex-direction: row;
@@ -17,44 +23,53 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 6px; 
-    transition: box-shadow 0.3s ease; 
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
     border-radius: 2px;
+    position: relative;
+    overflow: hidden;
 }
 
-.section:hover > h1 {
-    background-color: black;
+/* Hover effect to enlarge the section */
+.section:hover {
+    transform: scale(1.05);
 }
 
+/* Dark overlay on background images */
+.section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+/* Text styling */
+.section h1 {
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 6px;
+}
+
+/* Background images */
 .one {
     background-image: url("../assets/porcelain.png");
+    background-size: cover;
 }
 
 .two {
     background-image: url("../assets/clay.png");
+    background-size: cover;
 }
 
 .three {
     background-image: url("../assets/grek1.png");
     background-size: cover;
-}
-
-.one h1 {
-    box-shadow: #4f6585 10px 10px;
-}
-
-.two h1 {
-    box-shadow: #74694d 10px 10px;
-}
-
-.three h1 {
-    box-shadow: #c68d46 10px 10px;
-}
-
-.section h1 {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    transition: background-color 0.3s ease;
-    border-radius: 2px;
 }

@@ -106,8 +106,9 @@ document.addEventListener('DOMContentLoaded', function () {
     function filterGallery(artefacts, searchTerm) {
         return artefacts.filter(artefact => {
             const title = artefact.title ? artefact.title.toLowerCase() : '';
+            const type = artefact.type ? artefact.type.toLowerCase() : '';
             const location = artefact.location ? artefact.location.toLowerCase() : '';
-            return title.includes(searchTerm.toLowerCase()) || location.includes(searchTerm.toLowerCase());
+            return type.includes(searchTerm.toLowerCase()) || location.includes(searchTerm.toLowerCase() || title.includes(searchTerm.toLowerCase()));
         });
     }
 
@@ -143,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function () {
         sortingOptions.forEach(option => {
             const label = document.createElement('label');
             const radio = document.createElement('input');
-            radio.type = 'checkbox';
+            radio.type = 'radio';
             radio.name = 'sort';
             radio.value = option.value;
             label.appendChild(radio);

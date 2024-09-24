@@ -1,0 +1,86 @@
+{
+    "stages": [
+      {
+        "id": "1",
+        "title": "The Carved Vessel",
+        "clay_gif": "/assets/warka_clay.gif",
+        "blurb": "The Warka Vase is one of the earliest examples of narrative relief sculpture, crafted from alabaster and intricately carved with scenes depicting religious rituals and offerings.",
+        "image": "/assets/warka/stage1.png",
+        "content_blocks": [
+          {
+            "title": "Material and Crafting",
+            "text": "The Warka Vase was carved from alabaster, a soft stone that allowed artisans to etch complex images. Alabaster was prized for its smooth texture and ability to capture fine details.",
+            "voiceover": "/assets/warka/voiceovers/s3_1_1.wav",
+            "dotPosition": { "top": "40%", "left": "55%" }
+          },
+          {
+            "title": "Relief Carving Technique",
+            "text": "Artisans used chisels to create the vase’s detailed carvings. They worked carefully, ensuring that each figure stood out against the smooth background.",
+            "voiceover": "/assets/warka/voiceovers/s3_1_2.wav",
+            "dotPosition": { "top": "50%", "left": "40%" }
+          },
+          {
+            "title": "Vessel's Religious Significance",
+            "text": "The scenes on the vase depict processions and offerings, highlighting its importance in religious rituals. It was likely used in temple ceremonies.",
+            "voiceover": "/assets/warka/voiceovers/s3_1_3.wav",
+            "dotPosition": { "top": "81%", "left": "51%" }
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "The Processions",
+        "clay_gif": "/assets/warka_clay.gif",
+        "blurb": "The carvings on the Warka Vase are divided into bands that tell a story, showing processions of people bringing offerings to the gods in a sacred ritual.",
+        "image": "/assets/warka/stage2.png",
+        "content_blocks": [
+          {
+            "title": "Upper Band - The Gods",
+            "text": "At the top of the vase, deities are depicted receiving offerings. These figures symbolize the divine presence, with their majestic stances dominating the scene.",
+            "voiceover": "/assets/warka/voiceovers/s3_2_1.wav",
+            "dotPosition": { "top": "40%", "left": "55%" }
+          },
+          {
+            "title": "Middle Band - The Procession",
+            "text": "In the middle band, humans bring offerings to the gods. This scene represents the connection between mortals and the divine, a key theme in ancient Mesopotamian culture.",
+            "voiceover": "/assets/warka/voiceovers/s3_2_2.wav",
+            "dotPosition": { "top": "50%", "left": "40%" }
+          },
+          {
+            "title": "Lower Band - Fertility and Agriculture",
+            "text": "The bottom of the vase shows flowing water and fertile land, symbols of life and abundance. These carvings reflect the importance of agriculture in religious rites.",
+            "voiceover": "/assets/warka/voiceovers/s3_2_3.wav",
+            "dotPosition": { "top": "81%", "left": "51%" }
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "The Vase's Legacy",
+        "clay_gif": "/assets/warka_clay.gif",
+        "blurb": "The Warka Vase is not only a masterpiece of art but a glimpse into the religious life of ancient Mesopotamia, providing valuable insights into early civilization.",
+        "image": "/assets/warka/stage3.png",
+        "content_blocks": [
+          {
+            "title": "Significance in History",
+            "text": "As one of the oldest surviving examples of narrative art, the Warka Vase gives us insight into the spiritual and daily lives of ancient Mesopotamians.",
+            "voiceover": "/assets/warka/voiceovers/s3_3_1.wav",
+            "dotPosition": { "top": "41%", "left": "55%" }
+          },
+          {
+            "title": "Discovery and Preservation",
+            "text": "The vase was discovered in the ruins of Uruk, a city in modern-day Iraq. Despite being thousands of years old, it retains much of its original detail.",
+            "voiceover": "/assets/warka/voiceovers/s3_3_2.wav",
+            "dotPosition": { "top": "50%", "left": "40%" }
+          },
+          {
+            "title": "A Link to Ancient Beliefs",
+            "text": "The carvings on the vase serve as a testament to the ancient Mesopotamian belief in the connection between the natural world and divine forces.",
+            "voiceover": "/assets/warka/voiceovers/s3_3_3.wav",
+            "dotPosition": { "top": "81%", "left": "51%" }
+          }
+        ]
+      }
+    ]
+  }
+  

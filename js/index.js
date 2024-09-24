@@ -5,16 +5,32 @@ document.addEventListener('DOMContentLoaded', function () {
     fetch('/includes/top_nav.html')
         .then(response => response.text())
         .then(data => {
-            document.querySelector('.nav').innerHTML = data;
-            setActiveNav();
+            const topNavElement = document.querySelector('.nav');
+
+            if (topNavElement) {
+                topNavElement.innerHTML = data;
+                setActiveNav();
+            } else {
+                console.warn('No top nav element found on the page.');
+            }
         });
 
     //Generate Footer
     fetch('/includes/footer.html')
         .then(response => response.text())
         .then(data => {
-            document.querySelector('footer').innerHTML = data;
+            const footerElement = document.querySelector('footer');
+
+            if (footerElement) {
+                footerElement.innerHTML = data;
+            } else {
+                console.warn('No footer element found on the page.');
+            }
+        })
+        .catch(error => {
+            console.error('Error loading footer:', error);
         });
+
 
     //Set Current Page Active
     function setActiveNav() {
@@ -42,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     }
-    
+
     //Back to top button
     if (backToTopButton) {
         window.addEventListener('scroll', function () {
@@ -52,9 +68,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 backToTopButton.classList.remove('show');
             }
         });
-        
+
         backToTopButton.addEventListener('click', function () {
-            window.scrollTo({ top: 0});
+            window.scrollTo({ top: 0 });
         });
     }
 });

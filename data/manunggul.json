@@ -11,19 +11,19 @@
             "title": "Material and Gathering",
             "text": "The body of the Manunggul Jar was crafted using natural clay, sourced from riverbanks and valleys. Early Filipino potters would collect the finest clay, carefully ensuring its purity. This clay was worked by hand, formed into a thick base that would support the jar's structure.",
             "voiceover": "/assets/s1/voiceovers/s1_1_1.wav",
-            "dotPosition": { "top": "40%", "left": "55%" }
+            "dotPosition": { "top": "37%", "left": "53%" }
           },
           {
             "title": "Shaping the Jar",
             "text": "Once the clay was ready, the jar was shaped using traditional coiling techniques. Long strands of clay were layered in a spiral, building up the body of the jar piece by piece. The artist's hands were the primary tools, smoothing the surface and ensuring the jar’s rounded shape.",
             "voiceover": "/assets/s1/voiceovers/s1_1_2.wav",
-            "dotPosition": { "top": "50%", "left": "40%" }
+            "dotPosition": { "top": "56%", "left": "32%" }
           },
           {
             "title": "Firing and Finishing",
             "text": "The finished jar was then fired in an open kiln, a process that hardened the clay and made it durable. This stage required close monitoring to prevent cracks or imperfections. After firing, the jar was ready for decoration, but its shape already signified its importance in Neolithic burial rituals.",
             "voiceover": "/assets/s1/voiceovers/s1_1_3.wav",
-            "dotPosition": { "top": "81%", "left": "51%" }
+            "dotPosition": { "top": "81%", "left": "55%" }
           }
         ]
       },
@@ -38,19 +38,19 @@
             "title": "The Swirling Patterns",
             "text": "The Manunggul Jar’s surface is adorned with swirling patterns, believed to represent waves or water. These patterns may symbolize the soul's journey across the waters to the afterlife, a common motif in ancient cultures around the world.",
             "voiceover": "/assets/s1/voiceovers/s1_2_1.wav",
-            "dotPosition": { "top": "40%", "left": "55%" }
+            "dotPosition": { "top": "37%", "left": "53%" }
           },
           {
             "title": "The Color and Pigments",
             "text": "Natural pigments were applied to the jar, giving it distinct hues that highlighted its patterns. These pigments were often derived from minerals or plants, and their application was an important part of the vessel’s ceremonial role.",
             "voiceover": "/assets/s1/voiceovers/s1_2_2.wav",
-            "dotPosition": { "top": "50%", "left": "40%" }
+            "dotPosition": { "top": "56%", "left": "26%" }
           },
           {
             "title": "Symbolism of the Design",
             "text": "The patterns on the jar are thought to have been carefully chosen for their symbolic significance. They represent not just the physical world but the spiritual journey ahead. The lines guide the soul, leading it toward the afterlife.",
             "voiceover": "/assets/s1/voiceovers/s1_2_2.wav",
-            "dotPosition": { "top": "81%", "left": "51%" }
+            "dotPosition": { "top": "81%", "left": "55%" }
           }
         ]
       },
@@ -65,19 +65,19 @@
             "title": "The Paddlers",
             "text": "The figures atop the jar depict a person being ferried to the afterlife, accompanied by a guide. In Filipino mythology, these figures symbolize the journey of the soul and the role of ancestors or spirits in guiding the dead to their final resting place.",
             "voiceover": "/assets/s1/voiceovers/s1_3_1.wav",
-            "dotPosition": { "top": "41%", "left": "55%" }
+            "dotPosition": { "top": "37%", "left": "53%" }
           },
           {
             "title": "The Boat Imagery",
             "text": "The boat of the dead is a common image in many ancient cultures, symbolizing the passage from life to death. For the early Filipinos, the boat carried the soul safely to the afterlife, where it would be reunited with ancestors.",
             "voiceover": "/assets/s1/voiceovers/s1_3_2.wav",
-            "dotPosition": { "top": "50%", "left": "40%" }
+            "dotPosition": { "top": "56%", "left": "30%" }
           },
           {
             "title": "Ritual and Burial Significance",
             "text": "The figurehead of the Manunggul Jar not only completes the vessel’s aesthetic but also its spiritual significance. The jar was used in secondary burial rituals, where the bones of the deceased were placed in the jar to ensure their safe passage to the afterlife.",
             "voiceover": "/assets/s1/voiceovers/s1_3_3.wav",
-            "dotPosition": { "top": "81%", "left": "51%" }
+            "dotPosition": { "top": "81%", "left": "55%" }
           }
         ]
       }
