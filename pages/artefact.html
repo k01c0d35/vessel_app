@@ -7,31 +7,29 @@
     <title>Historic Vessels</title>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/collection_gallery.css">
+    <link rel="stylesheet" href="/css/responsive.css">
 </head>
 
 <body>
-        <div class="content-wrap">
-            <div class="nav"></div>
-            <div class="content">
-                <div class="search-container">
-                    <button class="filter-item backToGallery">Back to Gallery</button>
+    <div class="nav"></div>
+    <div class="content">
+        <div class="search-container">
+            <button class="button-common backToGallery">Back to Gallery</button>
+        </div>
+        <div class="artefactDetails">
+            <h1 class="title"></h1>
+            <div class="details">
+                <div class="left">
+                    <div class="detailItem img-container">
+                        <img class="photo" alt="Artefact Image">
+                    </div>
                 </div>
-                <div class="artefactDetails">
-                    <h1 class="title"></h1>
-                    <div class="details">
-                        <div class="left">
-                            <div class="detailItem img-container">
-                                <img class="photo" alt="Artefact Image">
-                            </div>
+                <div class="right">
+                    <div class="right-row one">
+                        <div class="right-column one">
                             <div class="detailItem">
                                 <h3>Type</h3>
                                 <div class="type-link">
-                                    <p class="text"></p>
-                                </div>
-                            </div>
-                            <div class="detailItem">
-                                <h3>Date Estimate</h3>
-                                <div class="date-link">
                                     <p class="text"></p>
                                 </div>
                             </div>
@@ -41,14 +39,6 @@
                                     <p class="text"></p>
                                 </div>
                             </div>
-                            <div class="detailItem">
-                                <h3>Height</h3>
-                                <div class="height-link">
-                                    <p class="text"></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="right">
                             <div class="detailItem">
                                 <h3>Region</h3>
                                 <div class="region-link">
@@ -61,6 +51,22 @@
                                     <p class="text"></p>
                                 </div>
                             </div>
+
+                        </div>
+                        <div class="right-column two">
+                            <div class="detailItem">
+                                <h3>Date Estimate</h3>
+                                <div class="date-link">
+                                    <p class="text"></p>
+                                </div>
+                            </div>
+                            <div class="detailItem">
+                                <h3>Height</h3>
+                                <div class="height-link">
+                                    <p class="text"></p>
+                                </div>
+                            </div>
+
                             <div class="detailItem">
                                 <h3>Ware</h3>
                                 <div class="ware-link">
@@ -73,33 +79,33 @@
                                     <p class="text"></p>
                                 </div>
                             </div>
-                            <div class="detailItem">
-                                <h3>Description</h3>
-                                <div class="description-link">
-                                    <p class="text"></p>
-                                </div>
-                            </div>
-                            <div class="detailItem">
-                                <h3>Related Artefacts</h3>
-                                <div class="related-link">
-                                    
-                                </div>
-                            </div>
-                            <div class="detailItem">
-                                <h3>External Links</h3>
-                                <div class="external-link">
-                                    <p class="text"></p>
-                                </div>
-                            </div>
                         </div>
                     </div>
+                    <div class="detailItem">
+                        <h3>Description</h3>
+                        <div class="description-link">
+                            <p class="text"></p>
+                        </div>
+                    </div>
+                    <!-- <div class="detailItem">
+                        <h3>External Links</h3>
+                        <div class="external-link">
+                            <p class="text"></p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="detailItem relatedArtefacts">
+                <h2>Related Artefacts</h2>
+                <div class="related-link">
                 </div>
             </div>
         </div>
-        <!-- <footer></footer> -->
-        
-        <script src="/js/index.js"></script>
-        <script src="/js/artefact.js"></script>
+    </div>
+    <!-- <footer></footer> -->
+
+    <script src="/js/index.js"></script>
+    <script src="/js/artefact.js"></script>
 </body>
 
 </html>

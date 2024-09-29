@@ -7,7 +7,7 @@
     <title>Historic Vessels</title>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/collection_gallery.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/responsive.css">
 </head>
 
 <body>
@@ -16,31 +16,31 @@
         <div class="content">
             <div class="search-container">
                 <span>
-                    <input class="filter-item" type="text" id="searchInput" placeholder="Search">
+                    <input class="button-common" type="text" id="searchInput" placeholder="Search">
                 </span>
                 <span>
                     <div class="dropdown">
-                        <button class=" filter-item dropdown-button" onclick="toggleDropdown(this)">Sort <i
+                        <button class="dropdown-button button-common" onclick="toggleDropdown(this)">Sort <i
                                 class="fa fa-caret-down"></i></button>
                         <div id="sortContainer" class="dropdown-content"></div>
                     </div>
                     <div class="dropdown">
-                        <button onclick="toggleDropdown(this)" class="filter-item dropdown-button">Type <i
+                        <button onclick="toggleDropdown(this)" class="dropdown-button button-common">Type <i
                                 class="fa fa-caret-down"></i></button>
                         <div id="typeFilter" class="dropdown-content"></div>
                     </div>
                     <div class="dropdown">
-                        <button onclick="toggleDropdown(this)" class="filter-item dropdown-button">Region <i
+                        <button onclick="toggleDropdown(this)" class="dropdown-button button-common">Region <i
                                 class="fa fa-caret-down"></i></button>
                         <div id="regionFilter" class="dropdown-content"></div>
                     </div>
                     <div class="dropdown">
-                        <button onclick="toggleDropdown(this)" class="filter-item dropdown-button">Material <i
+                        <button onclick="toggleDropdown(this)" class="dropdown-button button-common">Material <i
                                 class="fa fa-caret-down"></i></button>
                         <div id="materialFilter" class="dropdown-content"></div>
                     </div>
                     <div class="dropdown">
-                        <button onclick="toggleDropdown(this)" class="filter-item dropdown-button">Historic Period <i
+                        <button onclick="toggleDropdown(this)" class="dropdown-button button-common">Historic Period <i
                                 class="fa fa-caret-down"></i></button>
                         <div id="historicPeriodFilter" class="dropdown-content"></div>
                     </div>
@@ -49,21 +49,22 @@
             <div class="searchStatusContainer">
                 <span class="selectedFiltersContainer">
                     <p>Selected Filters:</p>
-                    <span class="selectedFilters"></span>
+                    <h3 class="selectedFilters"></h3>
                 </span>
                 <span class="displayAmountContainer">
                     <p>Results:</p>
-                    <span id="displayAmount"></span>
+                    <h3 id="displayAmount"></h3>
                 </span>
             </div>
             <div id="gallery" class="gallery-container">
             </div>
-            <button id="backToTop"><h3>BACK TO TOP</h3></button>
+            <button id="backToTop" class="button-common"><h3>BACK TO TOP</h3></button>
     </main>
     <footer></footer>
 
     <script src="/js/index.js"></script>
     <script src="/js/gallery.js"></script>
+    <script src="https://kit.fontawesome.com/33641470b0.js" crossorigin="anonymous"></script>
 
 </body>
 

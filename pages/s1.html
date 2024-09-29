@@ -7,19 +7,18 @@
     <title>Journey Stages</title>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/journeys.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <main>
         <div class="nav"></div>
         <div class="content">
-            <div class="search-container">
-                <span>
-                    <a class="filter-item" href="/pages/journeys.html">Back to Selection</a>
-                </span>
-                <span>
-                    <a class="filter-item" href="/pages/artefact.html?id=1">View Artefact</a>
-                </span>
+            <div class="search-container topButtons">
+                <a class="button-common" href="/pages/journeys.html">Back to Selection</a>
+                <a class="button-common" href="/pages/artefact.html?id=1">View Artefact</a>
+                <a class="button-common" id="restartButton">Restart Journey</a>
             </div>
             <div class="activation-container">
                 <div class="stage" id="stage">
@@ -31,23 +30,16 @@
                         <img src="" alt="Jar Stage Image">
                     </div>
                 </div>
-
-                <!-- Bottom buttons -->
-                <div class="search-container">
-                    <span>
-                      <a class="filter-item" id="prevButton" style="display: none;">Previous</a>
-                    </span>
-                    <span>
-                      <a class="filter-item" id="nextButton">Next</a>
-                    </span>
-                  </div>
-                  
-
+            </div>
+            <div class="search-container bottomButtons">
+                <a class="button-common" id="prevButton">Previous</a>
+                <a class="button-common" id="nextButton">Next</a>
             </div>
         </div>
     </main>
     <script src="/js/journeys.js"></script>
     <script src="/js/index.js"></script>
+    <script src="https://kit.fontawesome.com/33641470b0.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

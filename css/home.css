@@ -1,7 +1,7 @@
 /* Hero section for the main heading */
 .hero-section {
     text-align: center;
-    margin: 10vh 4vh;
+    margin: 5vh 2vh;
     gap: 2vh;
     display: flex;
     flex-direction: column;
@@ -12,7 +12,8 @@
     display: flex;
     flex-direction: column;
     gap: 5vh;
-    padding: 0 4vh 10vh 4vh;
+    width: 100%;
+    align-items: center;
 }
 
 /* Individual sections */
@@ -27,6 +28,7 @@
     border-radius: 2px;
     position: relative;
     overflow: hidden;
+    width: 100%;
 }
 
 /* Hover effect to enlarge the section */
@@ -70,6 +72,6 @@
 }
 
 .three {
-    background-image: url("../assets/grek1.png");
+    background-image: url("../assets/greek.png");
     background-size: cover;
 }

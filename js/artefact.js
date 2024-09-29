@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const params = new URLSearchParams(window.location.search);
     const artefactId = params.get('id');
 
@@ -41,6 +41,36 @@ document.addEventListener('DOMContentLoaded', function() {
                     const titleElement = document.querySelector('.title');
                     titleElement.textContent = artefact.title || artefact.type;
 
+                    const jsonFiles = ['manunggul.json', 'amphora.json', 'warka.json'];
+
+                    // Function to check each JSON file for the artefactId
+                    jsonFiles.forEach(fileName => {
+                        fetch(`/data/${fileName}`)
+                            .then(response => response.json())
+                            .then(artefactData => {
+                                // Check if the artefactId in this file matches
+                                if (artefactData.artefactId.includes(artefactId)) {
+                                    // If match found, create a div with a link
+                                    const container = document.querySelector('.search-container');
+                                    const journeyDiv = document.createElement('button');
+                                    journeyDiv.classList.add('button-common', 'goldOnBlackButton');
+
+                                    // Get the JSON filename without extension
+                                    const jsonFileName = fileName.replace('.json', '');
+
+                                    // Create the link to the s1.html page
+                                    journeyDiv.textContent = `View Story`;
+                                    journeyDiv.onclick = function () {
+                                        window.location.href = `/pages/s1.html?vessel=${jsonFileName}`;
+                                    };
+
+                                    // Append the link to the div and the div to the container
+                                    container.appendChild(journeyDiv);
+                                }
+                            })
+                            .catch(error => console.log(`Error loading JSON file ${fileName}:`, error));
+                        });
+
                     updateDetail('.type-link', 'p.text', artefact.type, true);
                     updateDetail('.ware-link', 'p.text', artefact.ware, true);
                     updateDetail('.culture-link', 'p.text', artefact.culturePeriod, false);
@@ -63,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     const relatedContainer = document.querySelector('.related-link');
                     if (relatedContainer) {
                         const seenIds = new Set();
-                        const relatedArtefacts = artefacts.filter(a => 
+                        const relatedArtefacts = artefacts.filter(a =>
                             a.id != artefactId &&
                             (
                                 (a.type === artefact.type && artefact.type !== 'Unknown') ||
@@ -71,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 (a.culturePeriod === artefact.culturePeriod && artefact.culturePeriod !== 'Unknown') ||
                                 (a.region === artefact.region && artefact.region !== 'Unknown')
                             )
-                        ).filter(a => !seenIds.has(a.id) && seenIds.add(a.id)).slice(0, 6);
+                        ).filter(a => !seenIds.has(a.id) && seenIds.add(a.id)).slice(0, 5);
 
                         if (relatedArtefacts.length > 0) {
                             relatedArtefacts.forEach(related => {

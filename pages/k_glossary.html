@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/responsive.css">
     <link rel="stylesheet" href="/css/knowledge.css">
 </head>
 
@@ -17,14 +18,14 @@
             <div class="content">
                 <div class="search-container">
                     <span>
-                        <input class="filter-item" type="text" id="searchInput" placeholder="Search">
+                        <input class="button-common" type="text" id="searchInput" placeholder="Search">
                     </span>
                     <span>
-                        <button class="filter-item aSort" data-filter="Ware">Wares</button>
-                        <button class="filter-item aSort" data-filter="Vessel">Vessels</button>
-                        <button class="filter-item aSort" data-filter="Creation Tool">Creation Tools</button>
-                        <button class="filter-item aSort" data-filter="Glaze">Glazes</button>
-                        <button class="filter-item aSort" data-filter="Material">Materials</button>
+                        <button class="aSort button-common" data-filter="Vessel">Vessel Types</button>
+                        <button class="aSort button-common" data-filter="Creation Tool">Creation Tools</button>
+                        <button class="aSort button-common" data-filter="Material">Materials</button>
+                        <button class="aSort button-common" data-filter="Ware">Wares</button>
+                        <button class="aSort button-common" data-filter="Glaze">Glazes</button>
                     </span>
                 </div>
                 <div class="glossary-quick-nav">
@@ -56,7 +57,7 @@
                     <a href="#Z">Z</a>
                 </div>
                 <div id="glossaryContent"></div>
-                <button id="backToTop"><h3>BACK TO TOP</h3></button>
+                <button id="backToTop" class="button-common"><h3>BACK TO TOP</h3></button>
             </div>
         </main>
         <footer></footer>

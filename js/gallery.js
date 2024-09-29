@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         artefacts.forEach(artefact => {
             const galleryItem = document.createElement('div');
-            galleryItem.className = 'gallery-item';
+            galleryItem.classList.add('gallery-item', 'button-common');
 
             const imgContainer = document.createElement('div');
             imgContainer.className = 'img-container';
