@@ -11,7 +11,7 @@
     max-width: 20%;
     text-align: center;
     background-color: #faf4ed;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3); 
+    box-shadow: 4px 4px #908d8d; 
     transition: box-shadow 0.3s ease;
     box-sizing: border-box;
     cursor: pointer;

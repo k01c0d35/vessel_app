@@ -157,8 +157,6 @@ a {
 .search-container {
     display: flex;
     flex-direction: row;
-    /* gap: 10px; */
-    /* background-color:#e2e2e2; */
     justify-content: space-between;
 }
 
@@ -280,7 +278,7 @@ footer {
 }
 
 .goldOnBlackButton {
-    color: black;
+    color: white;
     background-color: var(--secondary-color);
 }
 
