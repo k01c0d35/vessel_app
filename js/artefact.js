@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function () {
     const params = new URLSearchParams(window.location.search);
     const artefactId = params.get('id');
@@ -106,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         if (relatedArtefacts.length > 0) {
                             relatedArtefacts.forEach(related => {
                                 const artefactElement = document.createElement('div');
-                                artefactElement.className = 'related-artefact';
+                                artefactElement.classList.add('related-artefact', 'button-common');
                                 artefactElement.innerHTML = `
                                     <p>${related.type}</p>
                                     <img src="${related.photo}" alt="${related.title}">

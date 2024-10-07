@@ -13,43 +13,64 @@
 <body>
     <main>
         <div class="nav"></div>
+        <div id="loading-screen">
+            <div class="spinner"></div>
+        </div>
         <div class="content">
             <div class="search-container">
-                <span>
-                    <input class="button-common" type="text" id="searchInput" placeholder="Search">
-                </span>
-                <span>
-                    <div class="dropdown">
-                        <button class="dropdown-button button-common" onclick="toggleDropdown(this)">Sort <i
-                                class="fa fa-caret-down"></i></button>
-                        <div id="sortContainer" class="dropdown-content"></div>
-                    </div>
-                    <div class="dropdown">
-                        <button onclick="toggleDropdown(this)" class="dropdown-button button-common">Type <i
-                                class="fa fa-caret-down"></i></button>
-                        <div id="typeFilter" class="dropdown-content"></div>
-                    </div>
-                    <div class="dropdown">
-                        <button onclick="toggleDropdown(this)" class="dropdown-button button-common">Region <i
-                                class="fa fa-caret-down"></i></button>
-                        <div id="regionFilter" class="dropdown-content"></div>
-                    </div>
-                    <div class="dropdown">
-                        <button onclick="toggleDropdown(this)" class="dropdown-button button-common">Material <i
-                                class="fa fa-caret-down"></i></button>
-                        <div id="materialFilter" class="dropdown-content"></div>
-                    </div>
-                    <div class="dropdown">
-                        <button onclick="toggleDropdown(this)" class="dropdown-button button-common">Historic Period <i
-                                class="fa fa-caret-down"></i></button>
-                        <div id="historicPeriodFilter" class="dropdown-content"></div>
-                    </div>
-                </span>
+                <!-- Search and Sort -->
+                <div class="search button-common">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="search-item" type="text" id="searchInput" placeholder="Search">
+                </div>
+
+                <div class="dropdown sort">
+                    <button class="sort-item button-common" onclick="toggleDropdown(this)">Sort By <i class="fa fa-sort"></i></button>
+                    <div id="sortContainer" class="dropdown-content"></div>
+                </div>
+
+                <!-- Mobile filter button -->
+                <div class="filter-button button-common">Filter</div>
             </div>
+
+            <!-- Filters on a new line (visible on desktop and tablet) -->
+            <div class="filter-options">
+                <div class="dropdown">
+                    <button class="dropdown-button button-common" onclick="toggleDropdown(this)">Purpose <i
+                            class="fa fa-caret-down"></i></button>
+                    <div id="purposeFilter" class="dropdown-content"></div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropdown-button button-common" onclick="toggleDropdown(this)">Region <i
+                            class="fa fa-caret-down"></i></button>
+                    <div id="regionFilter" class="dropdown-content"></div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropdown-button button-common" onclick="toggleDropdown(this)">Material <i
+                            class="fa fa-caret-down"></i></button>
+                    <div id="materialFilter" class="dropdown-content"></div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropdown-button button-common" onclick="toggleDropdown(this)">Historic Period <i
+                            class="fa fa-caret-down"></i></button>
+                    <div id="historicPeriodFilter" class="dropdown-content"></div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropdown-button button-common" onclick="toggleDropdown(this)">Type <i
+                            class="fa fa-caret-down"></i></button>
+                    <div id="typeFilter" class="dropdown-content"></div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropdown-button button-common" onclick="toggleDropdown(this)">Ware <i
+                            class="fa fa-caret-down"></i></button>
+                    <div id="wareFilter" class="dropdown-content"></div>
+                </div>
+            </div>
+
             <div class="searchStatusContainer">
                 <span class="selectedFiltersContainer">
                     <p>Selected Filters:</p>
-                    <h3 class="selectedFilters"></h3>
+                    <div class="selectedFilters"></div>
                 </span>
                 <span class="displayAmountContainer">
                     <p>Results:</p>
@@ -58,7 +79,9 @@
             </div>
             <div id="gallery" class="gallery-container">
             </div>
-            <button id="backToTop" class="button-common"><h3>BACK TO TOP</h3></button>
+            <button id="backToTop" class="button-common">
+                <h3>BACK TO TOP</h3>
+            </button>
     </main>
     <footer></footer>
 

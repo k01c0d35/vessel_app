@@ -13,22 +13,29 @@
 <body>
         <main>
             <div class="nav"></div>
-            <!-- <div class="bottom-section-nav">
-            </div> -->
+            <div id="loading-screen">
+                <div class="spinner"></div>
+              </div>
             <div class="content">
                 <div class="search-container">
-                    <span>
-                        <input class="button-common" type="text" id="searchInput" placeholder="Search">
-                    </span>
-                    <span>
+                    <!-- Search input -->
+                    <div class="search button-common">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input class="search-item" type="text" id="searchInput" placeholder="Search">
+                    </div>
+
+                    <div class="filter-button button-common">Sort</div>
+    
+                    <!-- Sort buttons wrapped in a span, similar to filter options in gallery -->
+                    <div class="filter-options">
                         <button class="aSort button-common" data-filter="Vessel">Vessel Types</button>
                         <button class="aSort button-common" data-filter="Creation Tool">Creation Tools</button>
                         <button class="aSort button-common" data-filter="Material">Materials</button>
                         <button class="aSort button-common" data-filter="Ware">Wares</button>
                         <button class="aSort button-common" data-filter="Glaze">Glazes</button>
-                    </span>
+                    </div>
                 </div>
-                <div class="glossary-quick-nav">
+                <!-- <div class="glossary-quick-nav">
                     <a href="#A">A</a>
                     <a href="#B">B</a>
                     <a href="#C">C</a>
@@ -55,7 +62,7 @@
                     <a href="#X">X</a>
                     <a href="#Y">Y</a>
                     <a href="#Z">Z</a>
-                </div>
+                </div> -->
                 <div id="glossaryContent"></div>
                 <button id="backToTop" class="button-common"><h3>BACK TO TOP</h3></button>
             </div>
@@ -64,6 +71,7 @@
 
         <script src="/js/k_glossary.js"></script>
         <script src="/js/index.js"></script>
+        <script src="https://kit.fontawesome.com/33641470b0.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

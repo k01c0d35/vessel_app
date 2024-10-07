@@ -5,7 +5,7 @@
   "stages": [
     {
       "id": "1",
-      "title": "The Carved Vessel",
+      "title": "1 | The Carved Vessel",
       "clay_gif": "/assets/s2/gifs2_1.gif",
       "blurb": "The Warka Vase is one of the earliest examples of narrative relief sculpture, crafted from alabaster and intricately carved with scenes depicting religious rituals and offerings.",
       "image": "/assets/s2/stage1.png",
@@ -41,7 +41,7 @@
     },
     {
       "id": "2",
-      "title": "The Processions",
+      "title": "2 | The Processions",
       "clay_gif": "/assets/s2/gifs2_1.gif",
       "blurb": "The carvings on the Warka Vase are divided into bands that tell a story, showing processions of people bringing offerings to the gods in a sacred ritual.",
       "image": "/assets/s2/stage2.png",
@@ -77,7 +77,7 @@
     },
     {
       "id": "3",
-      "title": "The Vase's Legacy",
+      "title": "3 | The Vase's Legacy",
       "clay_gif": "/assets/s2/gifs2_1.gif",
       "blurb": "The Warka Vase is not only a masterpiece of art but a glimpse into the religious life of ancient Mesopotamia, providing valuable insights into early civilization.",
       "image": "/assets/s2/stage3.png",

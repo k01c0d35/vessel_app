@@ -2,12 +2,10 @@
     "artefacts": [
         {
             "id": 1,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Asia",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Medieval"
-            },
+            "purpose": "Storage",
+            "region": "Asia",
+            "material": "Ceramic",
+            "historicPeriod": "Medieval",
             "title": "Manunggul Jar",
             "type": "Jar",
             "ware": "Earthenware",
@@ -16,7 +14,7 @@
                 "start": -890,
                 "end": -710
             },
-            "region": "Philippines",
+            "geographicArea": "Philippines",
             "condition": "Intact",
             "height": "60",
             "photo": "/assets/artefacts/1.png",
@@ -24,12 +22,10 @@
         },
         {
             "id": 2,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Storage",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "type": "Amphora",
             "ware": "Black-Figure",
             "culturePeriod": "Greek",
@@ -37,7 +33,7 @@
                 "start": -550,
                 "end": -530
             },
-            "region": "Greece",
+            "geographicArea": "Greece",
             "artist": "Exekais",
             "condition": "Intact",
             "height": "53",
@@ -46,12 +42,10 @@
         },
         {
             "id": 3,
-            "filters": {
-                "filterType": "Drinking",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Drinking",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "type": "Kantharos",
             "ware": "Earthenware",
             "culturePeriod": "Greek",
@@ -59,7 +53,7 @@
                 "start": -500,
                 "end": -401
             },
-            "region": "Greece",
+            "geographicArea": "Greece",
             "condition": "Intact",
             "height": "20",
             "photo": "/assets/artefacts/3.png",
@@ -67,12 +61,10 @@
         },
         {
             "id": 4,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Storage",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "type": "Oinochoe",
             "ware": "Earthenware",
             "culturePeriod": "Greek",
@@ -80,7 +72,7 @@
                 "start": -325,
                 "end": -300
             },
-            "region": "Greece",
+            "geographicArea": "Greece",
             "condition": "Intact",
             "height": "24",
             "photo": "/assets/artefacts/4.png",
@@ -88,12 +80,10 @@
         },
         {
             "id": 5,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Africa",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Modern"
-            },
+            "purpose": "Storage",
+            "region": "Africa",
+            "material": "Ceramic",
+            "historicPeriod": "Modern",
             "type": "Ukhamba",
             "ware": "Earthenware",
             "culturePeriod": "Northern Nguni",
@@ -101,7 +91,7 @@
                 "start": 1925,
                 "end": 1975
             },
-            "region": "South Africa",
+            "geographicArea": "South Africa",
             "condition": "Intact",
             "height": "21",
             "photo": "/assets/artefacts/5.png",
@@ -109,12 +99,10 @@
         },
         {
             "id": 6,
-            "filters": {
-                "filterType": "Drinking",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Drinking",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "type": "Kylix",
             "ware": "Red-Figure",
             "culturePeriod": "Greek",
@@ -122,7 +110,7 @@
                 "start": -485,
                 "end": -480
             },
-            "region": "Greece",
+            "geographicArea": "Greece",
             "artist": "Douris",
             "condition": "Repaired",
             "photo": "/assets/artefacts/6.png",
@@ -130,12 +118,10 @@
         },
         {
             "id": 7,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Americas",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Medieval"
-            },
+            "purpose": "Storage",
+            "region": "Americas",
+            "material": "Ceramic",
+            "historicPeriod": "Medieval",
             "type": "Olla",
             "ware": "Yellow-Ware",
             "culturePeriod": "Ancestral Puebloan",
@@ -143,7 +129,7 @@
                 "start": 1300,
                 "end": 1400
             },
-            "region": "USA",
+            "geographicArea": "USA",
             "condition": "Intact",
             "height": 13,
             "photo": "/assets/artefacts/7.png",
@@ -151,12 +137,10 @@
         },
         {
             "id": 8,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Storage",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "type": "Pithos",
             "ware": "Earthenware",
             "culturePeriod": "Late Minoan II",
@@ -164,7 +148,7 @@
                 "start": -1450,
                 "end": -1375
             },
-            "region": "Greece",
+            "geographicArea": "Greece",
             "condition": "Intact",
             "height": 120,
             "photo": "/assets/artefacts/8.png",
@@ -172,12 +156,10 @@
         },
         {
             "id": 9,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Storage",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "type": "Krater",
             "ware": "Red-Figure",
             "culturePeriod": "Greek",
@@ -185,7 +167,7 @@
                 "start": -430,
                 "end": -420
             },
-            "region": "Greece",
+            "geographicArea": "Greece",
             "artist": "Peleus Painter",
             "condition": "Intact",
             "height": 36,
@@ -194,12 +176,10 @@
         },
         {
             "id": 10,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Asia",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Renaissance to Early Modern"
-            },
+            "purpose": "Storage",
+            "region": "Asia",
+            "material": "Ceramic",
+            "historicPeriod": "Renaissance to Early Modern",
             "title": "David Vases",
             "type": "Vase",
             "ware": "Porcelain",
@@ -208,7 +188,7 @@
                 "start": 1351,
                 "end": 1351
             },
-            "region": "China",
+            "geographicArea": "China",
             "condition": "Intact",
             "height": 63,
             "photo": "/assets/artefacts/10.png",
@@ -216,12 +196,10 @@
         },
         {
             "id": 11,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Storage",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "title": "Meidias Hydria",
             "type": "Hydria",
             "ware": "Red-Figure",
@@ -230,7 +208,7 @@
                 "start": -420,
                 "end": -400
             },
-            "region": "Greece",
+            "geographicArea": "Greece",
             "condition": "Intact",
             "height": 52,
             "photo": "/assets/artefacts/11.png",
@@ -238,12 +216,10 @@
         },
         {
             "id": 12,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Asia",
-                "filterMaterial": "Stone",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Storage",
+            "region": "Asia",
+            "material": "Stone",
+            "historicPeriod": "Ancient",
             "title": "Warka Vase",
             "type": "Vase",
             "ware": "Stoneware",
@@ -252,7 +228,7 @@
                 "start": -3200,
                 "end": -3000
             },
-            "region": "Iraq",
+            "geographicArea": "Iraq",
             "condition": "Repaired",
             "height": 90,
             "photo": "/assets/artefacts/12.png",
@@ -260,12 +236,10 @@
         },
         {
             "id": 13,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Renaissance to Early Modern"
-            },
+            "purpose": "Storage",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Renaissance to Early Modern",
             "title": "Vase",
             "type": "Vase",
             "ware": "Earthenware",
@@ -274,7 +248,7 @@
                 "start": 1580,
                 "end": 1590
             },
-            "region": "Italy",
+            "geographicArea": "Italy",
             "artist": "Workshop of Fontana",
             "condition": "Intact",
             "height": 54,
@@ -283,12 +257,10 @@
         },
         {
             "id": 14,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Africa",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Storage",
+            "region": "Africa",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "title": "Amphora",
             "type": "Amphora",
             "ware": "Egyptian",
@@ -297,7 +269,7 @@
                 "start": -150,
                 "end": -50
             },
-            "region": "Egypt",
+            "geographicArea": "Egypt",
             "condition": "Intact",
             "height": 10,
             "photo": "/assets/artefacts/14.png",
@@ -305,12 +277,10 @@
         },
         {
             "id": 15,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Storage",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "title": "Askos",
             "type": "Askos",
             "ware": "Earthenware",
@@ -319,7 +289,7 @@
                 "start": -400,
                 "end": -301
             },
-            "region": "Greece",
+            "geographicArea": "Greece",
             "condition": "Intact",
             "height": 10,
             "photo": "/assets/artefacts/15.png",
@@ -327,12 +297,10 @@
         },
         {
             "id": 16,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Storage",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "title": "Askos",
             "type": "Askos",
             "ware": "Earthenware",
@@ -341,7 +309,7 @@
                 "start": -400,
                 "end": -301
             },
-            "region": "Greece",
+            "geographicArea": "Greece",
             "condition": "Semi-intact",
             "height": 12,
             "photo": "/assets/artefacts/16.png",
@@ -349,12 +317,10 @@
         },
         {
             "id": 17,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Storage",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "title": "Hydria",
             "type": "Hydria",
             "ware": "Red-Figure",
@@ -363,7 +329,7 @@
                 "start": -350,
                 "end": -320
             },
-            "region": "Greece",
+            "geographicArea": "Greece",
             "artist": "Attributed to the Group of Naples 3227",
             "condition": "Intact",
             "height": 60,
@@ -372,12 +338,10 @@
         },
         {
             "id": 18,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Storage",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "title": "Askos",
             "type": "Askos",
             "ware": "Earthenware",
@@ -386,7 +350,7 @@
                 "start": -400,
                 "end": -301
             },
-            "region": "Greece",
+            "geographicArea": "Greece",
             "condition": "Intact",
             "height": 9,
             "photo": "/assets/artefacts/18.png",
@@ -394,12 +358,10 @@
         },
         {
             "id": 19,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Storage",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "title": "Lekythos",
             "type": "Lekythos",
             "ware": "Red-Figure",
@@ -408,7 +370,7 @@
                 "start": -400,
                 "end": -301
             },
-            "region": "Greece",
+            "geographicArea": "Greece",
             "condition": "Intact",
             "height": 12,
             "photo": "/assets/artefacts/19.png",
@@ -416,12 +378,10 @@
         },
         {
             "id": 20,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Medieval"
-            },
+            "purpose": "Storage",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Medieval",
             "type": "Jug",
             "ware": "Earthenware",
             "culturePeriod": "French",
@@ -429,7 +389,7 @@
                 "start": 1250,
                 "end": 1350
             },
-            "region": "France",
+            "geographicArea": "France",
             "condition": "Intact",
             "height": 27,
             "photo": "/assets/artefacts/20.png",
@@ -437,12 +397,10 @@
         },
         {
             "id": 21,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Renaissance to Early Modern"
-            },
+            "purpose": "Storage",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Renaissance to Early Modern",
             "type": "Jug",
             "ware": "Earthenware",
             "culturePeriod": "Spanish",
@@ -450,7 +408,7 @@
                 "start": 1450,
                 "end": 1500
             },
-            "region": "Spain",
+            "geographicArea": "Spain",
             "condition": "Intact",
             "height": 22,
             "photo": "/assets/artefacts/21.png",
@@ -458,12 +416,10 @@
         },
         {
             "id": 22,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Asia",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Medieval"
-            },
+            "purpose": "Storage",
+            "region": "Asia",
+            "material": "Ceramic",
+            "historicPeriod": "Medieval",
             "type": "Ewer",
             "ware": "Earthenware",
             "culturePeriod": "Iraq",
@@ -471,7 +427,7 @@
                 "start": 801,
                 "end": 900
             },
-            "region": "Iraq",
+            "geographicArea": "Iraq",
             "condition": "Intact",
             "height": 35,
             "photo": "/assets/artefacts/22.png",
@@ -479,12 +435,10 @@
         },
         {
             "id": 23,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Asia",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Modern"
-            },
+            "purpose": "Storage",
+            "region": "Asia",
+            "material": "Ceramic",
+            "historicPeriod": "Modern",
             "type": "Ewer",
             "ware": "Porcelain",
             "culturePeriod": "Kangxi",
@@ -492,7 +446,7 @@
                 "start": 1662,
                 "end": 1722
             },
-            "region": "China",
+            "geographicArea": "China",
             "condition": "Intact",
             "height": 26,
             "photo": "/assets/artefacts/23.png",
@@ -500,12 +454,10 @@
         },
         {
             "id": 24,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Asia",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Storage",
+            "region": "Asia",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "type": "Jar",
             "ware": "Stoneware",
             "culturePeriod": "Han Dynasty",
@@ -513,7 +465,7 @@
                 "start": -206,
                 "end": 220
             },
-            "region": "China",
+            "geographicArea": "China",
             "condition": "Intact",
             "height": 34,
             "photo": "/assets/artefacts/24.png",
@@ -521,12 +473,10 @@
         },
         {
             "id": 25,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Americas",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Modern"
-            },
+            "purpose": "Storage",
+            "region": "Americas",
+            "material": "Ceramic",
+            "historicPeriod": "Modern",
             "type": "Jar",
             "ware": "Earthenware",
             "culturePeriod": "A:shiwi (zuni pueblo)",
@@ -534,7 +484,7 @@
                 "start": 1850,
                 "end": 1950
             },
-            "region": "USA",
+            "geographicArea": "USA",
             "condition": "Semi-intact",
             "height": 30,
             "photo": "/assets/artefacts/25.png",
@@ -542,12 +492,10 @@
         },
         {
             "id": 26,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Asia",
-                "filterMaterial": "Stone",
-                "filterHistoricPeriod": "Medieval"
-            },
+            "purpose": "Storage",
+            "region": "Asia",
+            "material": "Stone",
+            "historicPeriod": "Medieval",
             "type": "Maubyeong",
             "ware": "Stoneware",
             "culturePeriod": "Goryeo Dynasty",
@@ -555,7 +503,7 @@
                 "start": 1250,
                 "end": 1300
             },
-            "region": "Korea",
+            "geographicArea": "Korea",
             "condition": "Intact",
             "height": 29,
             "photo": "/assets/artefacts/26.png",
@@ -563,12 +511,10 @@
         },
         {
             "id": 27,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Americas",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Renaissance to Early Modern"
-            },
+            "purpose": "Storage",
+            "region": "Americas",
+            "material": "Ceramic",
+            "historicPeriod": "Renaissance to Early Modern",
             "type": "Urpu",
             "ware": "Earthenware",
             "culturePeriod": "Inca",
@@ -576,7 +522,7 @@
                 "start": 1401,
                 "end": 1500
             },
-            "region": "Peru",
+            "geographicArea": "Peru",
             "condition": "Intact",
             "height": 34,
             "photo": "/assets/artefacts/27.png",
@@ -584,12 +530,10 @@
         },
         {
             "id": 28,
-            "filters": {
-                "filterType": "Drinking",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Drinking",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "type": "Aryballos",
             "ware": "Earthenware",
             "culturePeriod": "Proto-Corinthian",
@@ -597,7 +541,7 @@
                 "start": -640,
                 "end": -640
             },
-            "region": "Greece",
+            "geographicArea": "Greece",
             "condition": "Intact",
             "height": 7,
             "photo": "/assets/artefacts/28.png",
@@ -605,12 +549,10 @@
         },
         {
             "id": 29,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Americas",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Modern"
-            },
+            "purpose": "Storage",
+            "region": "Americas",
+            "material": "Ceramic",
+            "historicPeriod": "Modern",
             "type": "Urpu",
             "ware": "Earthenware",
             "culturePeriod": "Inca",
@@ -618,7 +560,7 @@
                 "start": 1400,
                 "end": 1550
             },
-            "region": "Peru",
+            "geographicArea": "Peru",
             "condition": "Intact",
             "height": 76,
             "photo": "/assets/artefacts/29.png",
@@ -626,12 +568,10 @@
         },
         {
             "id": 30,
-            "filters": {
-                "filterType": "Drinking",
-                "filterRegion": "Africa",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Drinking",
+            "region": "Africa",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "type": "Beaker",
             "ware": "Earthenware",
             "culturePeriod": "Kerma",
@@ -639,7 +579,7 @@
                 "start": -1640,
                 "end": -1802
             },
-            "region": "Egypt",
+            "geographicArea": "Egypt",
             "condition": "Intact",
             "height": 10,
             "photo": "/assets/artefacts/30.png",
@@ -647,12 +587,10 @@
         },
         {
             "id": 31,
-            "filters": {
-                "filterType": "Drinking",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Drinking",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "type": "Kylix",
             "ware": "Black-Figure",
             "culturePeriod": "Greek",
@@ -660,7 +598,7 @@
                 "start": -500,
                 "end": -480
             },
-            "region": "Greece",
+            "geographicArea": "Greece",
             "condition": "Semi-intact",
             "height": 9,
             "photo": "/assets/artefacts/31.png",
@@ -668,12 +606,10 @@
         },
         {
             "id": 32,
-            "filters": {
-                "filterType": "Drinking",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Drinking",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "type": "Kylix",
             "ware": "Black-Figure",
             "culturePeriod": "Greek",
@@ -681,7 +617,7 @@
                 "start": -540,
                 "end": -480
             },
-            "region": "Greece",
+            "geographicArea": "Greece",
             "artist": "The Leafless Group",
             "condition": "Intact",
             "height": 10,
@@ -690,12 +626,10 @@
         },
         {
             "id": 33,
-            "filters": {
-                "filterType": "Drinking",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Drinking",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "type": "Kylix",
             "ware": "White-Ground",
             "culturePeriod": "Greek",
@@ -703,7 +637,7 @@
                 "start": -460,
                 "end": -450
             },
-            "region": "Greece",
+            "geographicArea": "Greece",
             "artist": "The Sotades Painter",
             "condition": "Semi-intact",
             "height": 8,
@@ -712,12 +646,10 @@
         },
         {
             "id": 34,
-            "filters": {
-                "filterType": "Pouring",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Renaissance to Early Modern"
-            },
+            "purpose": "Pouring",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Renaissance to Early Modern",
             "type": "Jug",
             "ware": "Earthenware",
             "culturePeriod": "Renaissance",
@@ -725,7 +657,7 @@
                 "start": 1580,
                 "end": 1600
             },
-            "region": "England",
+            "geographicArea": "England",
             "condition": "Intact",
             "height": 20,
             "photo": "/assets/artefacts/34.png",
@@ -733,12 +665,10 @@
         },
         {
             "id": 35,
-            "filters": {
-                "filterType": "Pouring",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Pouring",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "type": "Jug",
             "ware": "White-Ware",
             "culturePeriod": "Cypro-Classical",
@@ -746,7 +676,7 @@
                 "start": -475,
                 "end": -300
             },
-            "region": "Greece",
+            "geographicArea": "Greece",
             "condition": "Intact",
             "height": 15,
             "photo": "/assets/artefacts/35.png",
@@ -754,12 +684,10 @@
         },
         {
             "id": 36,
-            "filters": {
-                "filterType": "Pouring",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Medieval"
-            },
+            "purpose": "Pouring",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Medieval",
             "type": "Jug",
             "ware": "Earthenware",
             "culturePeriod": "Middle Ages",
@@ -767,7 +695,7 @@
                 "start": 1200,
                 "end": 1600
             },
-            "region": "England",
+            "geographicArea": "England",
             "condition": "Intact",
             "height": 25,
             "photo": "/assets/artefacts/36.png",
@@ -775,12 +703,10 @@
         },
         {
             "id": 37,
-            "filters": {
-                "filterType": "Pouring",
-                "filterRegion": "Europe",
-                "filterMaterial": "Stone",
-                "filterHistoricPeriod": "Modern"
-            },
+            "purpose": "Pouring",
+            "region": "Europe",
+            "material": "Stone",
+            "historicPeriod": "Modern",
             "type": "Urn",
             "ware": "Stoneware",
             "culturePeriod": "Modern",
@@ -788,7 +714,7 @@
                 "start": 1891,
                 "end": 1895
             },
-            "region": "England",
+            "geographicArea": "England",
             "artist": "Doulton & Co Ltd",
             "condition": "Intact",
             "height": 30,
@@ -797,16 +723,14 @@
         },
         {
             "id": 38,
-            "filters": {
-                "filterType": "Pouring",
-                "filterRegion": "Africa",
-                "filterMaterial": "Other",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Pouring",
+            "region": "Africa",
+            "material": "Other",
+            "historicPeriod": "Ancient",
             "type": "Amphora",
             "ware": "Egyptian",
             "culturePeriod": "Egyptian",
-            "region": "Egypt",
+            "geographicArea": "Egypt",
             "condition": "Intact",
             "height": 108,
             "photo": "/assets/artefacts/38.png",
@@ -814,12 +738,10 @@
         },
         {
             "id": 39,
-            "filters": {
-                "filterType": "Drinking",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Drinking",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "type": "Psykter",
             "ware": "Red-Figure",
             "culturePeriod": "Greek",
@@ -827,7 +749,7 @@
                 "start": -490,
                 "end": -490
             },
-            "region": "Greece",
+            "geographicArea": "Greece",
             "artist": "Douris",
             "condition": "Intact",
             "height": 29,
@@ -836,12 +758,10 @@
         },
         {
             "id": 40,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Asia",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Storage",
+            "region": "Asia",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "type": "Jar",
             "ware": "Porcelain",
             "culturePeriod": "Chinese",
@@ -849,7 +769,7 @@
                 "start": -1601,
                 "end": -1700
             },
-            "region": "China",
+            "geographicArea": "China",
             "condition": "Intact",
             "height": 23,
             "photo": "/assets/artefacts/40.png",
@@ -857,12 +777,10 @@
         },
         {
             "id": 41,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Africa",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Storage",
+            "region": "Africa",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "type": "Jar",
             "ware": "Earthenware",
             "culturePeriod": "New Kingdom",
@@ -870,7 +788,7 @@
                 "start": -1250,
                 "end": -1250
             },
-            "region": "Egypt",
+            "geographicArea": "Egypt",
             "condition": "Intact",
             "height": 30,
             "photo": "/assets/artefacts/41.png",
@@ -878,12 +796,10 @@
         },
         {
             "id": 42,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Asia",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Storage",
+            "region": "Asia",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "type": "Jar",
             "ware": "Earthenware",
             "culturePeriod": "Israel",
@@ -891,7 +807,7 @@
                 "start": -800,
                 "end": -586
             },
-            "region": "Israel",
+            "geographicArea": "Israel",
             "condition": "Intact",
             "height": 47,
             "photo": "/assets/artefacts/42.png",
@@ -899,12 +815,10 @@
         },
         {
             "id": 43,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "South America",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Storage",
+            "region": "South America",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "type": "Urpu",
             "ware": "Earthenware",
             "culturePeriod": "Inca",
@@ -912,7 +826,7 @@
                 "start": -1400,
                 "end": -1535
             },
-            "region": "Peru",
+            "geographicArea": "Peru",
             "condition": "Intact",
             "height": 22,
             "photo": "/assets/artefacts/43.png",
@@ -920,12 +834,10 @@
         },
         {
             "id": 44,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Storage",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "type": "Lekythos",
             "ware": "White-Ground",
             "culturePeriod": "Greek",
@@ -933,7 +845,7 @@
                 "start": -430,
                 "end": -430
             },
-            "region": "Greece",
+            "geographicArea": "Greece",
             "artist": "Attributed to the Thanatos painter",
             "condition": "Intact",
             "height": "28",
@@ -942,12 +854,10 @@
         },
         {
             "id": 45,
-            "filters": {
-                "filterType": "Pouring",
-                "filterRegion": "Africa",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Pouring",
+            "region": "Africa",
+            "material": "Ceramic",
+            "historicPeriod": "Ancient",
             "type": "Flagon",
             "ware": "Earthenware",
             "culturePeriod": "Roman",
@@ -955,7 +865,7 @@
                 "start": -300,
                 "end": -201
             },
-            "region": "Africa",
+            "geographicArea": "Africa",
             "condition": "Intact",
             "height": 19,
             "photo": "/assets/artefacts/45.png",
@@ -963,12 +873,10 @@
         },
         {
             "id": 46,
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Americas",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Renaissance to Early Modern"
-            },
+            "purpose": "Storage",
+            "region": "Americas",
+            "material": "Ceramic",
+            "historicPeriod": "Renaissance to Early Modern",
             "type": "Bowl",
             "ware": "Yellow-Ware",
             "culturePeriod": "Ancestral Puebloan",
@@ -976,7 +884,7 @@
                 "start": 1375,
                 "end": 1625
             },
-            "region": "USA",
+            "geographicArea": "USA",
             "condition": "Intact",
             "height": 7,
             "photo": "/assets/artefacts/46.png",
@@ -984,12 +892,10 @@
         },
         {
             "id": "47",
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Europe",
-                "filterMaterial": "Metal",
-                "filterHistoricPeriod": "Modern"
-            },
+            "purpose": "Storage",
+            "region": "Europe",
+            "material": "Metal",
+            "historicPeriod": "Modern",
             "type": "Vase",
             "ware": "Bronze",
             "culturePeriod": "Russian",
@@ -997,7 +903,7 @@
                 "start": 1839,
                 "end": 1845
             },
-            "region": "Russia",
+            "geographicArea": "Russia",
             "artist": "Ivan Galberg",
             "condition": "Intact",
             "height": "170",
@@ -1006,12 +912,10 @@
         },
         {
             "id": "48",
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Europe",
-                "filterMaterial": "Ceramic",
-                "filterHistoricPeriod": "Renaissance to Early Modern"
-            },
+            "purpose": "Storage",
+            "region": "Europe",
+            "material": "Ceramic",
+            "historicPeriod": "Renaissance to Early Modern",
             "type": "Vase",
             "ware": "Majolica",
             "culturePeriod": "Italian",
@@ -1019,7 +923,7 @@
                 "start": 1580,
                 "end": 1590
             },
-            "region": "Italy",
+            "geographicArea": "Italy",
             "artist": "Workshop of Fontana",
             "condition": "Intact",
             "height": "54",
@@ -1028,12 +932,10 @@
         },
         {
             "id": "49",
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Africa",
-                "filterMaterial": "Stone",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Storage",
+            "region": "Africa",
+            "material": "Stone",
+            "historicPeriod": "Ancient",
             "title": "Alabaster Perfume Vase of Tutankamun",
             "type": "Vase",
             "ware": "Alabaster",
@@ -1042,19 +944,17 @@
                 "start": -1332,
                 "end": -1323
             },
-            "region": "Egypt",
+            "geographicArea": "Egypt",
             "condition": "Intact",
             "photo": "/assets/artefacts/49.webp",
             "description": "This alabaster vase, dating from 1332 BCE to 1323 BCE, belonged to the famous Egyptian pharaoh Tutankhamun. Used to hold perfumed oils, the vase is a symbol of the luxurious and intricate artifacts found in the tombs of Egypt's elite."
         },
         {
             "id": "50",
-            "filters": {
-                "filterType": "Pouring",
-                "filterRegion": "Asia",
-                "filterMaterial": "Metal",
-                "filterHistoricPeriod": "Renaissance to Early Modern"
-            },
+            "purpose": "Pouring",
+            "region": "Asia",
+            "material": "Metal",
+            "historicPeriod": "Renaissance to Early Modern",
             "type": "Ewer",
             "ware": "Brass",
             "culturePeriod": "Muslim",
@@ -1062,7 +962,7 @@
                 "start": 1550,
                 "end": 1650
             },
-            "region": "Persia",
+            "geographicArea": "Persia",
             "condition": "Intact",
             "height": "35",
             "photo": "/assets/artefacts/50.png",
@@ -1070,12 +970,10 @@
         },
         {
             "id": "51",
-            "filters": {
-                "filterType": "Drinking",
-                "filterRegion": "Europe",
-                "filterMaterial": "Metal",
-                "filterHistoricPeriod": "Medieval"
-            },
+            "purpose": "Drinking",
+            "region": "Europe",
+            "material": "Metal",
+            "historicPeriod": "Medieval",
             "title": "The Ardagh Chalice",
             "type": "Chalice",
             "ware": "Copper-Alloy",
@@ -1084,19 +982,17 @@
                 "start": 701,
                 "end": 800
             },
-            "region": "Ireland",
+            "geographicArea": "Ireland",
             "condition": "Intact",
             "photo": "/assets/artefacts/51.png",
             "description": "This copper-alloy chalice, dating between 701 CE and 800 CE, is one of the finest examples of Irish metalwork from the early medieval period. The Ardagh Chalice was likely used during religious ceremonies and showcases the intricate designs and craftsmanship characteristic of early Christian Ireland."
         },
         {
             "id": "52",
-            "filters": {
-                "filterType": "Pouring",
-                "filterRegion": "Oceania",
-                "filterMaterial": "Other",
-                "filterHistoricPeriod": "Modern"
-            },
+            "purpose": "Pouring",
+            "region": "Oceania",
+            "material": "Other",
+            "historicPeriod": "Modern",
             "type": "Jug",
             "ware": "Glass",
             "culturePeriod": "Modern",
@@ -1104,7 +1000,7 @@
                 "start": 1960,
                 "end": 1960
             },
-            "region": "New Zealand",
+            "geographicArea": "New Zealand",
             "artist": "Crown Crystal Glass",
             "condition": "Intact",
             "height": "20",
@@ -1113,12 +1009,10 @@
         },
         {
             "id": "53",
-            "filters": {
-                "filterType": "Drinking",
-                "filterRegion": "Americas",
-                "filterMaterial": "Metal",
-                "filterHistoricPeriod": "Renaissance to Early Modern"
-            },
+            "purpose": "Drinking",
+            "region": "Americas",
+            "material": "Metal",
+            "historicPeriod": "Renaissance to Early Modern",
             "type": "Bowl",
             "ware": "Silver",
             "culturePeriod": "Early Modern",
@@ -1126,7 +1020,7 @@
                 "start": 1698,
                 "end": 1710
             },
-            "region": "USA",
+            "geographicArea": "USA",
             "artist": "Benjamin Wynkoop",
             "condition": "Intact",
             "height": "12",
@@ -1135,12 +1029,10 @@
         },
         {
             "id": "54",
-            "filters": {
-                "filterType": "Pouring",
-                "filterRegion": "Americas",
-                "filterMaterial": "Metal",
-                "filterHistoricPeriod": "Renaissance to Early Modern"
-            },
+            "purpose": "Pouring",
+            "region": "Americas",
+            "material": "Metal",
+            "historicPeriod": "Renaissance to Early Modern",
             "type": "Teapot",
             "ware": "Silver",
             "culturePeriod": "Early Modern",
@@ -1148,7 +1040,7 @@
                 "start": 1760,
                 "end": 1770
             },
-            "region": "USA",
+            "geographicArea": "USA",
             "artist": "Paul Revere, Jr",
             "condition": "Intact",
             "height": "15",
@@ -1157,12 +1049,10 @@
         },
         {
             "id": "55",
-            "filters": {
-                "filterType": "Pouring",
-                "filterRegion": "Americas",
-                "filterMaterial": "Metal",
-                "filterHistoricPeriod": "Renaissance to Early Modern"
-            },
+            "purpose": "Pouring",
+            "region": "Americas",
+            "material": "Metal",
+            "historicPeriod": "Renaissance to Early Modern",
             "type": "Sauceboat",
             "ware": "Silver",
             "culturePeriod": "Early Modern",
@@ -1170,7 +1060,7 @@
                 "start": 1760,
                 "end": 1770
             },
-            "region": "USA",
+            "geographicArea": "USA",
             "artist": "Paul Revere, Jr",
             "condition": "Intact",
             "height": "13",
@@ -1179,12 +1069,10 @@
         },
         {
             "id": "56",
-            "filters": {
-                "filterType": "Drinking",
-                "filterRegion": "Europe",
-                "filterMaterial": "Other",
-                "filterHistoricPeriod": "Renaissance to Early Modern"
-            },
+            "purpose": "Drinking",
+            "region": "Europe",
+            "material": "Other",
+            "historicPeriod": "Renaissance to Early Modern",
             "type": "Tankard",
             "ware": "Mulberry Wood",
             "culturePeriod": "Early Modern",
@@ -1192,7 +1080,7 @@
                 "start": 1760,
                 "end": 1825
             },
-            "region": "England",
+            "geographicArea": "England",
             "artist": "",
             "condition": "Intact",
             "photo": "/assets/artefacts/56.png",
@@ -1200,12 +1088,10 @@
         },
         {
             "id": "57",
-            "filters": {
-                "filterType": "Drinking",
-                "filterRegion": "Europe",
-                "filterMaterial": "Other",
-                "filterHistoricPeriod": "Renaissance to Early Modern"
-            },
+            "purpose": "Drinking",
+            "region": "Europe",
+            "material": "Other",
+            "historicPeriod": "Renaissance to Early Modern",
             "type": "Tankard",
             "ware": "Amber",
             "culturePeriod": "Early Modern",
@@ -1213,7 +1099,7 @@
                 "start": 1640,
                 "end": 1660
             },
-            "region": "Russia",
+            "geographicArea": "Russia",
             "condition": "Intact",
             "height": "20",
             "photo": "/assets/artefacts/57.png",
@@ -1221,12 +1107,10 @@
         },
         {
             "id": "58",
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Europe",
-                "filterMaterial": "Metal",
-                "filterHistoricPeriod": "Ancient"
-            },
+            "purpose": "Storage",
+            "region": "Europe",
+            "material": "Metal",
+            "historicPeriod": "Ancient",
             "type": "Krater",
             "ware": "Bronze",
             "culturePeriod": "Greek",
@@ -1234,7 +1118,7 @@
                 "start": -530,
                 "end": -520
             },
-            "region": "Greece",
+            "geographicArea": "Greece",
             "condition": "Intact",
             "height": "164",
             "photo": "/assets/artefacts/58.jpg",
@@ -1242,12 +1126,10 @@
         },
         {
             "id": "59",
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Europe",
-                "filterMaterial": "Other",
-                "filterHistoricPeriod": "Renaissance to Early Modern"
-            },
+            "purpose": "Storage",
+            "region": "Europe",
+            "material": "Other",
+            "historicPeriod": "Renaissance to Early Modern",
             "title": "The Portland Vase",
             "type": "Vase",
             "ware": "Glass",
@@ -1256,7 +1138,7 @@
                 "start": 1,
                 "end": 25
             },
-            "region": "Rome",
+            "geographicArea": "Rome",
             "condition": "Intact",
             "height": "10",
             "photo": "/assets/artefacts/59.png",
@@ -1264,12 +1146,10 @@
         },
         {
             "id": "60",
-            "filters": {
-                "filterType": "Storage",
-                "filterRegion": "Europe",
-                "filterMaterial": "Other",
-                "filterHistoricPeriod": "Renaissance to Early Modern"
-            },
+            "purpose": "Storage",
+            "region": "Europe",
+            "material": "Other",
+            "historicPeriod": "Renaissance to Early Modern",
             "type": "Urn",
             "ware": "Malachite",
             "culturePeriod": "Russian",
@@ -1277,7 +1157,7 @@
                 "start": 1836,
                 "end": 1836
             },
-            "region": "Russia",
+            "geographicArea": "Russia",
             "artist": "Imperial Peterhof Lapidary Factory",
             "condition": "Intact",
             "height": "180",
@@ -1286,12 +1166,10 @@
         },
         {
             "id": "61",
-            "filters": {
-                "filterType": "Pouring",
-                "filterRegion": "Asia",
-                "filterMaterial": "Metal",
-                "filterHistoricPeriod": "Medieval"
-            },
+            "purpose": "Pouring",
+            "region": "Asia",
+            "material": "Metal",
+            "historicPeriod": "Medieval",
             "type": "Jug",
             "ware": "Copper-Alloy",
             "culturePeriod": "Arabic",
@@ -1299,7 +1177,7 @@
                 "start": 1150,
                 "end": 1250
             },
-            "region": "Iran",
+            "geographicArea": "Iran",
             "condition": "Intact",
             "height": "14",
             "photo": "/assets/artefacts/61.jpg",

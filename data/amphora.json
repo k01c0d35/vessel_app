@@ -5,7 +5,7 @@
   "stages": [
     {
       "id": "1",
-      "title": "The Amphora's Creation",
+      "title": "1 | The Amphora's Creation",
       "clay_gif": "/assets/amphora_clay.gif",
       "blurb": "The Greek amphora, an iconic vessel, was crafted for both practical and ceremonial use. Its large size made it ideal for storing oil, wine, or grain.",
       "image": "/assets/s3/stage1.png",
@@ -41,7 +41,7 @@
     },
     {
       "id": "2",
-      "title": "The Painted Designs",
+      "title": "2 | The Painted Designs",
       "clay_gif": "/assets/amphora_clay.gif",
       "blurb": "The amphora was often decorated with scenes from mythology, daily life, and athletic competitions. These designs reflected the cultural values of ancient Greece.",
       "image": "/assets/s3/stage2.png",
@@ -77,7 +77,7 @@
     },
     {
       "id": "3",
-      "title": "The Amphora's Function",
+      "title": "3 | The Amphora's Function",
       "clay_gif": "/assets/amphora_clay.gif",
       "blurb": "The Greek amphora served as both a functional object and a work of art. Its uses ranged from the storage of goods to its role in religious and social ceremonies.",
       "image": "/assets/s3/stage3.png",

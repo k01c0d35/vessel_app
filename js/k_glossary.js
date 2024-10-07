@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const glossaryContent = document.getElementById('glossaryContent');
     const searchInput = document.getElementById('searchInput');
     const filterButtons = document.querySelectorAll('.aSort');
-
     let currentFilter = null;
 
     const getSearchTermFromURL = () => {
@@ -10,40 +9,44 @@ document.addEventListener('DOMContentLoaded', () => {
         return params.get('search') || '';
     };
 
+    // Fetch glossary data
     fetch('/data/k_glossary.json')
         .then(response => response.json())
-        .then(data => {
-            const searchTermFromURL = getSearchTermFromURL();
-            searchInput.value = searchTermFromURL;
+        .then(glossaryData => {
+            // Fetch artefacts data from the gallery
+            fetch('/data/artefacts.json')
+                .then(response => response.json())
+                .then(artefactsData => {
+                    const searchTermFromURL = getSearchTermFromURL();
+                    searchInput.value = searchTermFromURL;
+                    displayGlossary(filterGlossary(glossaryData, searchTermFromURL.toLowerCase(), currentFilter), artefactsData);
 
-            displayGlossary(filterGlossary(data, searchTermFromURL.toLowerCase(), currentFilter));
+                    searchInput.addEventListener('input', () => {
+                        const searchTerm = searchInput.value.toLowerCase();
+                        const filteredData = filterGlossary(glossaryData, searchTerm, currentFilter);
+                        displayGlossary(filteredData, artefactsData);
+                    });
 
-            searchInput.addEventListener('input', () => {
-                const searchTerm = searchInput.value.toLowerCase();
-                const filteredData = filterGlossary(data, searchTerm, currentFilter);
-                displayGlossary(filteredData);
-            });
-
-            filterButtons.forEach(button => {
-                button.addEventListener('click', function () {
-                    if (this.classList.contains('selected')) {
-                        this.classList.remove('selected');
-                        currentFilter = null;
-                    } else {
-                        filterButtons.forEach(btn => btn.classList.remove('selected'));
-                        this.classList.add('selected');
-
-                        currentFilter = this.getAttribute('data-filter');
-                    }
-
-                    const searchTerm = searchInput.value.toLowerCase();
-                    const filteredData = filterGlossary(data, searchTerm, currentFilter);
-                    displayGlossary(filteredData);
+                    filterButtons.forEach(button => {
+                        button.addEventListener('click', function () {
+                            if (this.classList.contains('selected')) {
+                                this.classList.remove('selected');
+                                currentFilter = null; // Reset filter
+                            } else {
+                                filterButtons.forEach(btn => btn.classList.remove('selected')); // Deselect all buttons
+                                this.classList.add('selected'); // Select clicked button
+                                currentFilter = this.getAttribute('data-filter'); // Set the current filter from button attribute
+                            }
+                            const searchTerm = searchInput.value.toLowerCase();
+                            const filteredData = filterGlossary(glossaryData, searchTerm, currentFilter);
+                            displayGlossary(filteredData, artefactsData);
+                        });
+                    });
+                    
                 });
-            });
         });
 
-    const displayGlossary = (glossary) => {
+    const displayGlossary = (glossary, artefactsData) => {
         glossaryContent.innerHTML = '';
 
         Object.keys(glossary).forEach(letter => {
@@ -77,11 +80,49 @@ document.addEventListener('DOMContentLoaded', () => {
                 termDefiningFeatures.innerHTML = highlightText(definingFeatures, searchInput.value);
                 termElement.appendChild(termDefiningFeatures);
 
+                // Check if the term exists as a type in the gallery and create a link button
+                if (artefactTypeExistsInGallery(term, artefactsData)) {
+                    const galleryLinkButton = createGalleryLinkButton(term, 'type');
+                    termElement.appendChild(galleryLinkButton);
+                }
+
+                // Check if the term exists as a ware in the gallery and create a link button
+                if (artefactWareExistsInGallery(term, artefactsData)) {
+                    const galleryLinkButton = createGalleryLinkButton(term, 'ware');
+                    termElement.appendChild(galleryLinkButton);
+                }
+
                 letterSection.appendChild(termElement);
             });
 
             glossaryContent.appendChild(letterSection);
         });
+    };
+
+    // Function to create the gallery link button
+    const createGalleryLinkButton = (term, filterType) => {
+        const button = document.createElement('button');
+        button.className = 'button-common gallery-link';
+        button.textContent = `View ${term} in Gallery`;
+    
+        // Add link to gallery page with filter applied (either type or ware)
+        button.addEventListener('click', () => {
+            const filterParam = filterType === 'type' ? `filter=${encodeURIComponent(term)}` : `ware=${encodeURIComponent(term)}`;
+            window.location.href = `/pages/collection_gallery.html?${filterParam}`; // Redirect to gallery with filter
+        });
+    
+        return button;
+    };
+    
+
+    // Function to check if a glossary term exists as a type in the gallery artefact types
+    const artefactTypeExistsInGallery = (term, artefactsData) => {
+        return artefactsData.artefacts.some(artefact => artefact.type && artefact.type.toLowerCase() === term.toLowerCase());
+    };
+
+    // Function to check if a glossary term exists as a ware in the gallery artefact wares
+    const artefactWareExistsInGallery = (term, artefactsData) => {
+        return artefactsData.artefacts.some(artefact => artefact.ware && artefact.ware.toLowerCase() === term.toLowerCase());
     };
 
     const highlightText = (text, searchTerm) => {

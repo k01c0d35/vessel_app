@@ -5,7 +5,7 @@
   "stages": [
     {
       "id": "1",
-      "title": "The Clay Body",
+      "title": "1 | The Clay Body",
       "clay_gif": "/assets/s1/gifs1_1.gif",
       "blurb": "The journey begins with the creation of the Manunggul Jar’s clay body. Shaped by skilled hands, this vessel was crafted from locally sourced materials and carefully molded to preserve the deceased for their journey to the afterlife.",
       "image": "/assets/s1/1illu.png",
@@ -41,7 +41,7 @@
     },
     {
       "id": "2",
-      "title": "The Design",
+      "title": "2 | The Design",
       "clay_gif": "/assets/s1/gifs1_1.gif",
       "blurb": "The intricate designs of the Manunggul Jar are more than decorative. These swirling patterns hold deep symbolic meaning, representing the early Filipino view of life, death, and the journey of the soul into the afterlife.",
       "image": "/assets/s1/2illu.png",
@@ -77,7 +77,7 @@
     },
     {
       "id": "3",
-      "title": "The Figurehead",
+      "title": "3 | The Figurehead",
       "clay_gif": "/assets/s1/gifs1_1.gif",
       "blurb": "At the top of the Manunggul Jar sits a small, symbolic figure of two individuals paddling a boat. This scene represents the soul's journey to the afterlife, guided by a spirit companion in the boat of the dead.",
       "image": "/assets/s1/3illu.png",

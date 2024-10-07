@@ -27,6 +27,27 @@
     object-fit: contain;
 }
 
+.filter-box {
+    display: inline-block;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.remove-filter {
+    background-color: transparent;
+    border: none;
+    color: red;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.remove-filter:hover {
+    color: darkred;
+}
+
 /* ARTEFACT */
 .artefactDetails {
     display: flex;

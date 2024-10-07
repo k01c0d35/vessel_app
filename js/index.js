@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
+    window.onload = function () {
+        document.getElementById('loading-screen').style.display = 'none';
+        document.querySelector('.content').style.display = 'flex';
+      };
+
     const backToTopButton = document.getElementById('backToTop');
 
     //Generate Top Nav
@@ -73,4 +78,9 @@ document.addEventListener('DOMContentLoaded', function () {
             window.scrollTo({ top: 0 });
         });
     }
+});
+
+// Toggle filter visibility on mobile
+document.querySelector('.filter-button').addEventListener('click', () => {
+    document.querySelector('.filter-options').classList.toggle('show');
 });

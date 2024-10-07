@@ -1,221 +1,253 @@
+document.addEventListener('DOMContentLoaded', () => {
+    let artefacts = [];
+    const searchInput = document.getElementById('searchInput');
+    const filters = {
+        purpose: document.getElementById('purposeFilter'),
+        type: document.getElementById('typeFilter'),
+        ware: document.getElementById('wareFilter'),
+        region: document.getElementById('regionFilter'),
+        material: document.getElementById('materialFilter'),
+        historicPeriod: document.getElementById('historicPeriodFilter'),
+    };
+    const sortContainer = document.getElementById('sortContainer');
+
+    fetch('/data/artefacts.json')
+        .then(response => response.json())
+        .then(data => {
+            artefacts = data.artefacts;
+            const queryParams = new URLSearchParams(window.location.search);
+            const filterParams = {
+                purpose: queryParams.get('purpose'),
+                ware: queryParams.get('ware'),
+                region: queryParams.get('region'),
+                material: queryParams.get('material'),
+                historicPeriod: queryParams.get('period'),
+                type: queryParams.get('type')
+            };
+
+            // Generate filters and sort options
+            Object.keys(filters).forEach(key => {
+                generateFilters(artefacts, key, filters[key]);
+            });
+
+            generateSortOptions(sortContainer, artefacts);
+            setFiltersFromURL(filterParams);
+            updateGallery(artefacts);
+
+            // Event listeners
+            searchInput.addEventListener('input', debounce(() => updateGallery(artefacts), 300));
+            document.querySelectorAll('.dropdown-content input[type="checkbox"]').forEach(checkbox => {
+                checkbox.addEventListener('change', () => updateGallery(artefacts));
+            });
+        });
+
+        function generateFilters(artefacts, keyPath, filterContainer) {
+            const valueCount = artefacts.reduce(function(acc, artefact) {
+                const value = artefact[keyPath]; // Top-level keys like 'purpose', 'region', etc.
+        
+                if (value) {
+                    acc[value] = (acc[value] || 0) + 1;
+                }
+        
+                return acc;
+            }, {});
+        
+            const uniqueValues = Object.keys(valueCount).sort();
+        
+            filterContainer.innerHTML = uniqueValues.map(function(value) {
+                return `
+                    <label class="dropdown-label">
+                        <input type="checkbox" name="${keyPath}" value="${value}">
+                        <p>${value} (${valueCount[value]})</p>
+                    </label>
+                `;
+            }).join('');
+        }
+        
+
+
+
+    function generateSortOptions(container, artefacts) {
+        const options = [
+            { value: 'typeAsc', text: 'Sort by Type (A-Z)' },
+            { value: 'typeDesc', text: 'Sort by Type (Z-A)' },
+            { value: 'dateAsc', text: 'Sort by Date (Oldest First)' },
+            { value: 'dateDesc', text: 'Sort by Date (Newest First)' }
+        ];
+
+        container.innerHTML = options.map(option => `
+            <label class="dropdown-label">
+                <input type="radio" name="sort" value="${option.value}">
+                <p>${option.text}</p>
+            </label>
+        `).join('');
+
+        container.addEventListener('change', (e) => applySorting(e.target.value, artefacts));
+    }
+
+    function applySorting(sortKey, artefacts) {
+        const sortedData = [...artefacts].sort((a, b) => {
+            switch (sortKey) {
+                case 'typeAsc': return a.type.localeCompare(b.type);
+                case 'typeDesc': return b.type.localeCompare(a.type);
+                case 'dateAsc': return getDate(a) - getDate(b);
+                case 'dateDesc': return getDate(b) - getDate(a);
+                default: return 0;
+            }
+        });
+        updateGallery(sortedData);
+    }
+
+    function getDate(artefact) {
+        return artefact.date?.start || Infinity;
+    }
+
+    function setFiltersFromURL(params) {
+        Object.entries(params).forEach(([key, value]) => {
+            if (value) {
+                value.split(',').forEach(val => {
+                    const checkbox = document.querySelector(`input[name="${key}"][value="${val}"]`);
+                    if (checkbox) checkbox.checked = true;
+                });
+            }
+        });
+    }
+
+    function updateGallery(artefacts) {
+        const selectedFilters = getSelectedFilters();
+        const searchTerm = searchInput.value.toLowerCase();
+    
+        const filteredData = artefacts.filter(artefact =>
+            (selectedFilters.purpose.length === 0 || selectedFilters.purpose.includes(artefact.purpose)) &&
+            (selectedFilters.ware.length === 0 || selectedFilters.ware.includes(artefact.ware)) &&
+            (selectedFilters.region.length === 0 || selectedFilters.region.includes(artefact.region)) &&
+            (selectedFilters.material.length === 0 || selectedFilters.material.includes(artefact.material)) &&
+            (selectedFilters.historicPeriod.length === 0 || selectedFilters.historicPeriod.includes(artefact.historicPeriod)) &&
+            (selectedFilters.type.length === 0 || selectedFilters.type.includes(artefact.type)) &&
+            (
+                artefact.type.toLowerCase().includes(searchTerm) ||
+                (artefact.title && artefact.title.toLowerCase().includes(searchTerm)) || // Check for title existence
+                artefact.description.toLowerCase().includes(searchTerm)
+            )
+        );
+    
+        updateSearchStatus(filteredData, selectedFilters);
+        updateURLWithFilters(selectedFilters);
+        displayGallery(filteredData);
+    }
+    
+    
+
+    function getSelectedFilters() {
+        return {
+            purpose: getCheckedValues('purpose'), // Top-level key in your artefact JSON
+            ware: getCheckedValues('ware'),       // Top-level key
+            region: getCheckedValues('region'),   // Top-level key
+            material: getCheckedValues('material'), // Top-level key
+            historicPeriod: getCheckedValues('historicPeriod'), // Top-level key
+            type: getCheckedValues('type')        // Top-level key
+        };
+    }
+    
+
+    function getCheckedValues(name) {
+        return [...document.querySelectorAll(`input[name="${name}"]:checked`)].map(checkbox => checkbox.value);
+    }
+
+    function updateSearchStatus(filteredData, filters) {
+        document.getElementById('displayAmount').textContent = `${filteredData.length}`;
+        const selectedFiltersContainer = document.querySelector('.selectedFilters');
+        selectedFiltersContainer.innerHTML = '';
+
+        Object.keys(filters).forEach(key => {
+            filters[key].forEach(value => createFilterBox(key, value));
+        });
+
+        if (!selectedFiltersContainer.children.length) {
+            selectedFiltersContainer.textContent = 'None';
+        }
+    }
+
+    function createFilterBox(filterCategory, filterValue) {
+        const filterBox = document.createElement('span');
+        filterBox.classList.add('filter-box');
+
+        const filterText = document.createElement('span');
+        filterText.textContent = `${filterCategory}: ${filterValue}`;
+
+        const removeButton = document.createElement('button');
+        removeButton.classList.add('remove-filter');
+        removeButton.textContent = 'X';
+        removeButton.addEventListener('click', () => removeFilter(filterCategory, filterValue));
+
+        filterBox.appendChild(filterText);
+        filterBox.appendChild(removeButton);
+        document.querySelector('.selectedFilters').appendChild(filterBox);
+    }
+
+    function removeFilter(filterCategory, filterValue) {
+        const checkbox = document.querySelector(`input[name="${filterCategory}"][value="${filterValue}"]`);
+        if (checkbox) checkbox.checked = false;
+
+        const selectedFilters = getSelectedFilters();
+        updateGallery(artefacts);
+        updateSearchStatus(artefacts, selectedFilters);
+        updateURLWithFilters(selectedFilters);
+    }
+
+    function updateURLWithFilters(filters) {
+        const urlParams = new URLSearchParams();
+        Object.keys(filters).forEach(key => {
+            if (filters[key].length) {
+                urlParams.set(key, filters[key].join(','));
+            }
+        });
+        window.history.replaceState({}, '', `${window.location.pathname}?${urlParams}`);
+    }
+
+    function displayGallery(artefacts) {
+        const galleryContainer = document.getElementById('gallery');
+        galleryContainer.innerHTML = artefacts.length ? artefacts.map(artefact => `
+            <div class="gallery-item">
+                <div class="img-container">
+                    <img src="${artefact.photo}" alt="${artefact.type}">
+                </div>
+                <h3>${artefact.title || artefact.type}</h3>
+                <p>${artefact.culturePeriod || 'Unknown Period'} | ${artefact.height || 'N/A'}cm</p>
+            </div>
+        `).join('') : '<p>No artefacts found matching the selected criteria.</p>';
+
+        galleryContainer.querySelectorAll('.gallery-item').forEach((item, idx) => {
+            item.addEventListener('click', () => window.location.href = `/pages/artefact.html?id=${artefacts[idx].id}`);
+        });
+    }
+
+    function debounce(func, delay) {
+        let timeout;
+        return function (...args) {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => func.apply(this, args), delay);
+        };
+    }
+
+    function capitalize(str) {
+        return str.charAt(0).toUpperCase() + str.slice(1);
+    }
+});
+
+document.addEventListener('click', (event) => {
+    if (!event.target.closest('.dropdown')) {
+        document.querySelectorAll('.dropdown-content').forEach(content => content.classList.remove('show'));
+    }
+});
+
 function toggleDropdown(button) {
     const dropdownContent = button.nextElementSibling;
     dropdownContent.classList.toggle('show');
 
-    // Hide all other dropdowns
     document.querySelectorAll('.dropdown-content').forEach(content => {
         if (content !== dropdownContent) {
             content.classList.remove('show');
         }
     });
 }
-
-// Display gallery on page load
-document.addEventListener('DOMContentLoaded', function () {
-    const galleryContainer = document.getElementById('gallery');
-    const searchInput = document.getElementById('searchInput');
-    const typeFilterContainer = document.getElementById('typeFilter');
-    const regionFilterContainer = document.getElementById('regionFilter');
-    const materialFilterContainer = document.getElementById('materialFilter');
-    const historicPeriodFilterContainer = document.getElementById('historicPeriodFilter');
-    const sortContainer = document.getElementById('sortContainer');
-    const displayAmountContainer = document.getElementById('displayAmount');
-    const selectedFiltersContainer = document.querySelector('.selectedFilters');
-
-    fetch('/data/artefacts.json')
-        .then(response => response.json())
-        .then(data => {
-            const artefacts = data.artefacts;
-
-            // Display gallery on page load
-            displayGallery(artefacts);
-            updateSearchStatus(artefacts, getSelectedFilters());
-
-            // Generate filter options
-            generateFilters(artefacts, 'filterType', typeFilterContainer);
-            generateFilters(artefacts, 'filterRegion', regionFilterContainer);
-            generateFilters(artefacts, 'filterMaterial', materialFilterContainer);
-            generateFilters(artefacts, 'filterHistoricPeriod', historicPeriodFilterContainer);
-
-            // Generate sorting options
-            generateSortOptions(sortContainer, artefacts);
-
-            // Search input event listener
-            searchInput.addEventListener('input', function () {
-                const searchTerm = searchInput.value.toLowerCase();
-                const filteredData = filterGallery(artefacts, searchTerm);
-                updateSearchStatus(filteredData, getSelectedFilters());
-                displayGallery(filteredData);
-            });
-
-            // Filter by dropdown selections
-            const filterContainers = document.querySelectorAll('.dropdown-content input[type="checkbox"]');
-            filterContainers.forEach((checkbox) => {
-                checkbox.addEventListener('change', function () {
-                    const selectedFilters = getSelectedFilters();
-
-                    // Use selectedFilters object properties to filter artefacts
-                    const filteredData = artefacts.filter(artefact =>
-                        (selectedFilters.type.length === 0 || selectedFilters.type.includes(artefact.filters.filterType)) &&
-                        (selectedFilters.region.length === 0 || selectedFilters.region.includes(artefact.filters.filterRegion)) &&
-                        (selectedFilters.material.length === 0 || selectedFilters.material.includes(artefact.filters.filterMaterial)) &&
-                        (selectedFilters.historicPeriod.length === 0 || selectedFilters.historicPeriod.includes(artefact.filters.filterHistoricPeriod))
-                    );
-
-                    updateSearchStatus(filteredData, selectedFilters);
-                    displayGallery(filteredData);
-                });
-            });
-        });
-
-    // Display gallery of artefacts
-    function displayGallery(artefacts) {
-        galleryContainer.innerHTML = '';
-
-        artefacts.forEach(artefact => {
-            const galleryItem = document.createElement('div');
-            galleryItem.classList.add('gallery-item', 'button-common');
-
-            const imgContainer = document.createElement('div');
-            imgContainer.className = 'img-container';
-
-            const titleElement = document.createElement('h3');
-            titleElement.textContent = artefact.type;
-
-            const culturePeriodHeightElement = document.createElement('p');
-            culturePeriodHeightElement.textContent = `${artefact.culturePeriod} | ${artefact.height}cm`;
-
-            const imgElement = document.createElement('img');
-            imgElement.src = artefact.photo;
-            imgElement.alt = artefact.type;
-
-            galleryItem.appendChild(titleElement);
-            galleryItem.appendChild(culturePeriodHeightElement);
-            galleryItem.appendChild(imgContainer);
-            imgContainer.appendChild(imgElement);
-
-            galleryItem.addEventListener('click', () => {
-                window.location.href = `/pages/artefact.html?id=${artefact.id}`;
-            });
-
-            galleryContainer.appendChild(galleryItem);
-        });
-    }
-
-    // Search gallery
-    function filterGallery(artefacts, searchTerm) {
-        return artefacts.filter(artefact => {
-            const title = artefact.title ? artefact.title.toLowerCase() : '';
-            const type = artefact.type ? artefact.type.toLowerCase() : '';
-            const location = artefact.location ? artefact.location.toLowerCase() : '';
-            return type.includes(searchTerm.toLowerCase()) || location.includes(searchTerm.toLowerCase() || title.includes(searchTerm.toLowerCase()));
-        });
-    }
-
-    // Generate filters
-    function generateFilters(artefacts, key, filterContainer) {
-        const uniqueValues = [...new Set(artefacts.map(artefact => artefact.filters[key]))].sort();
-
-        filterContainer.innerHTML = '';
-
-        uniqueValues.forEach(value => {
-            const checkboxLabel = document.createElement('label');
-            const checkbox = document.createElement('input');
-            checkbox.type = 'checkbox';
-            checkbox.value = value;
-            checkbox.name = key;
-            checkboxLabel.appendChild(checkbox);
-            checkboxLabel.appendChild(document.createTextNode(value));
-            filterContainer.appendChild(checkboxLabel);
-        });
-    }
-
-    // Generate sorting options
-    function generateSortOptions(sortContainer, artefacts) {
-        const sortingOptions = [
-            { value: 'typeAsc', text: 'Type Ascending' },
-            { value: 'typeDesc', text: 'Type Descending' },
-            { value: 'dateAsc', text: 'Date Ascending' },
-            { value: 'dateDesc', text: 'Date Descending' }
-        ];
-
-        sortContainer.innerHTML = '';
-
-        sortingOptions.forEach(option => {
-            const label = document.createElement('label');
-            const radio = document.createElement('input');
-            radio.type = 'radio';
-            radio.name = 'sort';
-            radio.value = option.value;
-            label.appendChild(radio);
-            label.appendChild(document.createTextNode(option.text));
-            sortContainer.appendChild(label);
-
-            // Add event listener for sorting
-            radio.addEventListener('change', function () {
-                const selectedSort = this.value;
-                let sortedData;
-
-                switch (selectedSort) {
-                    case 'typeAsc':
-                        sortedData = [...artefacts].sort((a, b) => a.type.localeCompare(b.type));
-                        break;
-                    case 'typeDesc':
-                        sortedData = [...artefacts].sort((a, b) => b.type.localeCompare(a.type));
-                        break;
-                    case 'dateAsc':
-                        sortedData = [...artefacts].sort((a, b) => {
-                            const dateA = a.date && a.date.start ? a.date.start : Infinity;
-                            const dateB = b.date && b.date.start ? b.date.start : Infinity;
-                            return dateA - dateB;
-                        });
-                        break;
-                    case 'dateDesc':
-                        sortedData = [...artefacts].sort((a, b) => {
-                            const dateA = a.date && a.date.start ? a.date.start : -Infinity;
-                            const dateB = b.date && b.date.start ? b.date.start : -Infinity;
-                            return dateB - dateA;
-                        });
-                        break;
-                }
-
-                displayGallery(sortedData);
-            });
-        });
-    }
-
-    // Get selected filters for all categories
-    function getSelectedFilters() {
-        return {
-            type: [...document.querySelectorAll('input[name="filterType"]:checked')].map(checkbox => checkbox.value),
-            region: [...document.querySelectorAll('input[name="filterRegion"]:checked')].map(checkbox => checkbox.value),
-            material: [...document.querySelectorAll('input[name="filterMaterial"]:checked')].map(checkbox => checkbox.value),
-            historicPeriod: [...document.querySelectorAll('input[name="filterHistoricPeriod"]:checked')].map(checkbox => checkbox.value)
-        };
-    }
-
-    // Update search status (results count and selected filters display)
-    function updateSearchStatus(filteredData, selectedFilters) {
-        // Update the results count
-        displayAmountContainer.textContent = `${filteredData.length}`;
-
-        // Update the selected filters display
-        const filters = [];
-        if (selectedFilters.type.length > 0) {
-            filters.push(`Type: ${selectedFilters.type.join(', ')}`);
-        }
-        if (selectedFilters.region.length > 0) {
-            filters.push(`Region: ${selectedFilters.region.join(', ')}`);
-        }
-        if (selectedFilters.material.length > 0) {
-            filters.push(`Material: ${selectedFilters.material.join(', ')}`);
-        }
-        if (selectedFilters.historicPeriod.length > 0) {
-            filters.push(`Period: ${selectedFilters.historicPeriod.join(', ')}`);
-        }
-
-        selectedFiltersContainer.textContent = filters.length > 0 ? filters.join(' | ') : 'None';
-    }
-});
-
-
