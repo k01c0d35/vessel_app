@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => { 
   const urlParams = new URLSearchParams(window.location.search);
   const vessel = urlParams.get('vessel');
   const stageId = urlParams.get('stage');
@@ -9,11 +9,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const stageContent = document.querySelector('.stageContent');
   const prevButton = document.getElementById('prevButton');
   const nextButton = document.getElementById('nextButton');
-  const restartButton = document.getElementById('restartButton');
   const topButtons = document.querySelector('.topButtons');
   const bottomButtons = document.querySelector('.bottomButtons');
+  const audioToggleButton = document.getElementById('audioToggle');
 
-  let currentlyOpenLabel = null; // Track the currently open label
+  let currentlyOpenLabel = null;
+  let globalAudioEnabled = true; // Audio enabled by default
 
   fetch(jsonFilePath)
     .then(response => response.json())
@@ -27,12 +28,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     nextButton.dataset.stageId = stage.id;
 
-    // Run the intro transition for each stage
     setTimeout(() => {
-      introElement.classList.remove('shrink-to-top'); // Reset the class before applying it again
+      introElement.classList.remove('shrink-to-top');
       introElement.classList.add('shrink-to-top');
       [stageContent, topButtons, bottomButtons].forEach(el => el.classList.add('fade-in'));
-    }, 2000);
+    }, 1000);
   }
 
   function resetStage(stage) {
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function addDots(contentBlocks) {
     const labelContainer = document.querySelector('.labelContainer');
-    contentBlocks.forEach((block, index) => {
+    contentBlocks.forEach((block) => {
       const label = createLabel(block);
       labelContainer.appendChild(label);
     });
@@ -58,9 +58,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function createLabel(block) {
     const label = document.createElement('div');
-    label.classList.add('label');
+    label.classList.add('label', 'white-container');
 
-    // Add h2 element for label title
     const titleElement = document.createElement('h2');
     titleElement.textContent = block.title;
     label.appendChild(titleElement);
@@ -69,15 +68,11 @@ document.addEventListener('DOMContentLoaded', () => {
     label.appendChild(infoBox);
 
     label.addEventListener('click', () => {
-      // Close the currently open label (if any)
       if (currentlyOpenLabel && currentlyOpenLabel !== label) {
         toggleInfoBox(currentlyOpenLabel, currentlyOpenLabel.querySelector('.info-box'), false);
       }
 
-      // Open the clicked label's info box
       toggleInfoBox(label, infoBox, !label.classList.contains('expanded'));
-
-      // Track the currently open label
       currentlyOpenLabel = label.classList.contains('expanded') ? label : null;
     });
 
@@ -90,29 +85,27 @@ document.addEventListener('DOMContentLoaded', () => {
     infoBox.innerHTML = `
       <i class="fa-solid fa-xmark"></i>
       <p>${block.text}</p>
-      <button class="play-audio-button">Play Audio</button>
+      <i class="fa-solid fa-volume-high play-audio-button"></i>
       <audio class="audio-element" src="${block.voiceover}"></audio>`;
     infoBox.style.visibility = 'hidden';
 
     const playButton = infoBox.querySelector('.play-audio-button');
     const audioElement = infoBox.querySelector('.audio-element');
 
+    // Set the icon to 'play' by default (since audio is enabled globally)
+    playButton.classList.add('fa-volume-high');
+    
     playButton.addEventListener('click', (e) => {
       e.stopPropagation();
       if (audioElement.paused) {
         audioElement.play();
-        playButton.textContent = "Stop Audio";
+        playButton.classList.remove('fa-volume-high');
+        playButton.classList.add('fa-volume-xmark');
       } else {
         audioElement.pause();
-        playButton.textContent = "Play Audio";
+        playButton.classList.remove('fa-volume-xmark');
+        playButton.classList.add('fa-volume-high');
       }
-    });
-
-    // Close button to collapse the label and hide info box
-    infoBox.querySelector('.fa-xmark').addEventListener('click', (e) => {
-      e.stopPropagation();
-      toggleInfoBox(infoBox.closest('.label'), infoBox, false); // Collapse the label and hide info box
-      currentlyOpenLabel = null; // Reset the currently open label
     });
 
     return infoBox;
@@ -124,10 +117,20 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     infoBox.style.visibility = expand ? 'visible' : 'hidden';
 
-    if (!expand) {
-      const audioElement = infoBox.querySelector('.audio-element');
+    const audioElement = infoBox.querySelector('.audio-element');
+    const playButton = infoBox.querySelector('.play-audio-button');
+
+    if (expand) {
+      if (globalAudioEnabled) {
+        audioElement.play();
+        playButton.classList.remove('fa-volume-high');
+        playButton.classList.add('fa-volume-xmark');
+      }
+    } else {
       audioElement.pause();
       audioElement.currentTime = 0;
+      playButton.classList.remove('fa-volume-xmark');
+      playButton.classList.add('fa-volume-high'); // Reset to 'play' icon when paused
     }
   }
 
@@ -137,6 +140,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
   prevButton.addEventListener('click', () => handleNavigation('prev'));
   nextButton.addEventListener('click', () => handleNavigation('next'));
+
+  audioToggleButton.addEventListener('click', () => {
+    globalAudioEnabled = !globalAudioEnabled;
+    audioToggleButton.textContent = globalAudioEnabled ? 'Audio: On' : 'Audio: Off';
+
+    // Stop all currently playing audio if turning off
+    document.querySelectorAll('.audio-element').forEach(audio => {
+      audio.pause();
+      audio.currentTime = 0;
+    });
+
+    // Update all audio icons
+    document.querySelectorAll('.play-audio-button').forEach(button => {
+      button.classList.remove(globalAudioEnabled ? 'fa-volume-xmark' : 'fa-volume-high');
+      button.classList.add(globalAudioEnabled ? 'fa-volume-high' : 'fa-volume-xmark');
+    });
+  });
 
   function handleNavigation(direction) {
     const currentStageId = parseInt(nextButton.dataset.stageId, 10);

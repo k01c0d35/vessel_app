@@ -1,28 +1,60 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => { 
     const glossaryContent = document.getElementById('glossaryContent');
     const searchInput = document.getElementById('searchInput');
     const filterButtons = document.querySelectorAll('.aSort');
     let currentFilter = null;
+
+    const updateURLParams = (searchTerm, filter) => {
+        const url = new URL(window.location);
+        if (searchTerm) {
+            url.searchParams.set('search', searchTerm);
+        } else {
+            url.searchParams.delete('search');
+        }
+        
+        if (filter) {
+            // Capitalize first letter of filter
+            const capitalizedFilter = filter.charAt(0).toUpperCase() + filter.slice(1);
+            url.searchParams.set('sort', capitalizedFilter);
+        } else {
+            url.searchParams.delete('sort');
+        }
+        window.history.replaceState({}, '', url);
+    };
 
     const getSearchTermFromURL = () => {
         const params = new URLSearchParams(window.location.search);
         return params.get('search') || '';
     };
 
-    // Fetch glossary data
+    const getSortFromURL = () => {
+        const params = new URLSearchParams(window.location.search);
+        return params.get('sort') || '';
+    };
+
     fetch('/data/k_glossary.json')
         .then(response => response.json())
         .then(glossaryData => {
-            // Fetch artefacts data from the gallery
             fetch('/data/artefacts.json')
                 .then(response => response.json())
                 .then(artefactsData => {
                     const searchTermFromURL = getSearchTermFromURL();
+                    const sortFromURL = getSortFromURL();
+
                     searchInput.value = searchTermFromURL;
+                    if (sortFromURL) {
+                        currentFilter = sortFromURL.toLowerCase(); // Normalize the case for internal usage
+                        const filterButton = document.querySelector(`[data-filter="${currentFilter.charAt(0).toUpperCase() + currentFilter.slice(1)}"]`);
+                        if (filterButton) {
+                            filterButton.classList.add('selected');
+                        }
+                    }
+
                     displayGlossary(filterGlossary(glossaryData, searchTermFromURL.toLowerCase(), currentFilter), artefactsData);
 
                     searchInput.addEventListener('input', () => {
                         const searchTerm = searchInput.value.toLowerCase();
+                        updateURLParams(searchTerm, currentFilter);  // Update the URL
                         const filteredData = filterGlossary(glossaryData, searchTerm, currentFilter);
                         displayGlossary(filteredData, artefactsData);
                     });
@@ -33,18 +65,20 @@ document.addEventListener('DOMContentLoaded', () => {
                                 this.classList.remove('selected');
                                 currentFilter = null; // Reset filter
                             } else {
-                                filterButtons.forEach(btn => btn.classList.remove('selected')); // Deselect all buttons
-                                this.classList.add('selected'); // Select clicked button
-                                currentFilter = this.getAttribute('data-filter'); // Set the current filter from button attribute
+                                filterButtons.forEach(btn => btn.classList.remove('selected'));
+                                this.classList.add('selected');
+                                currentFilter = this.getAttribute('data-filter');
                             }
                             const searchTerm = searchInput.value.toLowerCase();
+                            updateURLParams(searchTerm, currentFilter);  // Update the URL with capitalized sort
                             const filteredData = filterGlossary(glossaryData, searchTerm, currentFilter);
                             displayGlossary(filteredData, artefactsData);
                         });
                     });
-                    
                 });
         });
+
+
 
     const displayGlossary = (glossary, artefactsData) => {
         glossaryContent.innerHTML = '';
@@ -102,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Function to create the gallery link button
     const createGalleryLinkButton = (term, filterType) => {
         const button = document.createElement('button');
-        button.className = 'button-common gallery-link';
+        button.className = 'button-common gallery-link dark-container';
         button.textContent = `View ${term} in Gallery`;
     
         // Add link to gallery page with filter applied (either type or ware)
@@ -137,21 +171,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const filterGlossary = (glossary, searchTerm, filter) => {
         const filteredGlossary = {};
-
+    
         Object.keys(glossary).forEach(letter => {
             const filteredTerms = glossary[letter].filter(entry => {
                 const { term, 'glossary-filter': glossaryFilter } = entry;
+    
+                // Make sure both the filter and glossaryFilter are lowercase for case-insensitive matching
                 const termMatches = term.toLowerCase().includes(searchTerm);
-                const filterMatches = filter ? glossaryFilter === filter : true;
-
+                const filterMatches = filter ? glossaryFilter && glossaryFilter.toLowerCase() === filter.toLowerCase() : true;
+    
                 return termMatches && filterMatches;
             });
-
+    
             if (filteredTerms.length > 0) {
                 filteredGlossary[letter] = filteredTerms;
             }
         });
-
+    
         return filteredGlossary;
     };
+    
 });

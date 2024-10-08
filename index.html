@@ -12,33 +12,57 @@
 
 <body>
     <main>
+        <div class="nav"></div>
         <div id="loading-screen">
             <div class="spinner"></div>
-          </div>
-        <!-- Hero Section (new addition) -->
-        <header class="hero-section">
-            <h1>Welcome to the Historic Vessels archive</h1>
-            <h2>Discover stories behind ancient vessels, explore unique collections, and deepen your knowledge.</h2>
-        </header>
-
-        <!-- Navigation Section -->
+        </div>
         <div class="content">
-            <div class="home-navigations">
-                <!-- Section 1: Discover Stories -->
-                <div class="section one" onclick="window.location.href='/pages/journeys.html'">
-                    <h1>Navigate Immersive Journies</h1>
-                </div>
 
-                <!-- Section 2: Explore Collection -->
-                <div class="section two" onclick="window.location.href='/pages/collection_gallery.html'">
-                    <h1>Explore the Collection</h1>
+            <!-- Hero Section -->
+            <header class="hero-section">
+                <div class="hero-text">
+                    <h1>Welcome to the Historic Vessels Archive</h1>
                 </div>
+                <section class="gallery-cta">
+                    <img src="assets/collection_homepage.png" alt="Collection Image">
+                    <div class="text-section">
+                        <h2>Dive into our extensive collection of ancient vessels, each with its own story and cultural
+                            significance.</h2>
+                    </div>
+                    <button class="gold-container button-common"
+                        onclick="window.location.href='/pages/collection_gallery.html'">Explore the Collection</button>
+                </section>
+            </header>
 
-                <!-- Section 3: Learn Terminology -->
-                <div class="section three" onclick="window.location.href='/pages/k_glossary.html'">
-                    <h1>Learn Vessel Terminology</h1>
+            <!-- Journey Teasers -->
+            <section class="journey-teasers">
+                <h1>Take a journey through the design, culture and craftmanship of famous vessels</h1>
+                <div class="teaser-grid">
+                    <div class="teaser white-container button-common" onclick="window.location.href='/pages/s1.html?vessel=manunggul&stage=1'">
+                        <img src="/assets/man1.png" alt="Manunggul Jar">
+                        <h3>The Manunggul Jar</h3>
+                        <p>Experience the spiritual journey of this Neolithic burial vessel from the Philippines.</p>
+                    </div>
+                    <div class="teaser white-container button-common" onclick="window.location.href='/pages/s1.html?vessel=warka&stage=1'">
+                        <img src="/assets/warka1.png" alt="Warka Vase">
+                        <h3>The Warka Vase</h3>
+                        <p>Delve into ancient Mesopotamia through the Warka Vase’s narrative carvings and religious
+                            rituals.</p>
+                    </div>
+                    <div class="teaser white-container button-common" onclick="window.location.href='/pages/s1.html?vessel=amphora&stage=1'">
+                        <img src="/assets/amph1.png" alt="Greek Amphora">
+                        <h3>Greek Amphora</h3>
+                        <p>Discover the artistry and utility of the Greek Amphora, showcasing mythological stories and
+                            daily life.</p>
+                    </div>
                 </div>
-            </div>
+            </section>
+
+            <!-- Filter Buttons -->
+            <section class="filter-buttons-section">
+                <h2>Explore by Filters</h2>
+                <div class="filter-buttons-container"></div>
+            </section>
         </div>
     </main>
 
@@ -46,6 +70,9 @@
     <footer></footer>
 
     <script src="/js/index.js"></script>
+    <script src="/js/home.js"></script>
+    <script src="https://kit.fontawesome.com/33641470b0.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

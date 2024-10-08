@@ -10,14 +10,18 @@
     flex: 1 1 calc(20% - 2vw);
     max-width: 20%;
     text-align: center;
-    background-color: #faf4ed;
-    box-shadow: 4px 4px #908d8d; 
+    background-color: var(--white-color);
+    box-shadow: var(--box-shadow-static); 
     transition: box-shadow 0.3s ease;
     box-sizing: border-box;
     cursor: pointer;
-    border-radius: 2px;
+    border-radius: var(--border-radius);
     padding-top: 10px;
-    color: black;
+    color: var(--black-color);
+}
+
+.gallery-item:hover, .related-artefact:hover {
+    box-shadow: var(--box-shadow-hover);
 }
 
 .gallery-item img, .related-link img {
@@ -29,23 +33,22 @@
 
 .filter-box {
     display: inline-block;
-    background-color: #e0e0e0;
-    border-radius: 5px;
+    background-color: var(--primary-color-dark);
+    border-radius: var(--border-radius);
     padding: 5px 10px;
     margin: 5px;
-    font-size: 14px;
 }
 
 .remove-filter {
     background-color: transparent;
     border: none;
-    color: red;
+    color: var(--accent-color);
     margin-left: 10px;
     cursor: pointer;
 }
 
 .remove-filter:hover {
-    color: darkred;
+    color: var(--black-color);
 }
 
 /* ARTEFACT */
@@ -62,7 +65,7 @@
 }
 
 .title, .relatedArtefacts h2 {
-    border-bottom: 1px solid #000000;
+    border-bottom: var(--border-bottom-black);
     margin-bottom: 10px;
 }
 

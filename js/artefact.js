@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                     // If match found, create a div with a link
                                     const container = document.querySelector('.search-container');
                                     const journeyDiv = document.createElement('button');
-                                    journeyDiv.classList.add('button-common', 'goldOnBlackButton');
+                                    journeyDiv.classList.add('button-common', 'gold-container');
 
                                     // Get the JSON filename without extension
                                     const jsonFileName = fileName.replace('.json', '');
@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         if (relatedArtefacts.length > 0) {
                             relatedArtefacts.forEach(related => {
                                 const artefactElement = document.createElement('div');
-                                artefactElement.classList.add('related-artefact', 'button-common');
+                                artefactElement.classList.add('related-artefact', 'button-common', 'white-container');
                                 artefactElement.innerHTML = `
                                     <p>${related.type}</p>
                                     <img src="${related.photo}" alt="${related.title}">

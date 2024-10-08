@@ -4,7 +4,8 @@
 }
 
 .aSort.selected {
-    background-color: #555;
+    background-color: var(--secondary-color);
+    color: var(--black-color);
 }
 
 .glossary-quick-nav {
@@ -21,7 +22,7 @@
     margin-right: 10px;
     padding: 5px 10px;
     text-decoration: none;
-    color: #000;
+    color: var(--black-color);
     border-bottom: 1px solid transparent;
 }
 
@@ -31,7 +32,7 @@
 
 .letter-section h2 {
     margin-bottom: 10px;
-    border-bottom: 2px solid #000;
+    border-bottom: var(--border-bottom-black);
     width: 100%;
 }
 
@@ -45,7 +46,7 @@
 
 .glossary-term p {
     margin: 5px 0 0;
-    color: #555;
+    color: var(--black-color);
 }
 
 .highlight {

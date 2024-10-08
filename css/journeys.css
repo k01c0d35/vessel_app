@@ -20,9 +20,6 @@ h2 {
 
 .page-link {
     width: 30%;
-    background-color: #faf4ed;
-    color: var(--primary-color);
-    border-radius: 2px;
     flex-grow: 1;
     display: flex;
     cursor: pointer;
@@ -31,7 +28,6 @@ h2 {
     transition: all 0.3s ease;
     padding: 2vw;
     gap: 1vw;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
 }
 
 .page-link p {
@@ -117,22 +113,19 @@ h2 {
 
 .label {
     padding: 15px 20px;
-    border-radius: 4px;
     cursor: pointer;
-    background-color: #faf4ed;
     transition: transform 0.3s ease, background-color 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--box-shadow-static);
     position: relative;
 }
 
 .label:not(.expanded):hover {
-    transform: scale(1.05);
-    border-bottom: 2px solid var(--secondary-color);
-    background-color: #f4f0eb;
+    transform: scale(1.02);
+    box-shadow: var(--box-shadow-hover);
 }
 
 .label.expanded {
-    border-bottom: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color)
 }
 
 .info-box {
@@ -147,26 +140,33 @@ h2 {
 }
 
 .label.expanded {
-    border-bottom: 1px solid var(--secondary-color);
+    border-bottom: var(--border-bottom-accent);
 }
 
 .info-box button {
     padding: 5px 15px;
     border: none;
-    background-color: var(--secondary-color);
-    color: black;
-    border-radius: 3px;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    border-radius: var(--border-radius);
     cursor: pointer;
 }
 
 .info-box button:hover {
-    background-color: #c68c4686;
+    background-color: var(--accent-color);
 }
 
 .info-box .fa-xmark {
     position: absolute;
     top: 10px;
     right: 10px;
+    cursor: pointer;
+}
+
+.play-audio-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
     cursor: pointer;
 }
 
