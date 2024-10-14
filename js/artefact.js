@@ -11,25 +11,17 @@ document.addEventListener('DOMContentLoaded', function () {
                 const artefact = artefacts.find(a => a.id == artefactId);
 
                 if (artefact) {
-                    const updateDetail = (divSelector, textSelector, value, isLink = false) => {
+                    const createGlossaryLink = (term, termType) => {
+                        return `<a href="/pages/k_glossary.html?search=${encodeURIComponent(term)}" class="glossary-link">${term}</a>`;
+                    };
+                    const updateDetail = (divSelector, textSelector, value, termType = '') => {
                         const divElement = document.querySelector(divSelector);
                         const textElement = divElement.querySelector(textSelector);
 
                         if (value && value !== 'Unknown') {
-                            textElement.textContent = value;
-                            if (isLink) {
-                                divElement.onclick = () => {
-                                    window.location.href = `/pages/k_glossary.html?search=${encodeURIComponent(value)}`;
-                                };
-                                divElement.style.cursor = 'pointer';
-                            } else {
-                                divElement.onclick = null;
-                                divElement.style.cursor = 'default';
-                            }
+                            textElement.innerHTML = termType ? createGlossaryLink(value, termType) : value;
                         } else {
                             textElement.textContent = 'Unknown';
-                            divElement.onclick = null;
-                            divElement.style.cursor = 'default';
                         }
                     };
 
@@ -54,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                     // If match found, create a div with a link
                                     const container = document.querySelector('.search-container');
                                     const journeyDiv = document.createElement('button');
-                                    journeyDiv.classList.add('button-common', 'gold-container');
+                                    journeyDiv.classList.add('button-common', 'accent-container');
 
                                     // Get the JSON filename without extension
                                     const jsonFileName = fileName.replace('.json', '');
@@ -70,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 }
                             })
                             .catch(error => console.log(`Error loading JSON file ${fileName}:`, error));
-                        });
+                    });
 
                     updateDetail('.type-link', 'p.text', artefact.type, true);
                     updateDetail('.ware-link', 'p.text', artefact.ware, true);

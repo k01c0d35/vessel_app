@@ -1,7 +1,3 @@
-.nav-text {
-    visibility: hidden;
-}
-
 /* General Section Padding Adjustments */
 section {
     padding: 5vh 0;
@@ -21,19 +17,13 @@ section {
     gap: 10vh;
 }
 
-.hero-section h1 {
-    font-size: 2.5em;
-}
-
 .hero-section h2 {
     margin-top: 1em;
-    font-size: 1.5em;
 }
 
 .hero-section button {
     padding: 12px 24px;
     border: none;
-    font-size: 1.2em;
 }
 
 .gallery-cta {
@@ -56,13 +46,14 @@ section {
 /* Journey Teasers */
 .journey-teasers {
     width: 100%;
-    background-color: var(--accent-color);
+    background-color: var(--secondary-color);
+    padding: 10vh 0;
 }
 
-.journey-teasers h1 {
+.journey-teasers h1, .filter-buttons-section h1, .glossary-buttons-section h1 {
     text-align: center;
     margin: 0;
-    padding: 5vh 0;
+    padding: 0 0 5vh 0;
 }
 
 .teaser-grid {
@@ -86,34 +77,35 @@ section {
 
 .teaser h3 {
     margin-top: 1em;
-    font-size: 1.5em;
 }
 
 .teaser p {
     margin: 1em 0;
 }
 
-.teaser button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: var(--border-radius);
-}
-
 /* Filter Buttons Section */
 .filter-buttons-section {
     padding: 4vh 8vw 8vh 8vw;
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
 }
 
-.filter-buttons-section h2 {
-    margin-bottom: 10px;
-    border-bottom: var(--border-bottom-black);
-    width: 100%;
+.glossary-buttons-section {
+    padding: 4vh 8vw 8vh 8vw;
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
 }
 
-.filter-buttons-container {
+.filter-buttons-section h2, .glossary-buttons-section h2 {
+    text-align: center;
+}
+
+.filter-buttons-container, .glossary-buttons-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 1em;
 }
 
@@ -125,11 +117,11 @@ section {
     display: flex;
     border: 1px solid var(--secondary-color);
     background-color: var(--white-color);
+    align-items: center;
 }
 
 .filter-button:hover {
-    background-color: var(--accent-color);
-    border: 1px solid var(--accent-color);
+    background-color: var(--secondary-color);
 }
 
 .filter-button i {

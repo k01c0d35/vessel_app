@@ -11,67 +11,96 @@
 </head>
 
 <body>
-        <main>
-            <div class="nav"></div>
-            <div id="loading-screen">
-                <div class="spinner"></div>
-              </div>
-            <div class="content">
+    <main>
+        <div class="nav"></div>
+        <div id="loading-screen">
+            <div class="spinner"></div>
+        </div>
+        <div class="content">
+            <div class="sidenav-container">
                 <div class="search-container">
                     <!-- Search input -->
-                    <div class="search button-common gold-container">
+                    <div class="search white-container">
                         <i class="fa-solid fa-magnifying-glass"></i>
-                        <input class="search-item" type="text" id="searchInput" placeholder="Search">
+                        <input class="search-item" type="text" id="searchInput" placeholder="Search...">
                     </div>
 
-                    <div class="filter-button button-common dark-container">Sort</div>
-    
-                    <!-- Sort buttons wrapped in a span, similar to filter options in gallery -->
-                    <div class="filter-options">
-                        <button class="aSort button-common dark-container" data-filter="Vessel">Vessel Types</button>
-                        <button class="aSort button-common dark-container" data-filter="Creation Tool">Creation Tools</button>
-                        <button class="aSort button-common dark-container" data-filter="Material">Materials</button>
-                        <button class="aSort button-common dark-container" data-filter="Ware">Wares</button>
-                        <button class="aSort button-common dark-container" data-filter="Glaze">Glazes</button>
+                    <div class="filter-button button-common dark-container">
+                        <h3>Sort</h3>
                     </div>
                 </div>
-                <!-- <div class="glossary-quick-nav">
-                    <a href="#A">A</a>
-                    <a href="#B">B</a>
-                    <a href="#C">C</a>
-                    <a href="#D">D</a>
-                    <a href="#E">E</a>
-                    <a href="#F">F</a>
-                    <a href="#G">G</a>
-                    <a href="#H">H</a>
-                    <a href="#I">I</a>
-                    <a href="#J">J</a>
-                    <a href="#K">K</a>
-                    <a href="#L">L</a>
-                    <a href="#M">M</a>
-                    <a href="#N">N</a>
-                    <a href="#O">O</a>
-                    <a href="#P">P</a>
-                    <a href="#Q">Q</a>
-                    <a href="#R">R</a>
-                    <a href="#S">S</a>
-                    <a href="#T">T</a>
-                    <a href="#U">U</a>
-                    <a href="#V">V</a>
-                    <a href="#W">W</a>
-                    <a href="#X">X</a>
-                    <a href="#Y">Y</a>
-                    <a href="#Z">Z</a>
-                </div> -->
-                <div id="glossaryContent"></div>
-                <button id="backToTop" class="button-common dark-container"><h3>BACK TO TOP</h3></button>
-            </div>
-        </main>
-        <footer></footer>
+                <div class="sort-options">
+                    <div class="filter-title">
+                        <h2>Sort By</h2>
+                    </div>
+                    <div class="sort-buttons">
+                        <button class="accent-container aSort" data-filter="Vessel">
+                            <h3>Vessel Types</h3>
+                        </button>
+                        <button class="accent-container aSort" data-filter="Creation Tool">
+                            <h3>Creation Tools</h3>
+                        </button>
+                        <button class="accent-container aSort" data-filter="Material">
+                            <h3>Materials</h3>
+                        </button>
+                        <button class="accent-container aSort" data-filter="Ware">
+                            <h3>Wares</h3>
+                        </button>
+                        <button class="accent-container aSort" data-filter="Glaze">
+                            <h3>Glazes</h3>
+                        </button>
+                    </div>
+                </div>
 
-        <script src="/js/k_glossary.js"></script>
-        <script src="/js/index.js"></script>
-        <script src="https://kit.fontawesome.com/33641470b0.js" crossorigin="anonymous"></script>
+                <div class="glossary-quick-nav sort-options">
+                    <div class="filter-title">
+                        <h2>Jump to Letter</h2>
+                    </div>
+                    <div class="sort-buttons">
+                        <a class="accent-container aSort" href="#A">A</a>
+                        <a class="accent-container aSort" href="#B">B</a>
+                        <a class="accent-container aSort" href="#C">C</a>
+                        <a class="accent-container aSort" href="#D">D</a>
+                        <a class="accent-container aSort" href="#E">E</a>
+                        <a class="accent-container aSort" href="#F">F</a>
+                        <a class="accent-container aSort" href="#G">G</a>
+                        <a class="accent-container aSort" href="#H">H</a>
+                        <a class="accent-container aSort" href="#I">I</a>
+                        <a class="accent-container aSort" href="#J">J</a>
+                        <a class="accent-container aSort" href="#K">K</a>
+                        <a class="accent-container aSort" href="#L">L</a>
+                        <a class="accent-container aSort" href="#M">M</a>
+                        <a class="accent-container aSort" href="#N">N</a>
+                        <a class="accent-container aSort" href="#O">O</a>
+                        <a class="accent-container aSort" href="#P">P</a>
+                        <a class="accent-container aSort" href="#Q">Q</a>
+                        <a class="accent-container aSort" href="#R">R</a>
+                        <a class="accent-container aSort" href="#S">S</a>
+                        <a class="accent-container aSort" href="#T">T</a>
+                        <a class="accent-container aSort" href="#U">U</a>
+                        <a class="accent-container aSort" href="#V">V</a>
+                        <a class="accent-container aSort" href="#W">W</a>
+                        <a class="accent-container aSort" href="#X">X</a>
+                        <a class="accent-container aSort" href="#Y">Y</a>
+                        <a class="accent-container aSort" href="#Z">Z</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-container">
+                <div id="glossaryContent"></div>
+            </div>
+            <button id="backToTop" class="button-common dark-container">
+                <h3>BACK TO TOP</h3>
+            </button>
+        </div>
+    </main>
+    <footer></footer>
+
+    <script src="/js/k_glossary.js"></script>
+    <script src="/js/index.js"></script>
+    <script src="https://kit.fontawesome.com/33641470b0.js" crossorigin="anonymous"></script>
+    
 </body>
 
 </html>

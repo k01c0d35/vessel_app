@@ -1,24 +1,6 @@
 {
     "A": [
         {
-            "term": "Amphora",
-            "glossary-filter": "Vessel",
-            "description": "Storage and transport of liquids, oil and grain. Could also be ceremonal or a grave marker.",
-            "defining-features": "Tall, two handles, narrow neck."
-        },
-        {
-            "term": "Askos",
-            "glossary-filter": "Vessel",
-            "description": "Small container for pouring oil or perfume.",
-            "defining-features": "One spout, one handle, possibly shaped like an animal/mythical figure."
-        },
-        {
-            "term": "Aryballos",
-            "glossary-filter": "Vessel",
-            "description": "Greek oil or perfume flask.",
-            "defining-features": "Small, spherical, narrow neck."
-        },
-        {
             "term": "Alabaster",
             "glossary-filter": "Material",
             "description": "A porous, soft stone used for carvings."
@@ -28,9 +10,26 @@
             "glossary-filter": "Material",
             "description": "Fossilized resin from trees.",
             "defining-features": "Hard, translucent, yellow."
+        },
+        {
+            "term": "Amphora",
+            "glossary-filter": "Vessel",
+            "description": "Storage and transport of liquids, oil and grain. Could also be ceremonal or a grave marker.",
+            "defining-features": "Tall, two handles, narrow neck."
+        },
+        {
+            "term": "Aryballos",
+            "glossary-filter": "Vessel",
+            "description": "Greek oil or perfume flask.",
+            "defining-features": "Small, spherical, narrow neck."
+        },
+        {
+            "term": "Askos",
+            "glossary-filter": "Vessel",
+            "description": "Small container for pouring oil or perfume.",
+            "defining-features": "One spout, one handle, possibly shaped like an animal/mythical figure."
         }
     ],
-
     "B": [
         {
             "term": "Bisque",
@@ -42,19 +41,24 @@
             "description": "Greek painting method where figures and ornaments were painted on and turned black during firing, keeping the background clay."
         },
         {
-            "term": "Bowl",
-            "glossary-filter": "Vessel",
-            "description": "Dish for food or liquid.",
-            "defining-features": "Round, deep."
-        },
-        {
             "term": "Brass",
             "glossary-filter": "Material",
             "description": "A yellow alloy of copper and zinc.",
             "defining-features": "Yellow, smooth, shiny."
+        },
+        {
+            "term": "Bronze",
+            "glossary-filter": "Material",
+            "description": "An alloy made primarily of copper and tin.",
+            "defining-features": "Reddish-brown, strong, corrosion-resistant."
+        },
+        {
+            "term": "Bowl",
+            "glossary-filter": "Vessel",
+            "description": "Dish for food or liquid.",
+            "defining-features": "Round, deep."
         }
     ],
-
     "C": [
         {
             "term": "Canopic Jar",
@@ -63,66 +67,75 @@
             "defining-features": "Narrow, one lid, depictions of Egyptian gods."
         },
         {
-            "term": "Clay Extruder",
-            "glossary-filter": "Creation Tool",
-            "description": "Mechanical device that pushes clay through a shaped hole to form long, uniform shapes like coils or tubes."
-        },
-        {
             "term": "Ceramic",
             "description": "Objects made of inorganic material and hardened by heat."
-        },
-        {
-            "term": "Container",
-            "description": "Object for holding or transporting content."
         },
         {
             "term": "Clay",
             "glossary-filter": "Material",
             "description": "Fin-grained earth material that can be moulded when wet and hardened when baked.",
             "defining-features": "Stiff, sticky."
+        },
+        {
+            "term": "Clay Extruder",
+            "glossary-filter": "Creation Tool",
+            "description": "Mechanical device that pushes clay through a shaped hole to form long, uniform shapes like coils or tubes."
+        },
+        {
+            "term": "Coil Method",
+            "glossary-filter": "Creation Tool",
+            "description": "A hand-building technique where clay is rolled into long ropes (coils) and layered to create a structure.",
+            "defining-features": "Layered coil structure, visible rings."
+        },
+        {
+            "term": "Container",
+            "description": "Object for holding or transporting content."
+        },
+        {
+            "term": "Copper-Alloy",
+            "glossary-filter": "Glaze",
+            "description": "A metal alloy made from copper, often used in the production of metal artefacts like jugs and flagons.",
+            "defining-features": "Durable, reddish-brown, with various engravings."
         }
     ],
-
     "E": [
+        {
+            "term": "Earthenware",
+            "glossary-filter": "Ware",
+            "description": "Clay pottery fired at low temperatures to a porous state."
+        },
         {
             "term": "Ewer",
             "glossary-filter": "Vessel",
             "description": "Jug for serving water or washing.",
             "defining-features": "Large, wide spout."
-        },
-        {
-            "term": "Earthenware",
-            "glossary-filter": "Ware",
-            "description": "Clay pottery fired at low temperatures to a porous state."
         }
     ],
-
     "F": [
-        {
-            "term": "Flask",
-            "glossary-filter": "Vessel",
-            "description": "Liquid container.",
-            "defining-features": "Small, narrow neck, portable."
-        },
         {
             "term": "Flagon",
             "glossary-filter": "Vessel",
             "description": "Serving container for wine or oil.",
             "defining-features": "Large, one handle, one spout, one lid."
+        },
+        {
+            "term": "Flask",
+            "glossary-filter": "Vessel",
+            "description": "Liquid container.",
+            "defining-features": "Small, narrow neck, portable."
         }
     ],
-
     "G": [
-        {
-            "term": "Glaze",
-            "glossary-filter": "Glaze",
-            "description": "A glassy coating on ceramics."
-        },
         {
             "term": "Glass",
             "glossary-filter": "Material",
             "description": "A substance made from fusing sand, soda and lime, and cooling rapidly.",
             "defining-features": "Hard, brittle, translucent."
+        },
+        {
+            "term": "Glaze",
+            "glossary-filter": "Glaze",
+            "description": "A glassy coating on ceramics."
         },
         {
             "term": "Gold",
@@ -131,8 +144,13 @@
             "defining-features": "Yellow, shiny, valuable."
         }
     ],
-
     "H": [
+        {
+            "term": "Hand-built",
+            "glossary-filter": "Creation Tool",
+            "description": "A method of creating pottery using hands rather than a wheel or mechanical tools.",
+            "defining-features": "Irregular shapes, human-crafted look."
+        },
         {
             "term": "Hydria",
             "glossary-filter": "Vessel",
@@ -140,7 +158,6 @@
             "defining-features": "Two horizontal handles for carrying, one vertical handle for pouring."
         }
     ],
-
     "J": [
         {
             "term": "Jug",
@@ -149,7 +166,6 @@
             "defining-features": "One handle, one spout."
         }
     ],
-
     "K": [
         {
             "term": "Kantharos",
@@ -158,10 +174,9 @@
             "defining-features": "High handles."
         },
         {
-            "term": "Kylix",
-            "glossary-filter": "Vessel",
-            "description": "Greek wine drinking cup.",
-            "defining-features": "Shallow, two handles, wide bowl."
+            "term": "Kiln",
+            "glossary-filter": "Creation Tool",
+            "description": "High-temperature oven used to fire clay objects. Temperatures can reach over 1093 degrees and can be powered by electricity, gas or wood."
         },
         {
             "term": "Krater",
@@ -170,33 +185,56 @@
             "defining-features": "Large, wide mouth, two handles."
         },
         {
-            "term": "Kiln",
-            "glossary-filter": "Creation Tool",
-            "description": "High-temperature oven used to fire clay objects. Temperatures can reach over 1093 degrees and can be powered by electricity, gas or wood."
+            "term": "Kylix",
+            "glossary-filter": "Vessel",
+            "description": "Greek wine drinking cup.",
+            "defining-features": "Shallow, two handles, wide bowl."
         }
     ],
-
     "L": [
         {
-            "term": "Lekythos",
-            "glossary-filter": "Vessel",
-            "description": "Oil container.",
-            "defining-features": "Tall, narrow, one handle."
+            "term": "Lapis",
+            "glossary-filter": "Ware",
+            "description": "A type of ware made from lapis lazuli, a semi-precious blue stone used for decorative vessels.",
+            "defining-features": "Deep blue color, semi-precious stone."
         },
         {
             "term": "Lapiz Lazuri",
             "glossary-filter": "Material",
             "description": "A stone.",
             "defining-features": "Blue."
+        },
+        {
+            "term": "Lead Glaze",
+            "glossary-filter": "Glaze",
+            "description": "A glaze used in pottery that includes lead to achieve a glossy and smooth surface.",
+            "defining-features": "Glossy finish, sometimes with bright colors."
+        },
+        {
+            "term": "Lekythos",
+            "glossary-filter": "Vessel",
+            "description": "Oil container.",
+            "defining-features": "Tall, narrow, one handle."
         }
     ],
-
     "M": [
+        {
+            "term": "Majolica",
+            "glossary-filter": "Ware",
+            "description": "A style of pottery with a tin-glazed, colorful surface, originating from Italy during the Renaissance.",
+            "defining-features": "Bright colors, tin-glazed, intricate designs."
+        },
         {
             "term": "Maubyeong",
             "glossary-filter": "Vessel",
             "description": "Korean 'plum blossom' vase.",
             "defining-features": "Round, short neck."
+        },
+        {
+            "term": "Metal",
+            "glossary-filter": "Material",
+            "description": "A solid material that is typically hard, shiny, and malleable, with good electrical and thermal conductivity. Examples include gold, silver, copper, and iron.",
+            "defining-features": "Shiny, malleable, conducts electricity and heat."
         },
         {
             "term": "Malachite",
@@ -205,7 +243,6 @@
             "defining-features": "Green."
         }
     ],
-
     "O": [
         {
             "term": "Oinochoe",
@@ -220,19 +257,16 @@
             "defining-features": "Round, short neck."
         }
     ],
-
     "P": [
-        {
-            "term": "Psykter",
-            "glossary-filter": "Vessel",
-            "description": "Greek wine cooler.",
-            "defining-features": "Bulbous body, high and narrow base."
-        },
         {
             "term": "Pithos",
             "glossary-filter": "Vessel",
             "description": "Greek storage container for grains, oil or wine. Often partially-buried to keep contents cool.",
             "defining-features": "Large, wide mouth."
+        },
+        {
+            "term": "Pottery",
+            "description": "Type of ceramics that involves shaping and firing clay to create objects."
         },
         {
             "term": "Pottery Wheel",
@@ -247,16 +281,32 @@
             "defining-features": "Smooth, translucent."
         },
         {
-            "term": "Pottery",
-            "description": "Type of ceramics that involves shaping and firing clay to create objects."
+            "term": "Psykter",
+            "glossary-filter": "Vessel",
+            "description": "Greek wine cooler.",
+            "defining-features": "Bulbous body, high and narrow base."
         }
     ],
-
+    "R": [
+        {
+            "term": "Red-Figure Ware",
+            "glossary-filter": "Ware",
+            "description": "Greek pottery style where the background is painted black and the figures are left in the natural red color of the clay.",
+            "defining-features": "Red figures on black background."
+        }
+    ],
     "S": [
         {
-            "term": "Stoneware",
-            "glossary-filter": "Ware",
-            "description": "Dense pottery fired at high temperatures to a non-porous state."
+            "term": "Silver",
+            "glossary-filter": "Material",
+            "description": "A metal.",
+            "defining-features": "Greyish-white, shiny."
+        },
+        {
+            "term": "Salt Glaze",
+            "glossary-filter": "Glaze",
+            "description": "A glaze that is formed by throwing salt into a kiln during firing, giving a glassy and slightly orange-peel texture.",
+            "defining-features": "Glossy surface with an orange-peel texture."
         },
         {
             "term": "Sauceboat",
@@ -265,18 +315,23 @@
             "defining-features": "Boat-shaped body, wide lip."
         },
         {
-            "term": "Silver",
+            "term": "Stone",
             "glossary-filter": "Material",
-            "description": "A metal.",
-            "defining-features": "Greyish-white, shiny."
+            "description": "A natural material used in the creation of artefacts, typically for its durability and availability. Common in sculptures and heavy vessels.",
+            "defining-features": "Durable, heavy, often used in ancient structures and large artefacts."
+        },
+        {
+            "term": "Stoneware",
+            "glossary-filter": "Ware",
+            "description": "Dense pottery fired at high temperatures to a non-porous state."
         }
     ],
-
     "T": [
         {
-            "term": "Terracotta",
-            "glossary-filter": "Ware",
-            "description": "Type of earthenware. Typically red due to the high level of iron content in the clay."
+            "term": "Tankard",
+            "glossary-filter": "Vessel",
+            "description": "Beer mug.",
+            "defining-features": "Tall, one handle, hinged lid."
         },
         {
             "term": "Teapot",
@@ -285,13 +340,17 @@
             "defining-features": "One handle, one spout, one lid, round body."
         },
         {
-            "term": "Tankard",
-            "glossary-filter": "Vessel",
-            "description": "Beer mug.",
-            "defining-features": "Tall, one handle, hinged lid."
+            "term": "Terracotta",
+            "glossary-filter": "Ware",
+            "description": "Type of earthenware. Typically red due to the high level of iron content in the clay."
+        },
+        {
+            "term": "Tin Glaze",
+            "glossary-filter": "Glaze",
+            "description": "A type of glaze that includes tin oxide, producing an opaque white surface, often painted over.",
+            "defining-features": "White, opaque, smooth surface."
         }
     ],
-
     "U": [
         {
             "term": "Ukhamba",
@@ -312,7 +371,6 @@
             "defining-features": "Round, narrow neck, footed pedestal."
         }
     ],
-
     "V": [
         {
             "term": "Vase",
@@ -326,18 +384,23 @@
             "defining-features": "Hollow."
         }
     ],
-
     "W": [
+        {
+            "term": "Ware",
+            "glossary-filter": "Ware",
+            "description": "Pottery of a specific type."
+        },
+        {
+            "term": "White-Ground Ware",
+            "glossary-filter": "Ware",
+            "description": "Greek pottery style where the figures are painted on a white or light-colored background.",
+            "defining-features": "Light background with darker painted figures."
+        },
         {
             "term": "Wood",
             "glossary-filter": "Material",
             "description": "Organic substance found in stems and roots of trees and plants.",
             "defining-features": "Hard, fibrous."
-        },
-        {
-            "term": "Ware",
-            "glossary-filter": "Ware",
-            "description": "Pottery of a specific type."
         }
     ]
 }

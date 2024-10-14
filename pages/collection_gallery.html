@@ -17,71 +17,66 @@
             <div class="spinner"></div>
         </div>
         <div class="content">
-            <div class="search-container">
-                <!-- Search and Sort -->
-                <div class="search button-common gold-container">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <input class="search-item" type="text" id="searchInput" placeholder="Search">
+            <div class="sidenav-container">
+                    <h3 id="displayAmount" onmouseover="toggleDisplayAmount(this)" onmouseleave="toggleDisplayAmount(this)"></h3>
+                
+                <div class="search-container">
+                    <!-- Search and Sort -->
+                    <div class="search white-container">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input class="search-item" type="text" id="searchInput" placeholder="Search...">
+                    </div>
                 </div>
-
-                <div class="dropdown sort">
-                    <button class="sort-item button-common dark-container" onclick="toggleDropdown(this)">Sort By <i class="fa fa-sort"></i></button>
-                    <div id="sortContainer" class="dropdown-content"></div>
+                <div class="sort-options">
+                    <div class="filter-title">
+                        <h2>Sort By</h2>
+                    </div>
+                    <div class="sort-buttons">
+                        <button class="accent-container aSort" data-sort="typeAsc"><h3>Alphabetical (A-Z)</h3></button>
+                        <button class="accent-container aSort" data-sort="typeDesc"><h3>Alphabetical (Z-A)</h3></button>
+                        <button class="accent-container aSort" data-sort="dateAsc"><h3>Oldest</h3></button>
+                        <button class="accent-container aSort" data-sort="dateDesc"><h3>Newest</h3></button>
+                    </div>
                 </div>
-
-                <!-- Mobile filter button -->
-                <div class="filter-button button-common dark-container">Filter</div>
+                <!-- Filters on a new line (visible on desktop and tablet) -->
+                <div class="filter-options">
+                    <div class="filter-title">
+                        <h2>Filter By</h2>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropdown-button" onclick="toggleDropdown(this)"><h3>Purpose</h3> <i class="fa-solid fa-chevron-down"></i></button>
+                        <div id="purposeFilter" class="dropdown-content accent-container"></div>
+                    </div>
+                    <div class="dropdown">
+                        <button class=" dropdown-button" onclick="toggleDropdown(this)"><h3>Region</h3> <i class="fa-solid fa-chevron-down"></i></button>
+                        <div id="regionFilter" class="dropdown-content accent-container"></div>
+                    </div>
+                    <div class="dropdown">
+                        <button class=" dropdown-button" onclick="toggleDropdown(this)"><h3>Material</h3> <i class="fa-solid fa-chevron-down"></i></button>
+                        <div id="materialFilter" class="dropdown-content accent-container"></div>
+                    </div>
+                    <div class="dropdown">
+                        <button class=" dropdown-button" onclick="toggleDropdown(this)"><h3>Historic Period</h3> <i class="fa-solid fa-chevron-down"></i></button>
+                        <div id="historicPeriodFilter" class="dropdown-content accent-container"></div>
+                    </div>
+                </div>
+                <div class="searchStatusContainer">
+                    <span class="selectedFiltersContainer">
+                        <div class="filter-title">
+                            <h2>Selected Filters</h2>
+                        </div>
+                        <div class="selectedFilters"></div>
+                    </span>
+                </div>
+                
             </div>
-
-            <!-- Filters on a new line (visible on desktop and tablet) -->
-            <div class="filter-options">
-                <div class="dropdown">
-                    <button class="dropdown-button button-common dark-container" onclick="toggleDropdown(this)">Purpose <i
-                            class="fa fa-caret-down"></i></button>
-                    <div id="purposeFilter" class="dropdown-content"></div>
+            <div class="content-container">
+                <div id="gallery" class="gallery-container">
                 </div>
-                <div class="dropdown">
-                    <button class="dropdown-button button-common dark-container" onclick="toggleDropdown(this)">Region <i
-                            class="fa fa-caret-down"></i></button>
-                    <div id="regionFilter" class="dropdown-content"></div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropdown-button button-common dark-container" onclick="toggleDropdown(this)">Material <i
-                            class="fa fa-caret-down"></i></button>
-                    <div id="materialFilter" class="dropdown-content"></div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropdown-button button-common dark-container" onclick="toggleDropdown(this)">Historic Period <i
-                            class="fa fa-caret-down"></i></button>
-                    <div id="historicPeriodFilter" class="dropdown-content"></div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropdown-button button-common dark-container" onclick="toggleDropdown(this)">Type <i
-                            class="fa fa-caret-down"></i></button>
-                    <div id="typeFilter" class="dropdown-content"></div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropdown-button button-common dark-container" onclick="toggleDropdown(this)">Ware <i
-                            class="fa fa-caret-down"></i></button>
-                    <div id="wareFilter" class="dropdown-content"></div>
-                </div>
+                <button id="backToTop" class="button-common dark-container">
+                    <h3>BACK TO TOP</h3>
+                </button>
             </div>
-
-            <div class="searchStatusContainer">
-                <span class="selectedFiltersContainer">
-                    <p>Selected Filters:</p>
-                    <div class="selectedFilters"></div>
-                </span>
-                <span class="displayAmountContainer">
-                    <p>Results:</p>
-                    <h3 id="displayAmount"></h3>
-                </span>
-            </div>
-            <div id="gallery" class="gallery-container">
-            </div>
-            <button id="backToTop" class="button-common dark-container">
-                <h3>BACK TO TOP</h3>
-            </button>
     </main>
     <footer></footer>
 

@@ -12,6 +12,7 @@ Promise.all([
 
 function createFilterButtons(artefactsData, glossaryData) {
     const container = document.querySelector('.filter-buttons-container');
+    const glossaryContainer = document.querySelector('.glossary-buttons-container');
 
     // Artefact-based buttons (Grouped by Type, Material, Period, Usage)
     const artefactFilters = [
@@ -30,7 +31,7 @@ function createFilterButtons(artefactsData, glossaryData) {
     artefactFilters.forEach(filterItem => {
         const button = document.createElement('button');
         button.className = 'filter-button gold-container';
-        button.textContent = filterItem.text;
+        button.innerHTML = `<i class="fa-solid fa-building-columns"></i> ${filterItem.text}`;
 
         const filterParams = new URLSearchParams();
         // Set filters based on available data
@@ -57,11 +58,11 @@ function createFilterButtons(artefactsData, glossaryData) {
     glossarySorts.forEach(sortItem => {
         const button = document.createElement('button');
         button.className = 'filter-button gold-container';
-        button.innerHTML = `<i class="fas fa-search"></i> ${sortItem.term}`;
+        button.innerHTML = `<i class="fa-solid fa-book"></i> ${sortItem.term}`;
         button.onclick = () => {
             window.location.href = `/pages/k_glossary.html?sort=${sortItem.sort.toLowerCase()}`;
         };
-        container.appendChild(button);
+        glossaryContainer.appendChild(button);
     });
 
     // Additional glossary searches (e.g., specific terms like 'vessel', 'clay')
@@ -77,10 +78,10 @@ function createFilterButtons(artefactsData, glossaryData) {
     glossarySearches.forEach(searchItem => {
         const button = document.createElement('button');
         button.className = 'filter-button gold-container';
-        button.innerHTML = `<i class="fas fa-search"></i> ${searchItem.term}`;
+        button.innerHTML = `<i class="fa-solid fa-book"></i> ${searchItem.term}`;
         button.onclick = () => {
             window.location.href = `/pages/k_glossary.html?search=${searchItem.term.toLowerCase().replace(/\s+/g, '-')}`;
         };
-        container.appendChild(button);
+        glossaryContainer.appendChild(button);
     });
 }

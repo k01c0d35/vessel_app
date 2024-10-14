@@ -192,3 +192,24 @@ h2 {
     transition: opacity 1s ease;
     transform: scale(1);
 }
+
+.topButtons, .bottomButtons {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 8vw;
+}
+
+button.button-common {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: var(--primary-color-light);
+    background-color: var(--primary-color-dark);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    box-shadow: var(--box-shadow-static);
+}
+
+button.button-common:hover {
+    background-color: var(--secondary-color);
+    box-shadow: var(--box-shadow-hover);
+}
