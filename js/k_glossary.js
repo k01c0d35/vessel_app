@@ -103,7 +103,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const displayGlossary = (glossary, artefactsData) => {
         glossaryContent.innerHTML = '';
 
-        Object.keys(glossary).forEach(letter => {
+        // Check if there are no matching terms in the glossary
+        const glossaryLetters = Object.keys(glossary);
+        if (glossaryLetters.length === 0) {
+            const noResults = document.createElement('div');
+            noResults.className = 'noResults';
+            noResults.innerHTML = '<p>No glossary terms found matching your criteria.</p>';
+            glossaryContent.appendChild(noResults);
+            return;
+        }
+
+
+        glossaryLetters.forEach(letter => {
             const letterSection = document.createElement('div');
             letterSection.className = 'letter-section';
             letterSection.id = letter;
@@ -118,21 +129,41 @@ document.addEventListener('DOMContentLoaded', () => {
                 const termElement = document.createElement('div');
                 termElement.className = 'glossary-term';
 
-                const termHeader = document.createElement('h3');
-                termHeader.innerHTML = highlightText(term, searchInput.value);
-                termElement.appendChild(termHeader);
+                // Create a div to group the term and the glossary filter together
+                const termHeaderWrapper = document.createElement('div');
+                termHeaderWrapper.className = 'glossary-term-header-wrapper';  // Added class for styling
 
-                const termGlossaryCategory = document.createElement('p');
-                termGlossaryCategory.innerHTML = highlightText(glossaryFilter, searchInput.value);
-                termElement.appendChild(termGlossaryCategory);
+                // Create the term header (h2 element)
+                const termHeader = document.createElement('h2');
+                termHeader.className = 'glossary-term-header';  // Added class for styling
+                termHeader.innerHTML = highlightText(term, searchInput.value);  // E.g., "Aryballos"
+                termHeaderWrapper.appendChild(termHeader);
 
+                // Create the glossary filter (span element) to display after the term
+                const termGlossaryCategory = document.createElement('span');
+                termGlossaryCategory.className = 'glossary-category';  // Added class for styling
+                termGlossaryCategory.innerHTML = `(${highlightText(glossaryFilter, searchInput.value)})`;  // E.g., "(Vessel)"
+                termHeaderWrapper.appendChild(termGlossaryCategory);
+
+                // Append the wrapper to the main term element
+                termElement.appendChild(termHeaderWrapper);
+
+                // Create the term description (p element)
                 const termDescription = document.createElement('p');
+                termDescription.className = 'glossary-description';  // Added class for styling
                 termDescription.innerHTML = highlightText(description, searchInput.value);
                 termElement.appendChild(termDescription);
 
-                const termDefiningFeatures = document.createElement('p');
-                termDefiningFeatures.innerHTML = highlightText(definingFeatures, searchInput.value);
-                termElement.appendChild(termDefiningFeatures);
+                // Display defining features in a single line, prefixed with "Defining Features:"
+                if (definingFeatures && definingFeatures.length > 0) {
+                    const termDefiningFeatures = document.createElement('p');
+                    termDefiningFeatures.className = 'glossary-defining-features';  // Added class for styling
+                    termDefiningFeatures.innerHTML = `<strong>Defining Features:</strong> ${highlightText(definingFeatures, searchInput.value)}`;
+                    termElement.appendChild(termDefiningFeatures);
+                }
+
+
+
 
                 // Check if the term exists as a type in the gallery and create a link button
                 if (artefactTypeExistsInGallery(term, artefactsData)) {
@@ -153,21 +184,29 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
-    // Function to create the gallery link button
+
     const createGalleryLinkButton = (term, filterType) => {
         const button = document.createElement('button');
         button.className = 'button-common gallery-link dark-container';
-        button.innerHTML = `<i class="fa-solid fa-building-columns"></i>`;
-    
+        button.innerHTML = `<i class="fa-solid fa-building-columns"></i><span class="apply-text">Apply Term in Collection</span>`;
+
         // Modify the URL with specific query params (either 'type' or 'ware')
         button.addEventListener('click', () => {
             const filterParam = filterType === 'type' ? `type=${encodeURIComponent(term)}` : `ware=${encodeURIComponent(term)}`;
             window.location.href = `/pages/collection_gallery.html?${filterParam}`; // Redirect to gallery with correct filter
         });
-    
-        return button;
-    };    
 
+        // Add hover event listeners
+        button.addEventListener('mouseover', () => {
+            button.classList.add('expanded');
+        });
+
+        button.addEventListener('mouseleave', () => {
+            button.classList.remove('expanded');
+        });
+
+        return button;
+    };
 
     // Function to check if a glossary term exists as a type in the gallery artefact types
     const artefactTypeExistsInGallery = (term, artefactsData) => {

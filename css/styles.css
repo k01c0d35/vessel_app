@@ -72,6 +72,13 @@ h3, .button-common {
     color: var(--primary-color-dark);
 }
 
+h4 {
+    font-size: 1.5em;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
 p {
     font-size: 1em;
     font-weight: 300;
@@ -127,6 +134,8 @@ footer li, footer a, footer p, footer h3, label p {
     border-radius: var(--border-radius);
     border: none;
     padding: 5px 10px;
+    display: flex;
+    align-items: center;
 }
 
 /* CONTENT */
@@ -334,10 +343,6 @@ footer li, footer a, footer p, footer h3, label p {
 
 .aSort.selected {
     background-color: var(--secondary-color);
-}
-
-.aSort.selected:hover {
-    background-color: var(--accent-color);
 }
 
 .dropdown-button i {

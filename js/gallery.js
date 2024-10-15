@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 region: queryParams.get('region'),
                 material: queryParams.get('material'),
                 historicPeriod: queryParams.get('period'),
-                type: queryParams.get('type') // Ensure 'type' is handled here
+                type: queryParams.get('type')
             };
 
 
@@ -223,16 +223,21 @@ function setFiltersFromURL(params) {
 }
 
 
-// Update URL with selected filters
 function updateURLWithFilters(filters) {
-    const urlParams = new URLSearchParams();
+    const urlParams = new URLSearchParams(window.location.search);
+
     Object.keys(filters).forEach(key => {
         if (filters[key].length) {
             urlParams.set(key, filters[key].join(','));
+        } else {
+            urlParams.delete(key);
         }
     });
-    window.history.replaceState({}, '', `${window.location.pathname}?${urlParams}`);
+
+    window.history.replaceState({}, '', `${window.location.pathname}?${urlParams.toString()}`);
 }
+
+
 
 // Update the search status (filter boxes)
 function updateSearchStatus(filteredData, filters) {

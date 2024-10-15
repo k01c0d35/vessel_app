@@ -1,29 +1,19 @@
 /* General Section Padding Adjustments */
-section {
+/* section {
     padding: 5vh 0;
-}
+} */
 
 .content {
     gap: 20vh;
     padding: 10vh 0 30vh 0;
 }
 
-/* Reduce Vertical Padding for Hero Section */
-.hero-section {
-    padding: 8vh 2vw;
+h1:not(.website-title) {
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 10vh;
 }
 
-.hero-section h2 {
-    margin-top: 1em;
-}
-
-.hero-section button {
-    padding: 12px 24px;
-    border: none;
+i {
+    padding-right: 5px;
 }
 
 .gallery-cta {
@@ -31,16 +21,24 @@ section {
     flex-direction: column;
     align-items: center;
     gap: 2vw;
-    padding: 4vh 8vw;
+    /* padding: 4vh 8vw; */
 }
 
 .gallery-cta img {
-    max-width: 50%;
+    max-width: 20%;
 }
 
 .text-section {
     text-align: center;
     max-width: 60%;
+    display: flex;
+    gap: 1vw;
+    flex-direction: column;
+}
+
+.gallery-cta button {
+    padding: 12px 24px;
+    border: none;
 }
 
 /* Journey Teasers */
@@ -48,12 +46,9 @@ section {
     width: 100%;
     background-color: var(--secondary-color);
     padding: 10vh 0;
-}
-
-.journey-teasers h1, .filter-buttons-section h1, .glossary-buttons-section h1 {
-    text-align: center;
-    margin: 0;
-    padding: 0 0 5vh 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
 }
 
 .teaser-grid {
@@ -70,7 +65,7 @@ section {
 
 .teaser img {
     width: 100%;
-    height: 200px;
+    height: 150px;
     aspect-ratio: 3 / 4;
     object-fit: contain;
 }
@@ -96,6 +91,12 @@ section {
     display: flex;
     flex-direction: row;
     gap: 5vw;
+}
+
+.filter-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 .filter-buttons-section h2, .glossary-buttons-section h2 {

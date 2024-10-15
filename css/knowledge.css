@@ -24,21 +24,29 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    gap: 1vw;
+    gap: 0.5vw;
     background-color: var(--white-color);
     padding: 10px;
     border-radius: var(--border-radius);
-    box-shadow: var(--box-shadow-static);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-.glossary-term h3 {
-    margin: 0;
+.glossary-term-header-wrapper {
+    display: inline-block;
 }
 
-.glossary-term p {
-    margin: 5px 0 0;
-    color: var(--black-color);
+.glossary-term-header {
+    display: inline;
+    margin-right: 5px;
+}
+
+.glossary-category {
+    display: inline; 
+    font-style: italic;  
+}
+
+.glossary-description {
+    margin-top: 10px;
 }
 
 .highlight {
@@ -47,10 +55,38 @@
 
 .gallery-link {
     position: absolute;
-    right: 1.5vw;
-    top: 1.5vw;
+    right: 0.5vw;
+    top: 0.5vw;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    transition: width 0.3s ease;
+    overflow: hidden;
 }
+
+.gallery-link .apply-text {
+    display: inline-block;
+    white-space: nowrap;
+    opacity: 0;
+    max-width: 0;
+    transition: opacity 0.3s ease 50ms, max-width 0.6s ease;
+}
+
+.gallery-link.expanded {
+    width: 230px;
+}
+
+.gallery-link.expanded .apply-text {
+    margin-left: 10px;
+    opacity: 1;
+}
+
 
 .button-common {
     min-width: 20px;
+}
+
+.noResults p {
+    text-align: center;
 }

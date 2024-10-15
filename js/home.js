@@ -3,12 +3,12 @@ Promise.all([
     fetch('/data/artefacts.json').then(response => response.json()),
     fetch('/data/k_glossary.json').then(response => response.json())
 ])
-.then(([artefactsData, glossaryData]) => {
-    createFilterButtons(artefactsData, glossaryData);
-})
-.catch(error => {
-    console.error('Error fetching JSON files:', error);
-});
+    .then(([artefactsData, glossaryData]) => {
+        createFilterButtons(artefactsData, glossaryData);
+    })
+    .catch(error => {
+        console.error('Error fetching JSON files:', error);
+    });
 
 function createFilterButtons(artefactsData, glossaryData) {
     const container = document.querySelector('.filter-buttons-container');
@@ -16,43 +16,38 @@ function createFilterButtons(artefactsData, glossaryData) {
 
     // Artefact-based buttons (Grouped by Type, Material, Period, Usage)
     const artefactFilters = [
-        { text: 'Greek Vessels', filter: 'greek', ware: 'all' },
-        { text: 'Tall Vessels (above 50cm)', filter: 'vessels', height: 50 },
-        { text: 'Made of Stone', filter: 'stone', material: 'stone' },
-        { text: 'Metal Vessels', filter: 'metal', material: 'metal' },
-        { text: 'Ceramic Vessels', filter: 'ceramic', material: 'ceramic' },  // Correct material filter for ceramic
-        { text: 'Bronze Age Vessels', filter: 'bronze-age', period: 'bronze' },
-        { text: 'Medieval Vessels', filter: 'medieval', period: 'medieval' },
-        { text: 'Used for Storage', filter: 'storage', purpose: 'storage' },
-        { text: 'Ritual Vessels', filter: 'ritual', purpose: 'ritual' },
-        { text: 'Decorative Vessels', filter: 'decorative', purpose: 'decorative' }
+        { text: 'Krater', filter: 'type', value: 'Krater' },
+        { text: 'Made of Amber', filter: 'ware', value: 'Amber' },
+        { text: 'Metal Vessels', filter: 'material', value: 'Metal' },
+        { text: 'Ancient Civilizations', filter: 'period', value: 'ancient' },
+        { text: 'Urpu', filter: 'type', value: 'Urpu' },
+        { text: 'Vessels of Asia', filter: 'region', value: 'Asia' }
     ];
+    
+    
 
     artefactFilters.forEach(filterItem => {
         const button = document.createElement('button');
         button.className = 'filter-button gold-container';
         button.innerHTML = `<i class="fa-solid fa-building-columns"></i> ${filterItem.text}`;
-
-        const filterParams = new URLSearchParams();
-        // Set filters based on available data
-        if (filterItem.filter) filterParams.set('filter', filterItem.filter);
-        if (filterItem.height) filterParams.set('height', filterItem.height);
-        if (filterItem.material) filterParams.set('material', filterItem.material);  // Material filter
-        if (filterItem.period) filterParams.set('period', filterItem.period);
-        if (filterItem.purpose) filterParams.set('purpose', filterItem.purpose);
-
-        // Redirect to the collection gallery page with the relevant filters applied
-        button.onclick = () => {
-            window.location.href = `/pages/collection_gallery.html?${filterParams.toString()}`;
-        };
-
+    
+        // Construct the query parameters properly based on the filter type
+        const filterParam = `${filterItem.filter}=${encodeURIComponent(filterItem.value)}`;
+    
+        // Add event listener for button click
+        button.addEventListener('click', () => {
+            window.location.href = `/pages/collection_gallery.html?${filterParam}`;
+        });
+    
         container.appendChild(button);
     });
+    
+    
 
     // Glossary-based buttons with sort (link to specific sorts like ware and material)
     const glossarySorts = [
-        { term: 'Types of ware', sort: 'Ware' },
-        { term: 'Main materials', sort: 'Material' }
+        { term: 'Types of Ware', sort: 'Ware' },
+        { term: 'Main Materials', sort: 'Material' }
     ];
 
     glossarySorts.forEach(sortItem => {
@@ -67,12 +62,12 @@ function createFilterButtons(artefactsData, glossaryData) {
 
     // Additional glossary searches (e.g., specific terms like 'vessel', 'clay')
     const glossarySearches = [
-        { term: 'vessel' },
-        { term: 'clay' },
-        { term: 'jar' },
-        { term: 'Different firing techniques' },
-        { term: 'Coiling technique' },
-        { term: 'Slip casting' }
+        { term: 'Vessel' },
+        { term: 'Clay' },
+        { term: 'Coiling Method' },
+        { term: 'Canopic Jar' },
+        { term: 'Maubyeong' },
+        { term: 'Pottery Wheel' }
     ];
 
     glossarySearches.forEach(searchItem => {
@@ -80,7 +75,7 @@ function createFilterButtons(artefactsData, glossaryData) {
         button.className = 'filter-button gold-container';
         button.innerHTML = `<i class="fa-solid fa-book"></i> ${searchItem.term}`;
         button.onclick = () => {
-            window.location.href = `/pages/k_glossary.html?search=${searchItem.term.toLowerCase().replace(/\s+/g, '-')}`;
+            window.location.href = `/pages/k_glossary.html?search=${searchItem.term.toLowerCase().replace(/\s+/g, ' ')}`;
         };
         glossaryContainer.appendChild(button);
     });

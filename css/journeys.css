@@ -42,174 +42,125 @@ h2 {
 }
 
 /* ACTIVATION PAGE */
+/* Main Content Structure */
 .activation-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     position: relative;
     gap: 6vh;
-    padding: 6vh 0;
+    width: 100%;
 }
 
 .stage {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    gap: 20px;
     width: 100%;
+    padding: 0 5vw;
 }
 
-.stage img {
+/* Left side: Stage title, image, and artefact button */
+.stageLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+}
+
+.stageLeft img {
     max-width: 100%;
-    max-height: 100%;
+    max-height: 50vh;
     object-fit: contain;
     display: block;
 }
 
-.intro {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 1vw;
-    transition: opacity 1s ease;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    scale: 1.4;
-}
-
-.intro h1 {
+.stageTitle {
     text-align: center;
-    transition: all 1s ease;
+    margin-bottom: 10px;
 }
 
-.stageContent {
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
-    width: 80vw;
-    height: 40vh;
-    opacity: 0;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    padding: 4vh 0;
-    align-items: center;
-    justify-content: center;
+.stageLeft .button-common {
+    margin-top: 10px;
 }
 
-.labelContainer {
+/* Right side: Info sections */
+.infoContainer {
     display: flex;
     flex-direction: column;
-    gap: 2vh;
-    width: 50%;
-    height: 100%;
-    justify-content: center;
-    padding: 2vh 4vw;
+    gap: 20px;
+    flex: 1;
+    max-width: 100%;
 }
 
-.label {
-    padding: 15px 20px;
-    cursor: pointer;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-    box-shadow: var(--box-shadow-static);
+.infoSection {
+    padding: 15px;
     position: relative;
 }
 
-.label:not(.expanded):hover {
-    transform: scale(1.02);
-    box-shadow: var(--box-shadow-hover);
+.infoTitle {
+    text-align: left;
+    margin-bottom: 10px;
 }
 
-.label.expanded {
-    background-color: var(--secondary-color)
+.infoText {
+    line-height: 1.5;
 }
 
-.info-box {
-    display: none;
-    margin-top: 10px;
-    transition: visibility 0.3s ease;
-}
-
-.label.expanded .info-box {
-    display: block;
-    visibility: visible;
-}
-
-.label.expanded {
-    border-bottom: var(--border-bottom-accent);
-}
-
-.info-box button {
-    padding: 5px 15px;
-    border: none;
-    background-color: var(--white-color);
-    color: var(--black-color);
-    border-radius: var(--border-radius);
-    cursor: pointer;
-}
-
-.info-box button:hover {
-    background-color: var(--accent-color);
-}
-
-.info-box .fa-xmark {
+/* Audio Button Styling */
+.audioButton {
     position: absolute;
     top: 10px;
     right: 10px;
     cursor: pointer;
 }
 
-.play-audio-button {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    cursor: pointer;
+.audioButton i {
+    color: var(--text-color-dark);
 }
 
-.shrink-to-top {
-    transition: all 1s ease;
-    top: 0;
-    scale: 1;
-}
-
-.stageContent,
-.topButtons,
-.bottomButtons {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 1s ease, visibility 0s linear 1s;
-}
-
-.stageContent.fade-in,
-.topButtons.fade-in,
-.bottomButtons.fade-in {
-    opacity: 1;
-    visibility: visible;
-    transition: opacity 1s ease;
-    transform: scale(1);
-}
-
+/* Top and Bottom Buttons */
 .topButtons, .bottomButtons {
     display: flex;
     justify-content: space-between;
-    padding: 2vh 8vw;
 }
 
-button.button-common {
+.topButtons .left {
+    display: flex;
+    gap: 1vw;
+}
+
+/* General Button Styling */
+.button-common {
+    display: inline-block;
     padding: 10px 20px;
-    font-size: 1rem;
-    color: var(--primary-color-light);
-    background-color: var(--primary-color-dark);
-    border-radius: var(--border-radius);
-    cursor: pointer;
-    box-shadow: var(--box-shadow-static);
+    text-align: center;
+    text-decoration: none;
 }
 
-button.button-common:hover {
-    background-color: var(--secondary-color);
-    box-shadow: var(--box-shadow-hover);
+/* Responsive Design */
+@media (max-width: 768px) {
+    .stage {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stageLeft img {
+        max-width: 80vw;
+        max-height: 40vh;
+    }
+
+    .infoContainer {
+        width: 100%;
+    }
+
+    .topButtons, .bottomButtons {
+        flex-direction: column;
+        align-items: center;
+    }
 }

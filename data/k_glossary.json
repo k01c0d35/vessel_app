@@ -33,6 +33,7 @@
     "B": [
         {
             "term": "Bisque",
+            "glossary-filter": "Creation Process",
             "description": "Clay that has been fired once but not glazed."
         },
         {
@@ -68,6 +69,7 @@
         },
         {
             "term": "Ceramic",
+            "glossary-filter": "Material",
             "description": "Objects made of inorganic material and hardened by heat."
         },
         {
@@ -78,17 +80,18 @@
         },
         {
             "term": "Clay Extruder",
-            "glossary-filter": "Creation Tool",
+            "glossary-filter": "Creation Process",
             "description": "Mechanical device that pushes clay through a shaped hole to form long, uniform shapes like coils or tubes."
         },
         {
             "term": "Coil Method",
-            "glossary-filter": "Creation Tool",
+            "glossary-filter": "Creation Process",
             "description": "A hand-building technique where clay is rolled into long ropes (coils) and layered to create a structure.",
             "defining-features": "Layered coil structure, visible rings."
         },
         {
             "term": "Container",
+            "glossary-filter": "Vessel",
             "description": "Object for holding or transporting content."
         },
         {
@@ -147,7 +150,7 @@
     "H": [
         {
             "term": "Hand-built",
-            "glossary-filter": "Creation Tool",
+            "glossary-filter": "Creation Process",
             "description": "A method of creating pottery using hands rather than a wheel or mechanical tools.",
             "defining-features": "Irregular shapes, human-crafted look."
         },
@@ -175,7 +178,7 @@
         },
         {
             "term": "Kiln",
-            "glossary-filter": "Creation Tool",
+            "glossary-filter": "Creation Process",
             "description": "High-temperature oven used to fire clay objects. Temperatures can reach over 1093 degrees and can be powered by electricity, gas or wood."
         },
         {
@@ -266,11 +269,12 @@
         },
         {
             "term": "Pottery",
+            "glossary-filter": "Material",
             "description": "Type of ceramics that involves shaping and firing clay to create objects."
         },
         {
             "term": "Pottery Wheel",
-            "glossary-filter": "Creation Tool",
+            "glossary-filter": "Creation Process",
             "description": "A rotating platform used for shaping clay.",
             "defining-features": "Circular, flat-surface."
         },
@@ -380,6 +384,7 @@
         },
         {
             "term": "Vessel",
+            "glossary-filter": "Vessel",
             "description": "Container used to hold content.",
             "defining-features": "Hollow."
         }

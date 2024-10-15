@@ -81,6 +81,12 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // Toggle filter visibility on mobile
-document.querySelector('.filter-button').addEventListener('click', () => {
-    document.querySelector('.filter-options').classList.toggle('show');
-});
+const filterButton = document.querySelector('.filter-button');
+if (filterButton) {
+    filterButton.addEventListener('click', () => {
+        const filterOptions = document.querySelector('.filter-options');
+        if (filterOptions) {
+            filterOptions.classList.toggle('show');
+        }
+    });
+}
