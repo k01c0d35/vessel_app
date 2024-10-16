@@ -16,26 +16,32 @@
         <div id="loading-screen">
             <div class="spinner"></div>
         </div>
-        <div class="content">
-            <div class="sidenav-container">
-                    <h3 id="displayAmount" onmouseover="toggleDisplayAmount(this)" onmouseleave="toggleDisplayAmount(this)"></h3>
-                
+        <div class="content" id="galleryContent">
+            <div class="sidenav-container" id="sideNav">
+                <div class="filter-title">
+                    <h4 id="displayAmount"></h4>
+                </div>
                 <div class="search-container">
-                    <!-- Search and Sort -->
-                    <div class="search white-container">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <input class="search-item" type="text" id="searchInput" placeholder="Search...">
-                    </div>
+                    <input class="search-item accent-container" type="text" id="searchInput"
+                        placeholder="Search the collection">
                 </div>
                 <div class="sort-options">
                     <div class="filter-title">
                         <h2>Sort By</h2>
                     </div>
-                    <div class="sort-buttons">
-                        <button class="accent-container aSort" data-sort="typeAsc"><h3>Alphabetical (A-Z)</h3></button>
-                        <button class="accent-container aSort" data-sort="typeDesc"><h3>Alphabetical (Z-A)</h3></button>
-                        <button class="accent-container aSort" data-sort="dateAsc"><h3>Oldest</h3></button>
-                        <button class="accent-container aSort" data-sort="dateDesc"><h3>Newest</h3></button>
+                    <div class="sort-buttons mobile-overlay">
+                        <div class="accent-container aSort" data-sort="typeAsc">
+                            <h3>Alphabetical (A-Z)</h3>
+                        </div>
+                        <div class="accent-container aSort" data-sort="typeDesc">
+                            <h3>Alphabetical (Z-A)</h3>
+                        </div>
+                        <div class="accent-container aSort" data-sort="dateAsc">
+                            <h3>Oldest</h3>
+                        </div>
+                        <div class="accent-container aSort" data-sort="dateDesc">
+                            <h3>Newest</h3>
+                        </div>
                     </div>
                 </div>
                 <!-- Filters on a new line (visible on desktop and tablet) -->
@@ -43,40 +49,50 @@
                     <div class="filter-title">
                         <h2>Filter By</h2>
                     </div>
-                    <div class="dropdown">
-                        <button class="dropdown-button" onclick="toggleDropdown(this)"><h3>Purpose</h3> <i class="fa-solid fa-chevron-down"></i></button>
-                        <div id="purposeFilter" class="dropdown-content accent-container"></div>
-                    </div>
-                    <div class="dropdown">
-                        <button class=" dropdown-button" onclick="toggleDropdown(this)"><h3>Region</h3> <i class="fa-solid fa-chevron-down"></i></button>
-                        <div id="regionFilter" class="dropdown-content accent-container"></div>
-                    </div>
-                    <div class="dropdown">
-                        <button class=" dropdown-button" onclick="toggleDropdown(this)"><h3>Material</h3> <i class="fa-solid fa-chevron-down"></i></button>
-                        <div id="materialFilter" class="dropdown-content accent-container"></div>
-                    </div>
-                    <div class="dropdown">
-                        <button class=" dropdown-button" onclick="toggleDropdown(this)"><h3>Historic Period</h3> <i class="fa-solid fa-chevron-down"></i></button>
-                        <div id="historicPeriodFilter" class="dropdown-content accent-container"></div>
+                    <div class="filter-dropdowns mobile-overlay">
+                        <div class="dropdown  accent-container">
+                            <div class="dropdown-button" onclick="toggleDropdown(this)">
+                                <h3>Purpose<i class="fa-solid fa-chevron-down"></i></h3>
+                            </div>
+                            <div id="purposeFilter" class="dropdown-content"></div>
+                        </div>
+                        <div class="dropdown  accent-container">
+                            <div class=" dropdown-button" onclick="toggleDropdown(this)">
+                                <h3>Region<i class="fa-solid fa-chevron-down"></i></h3>
+                            </div>
+                            <div id="regionFilter" class="dropdown-content"></div>
+                        </div>
+                        <div class="dropdown  accent-container">
+                            <div class=" dropdown-button" onclick="toggleDropdown(this)">
+                                <h3>Material<i class="fa-solid fa-chevron-down"></i></h3>
+                            </div>
+                            <div id="materialFilter" class="dropdown-content"></div>
+                        </div>
+                        <div class="dropdown  accent-container">
+                            <div class=" dropdown-button" onclick="toggleDropdown(this)">
+                                <h3>Historic Period<i class="fa-solid fa-chevron-down"></i></h3>
+                            </div>
+                            <div id="historicPeriodFilter" class="dropdown-content"></div>
+                        </div>
                     </div>
                 </div>
                 <div class="searchStatusContainer">
-                    <span class="selectedFiltersContainer">
+                    <div class="selectedFiltersContainer">
                         <div class="filter-title">
-                            <h2>Selected Filters</h2>
+                            <h4>Selected Filters</h4>
                         </div>
                         <div class="selectedFilters"></div>
-                    </span>
+                    </div>
                 </div>
-                
             </div>
             <div class="content-container">
                 <div id="gallery" class="gallery-container">
                 </div>
-                <button id="backToTop" class="button-common dark-container">
-                    <h3>BACK TO TOP</h3>
-                </button>
+                <div id="backToTop" class="button-common dark-container">
+                    <h2>BACK TO TOP</h2>
+                </div>
             </div>
+        </div>
     </main>
     <footer></footer>
 

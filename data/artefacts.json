@@ -907,7 +907,7 @@
             "artist": "Ivan Galberg",
             "condition": "Intact",
             "height": "170",
-            "photo": "/assets/artefacts/47.jpg",
+            "photo": "/assets/artefacts/47.png",
             "description": "This Russian bronze vase, crafted by Ivan Galberg between 1839 and 1845, exemplifies the neoclassical style that was popular during the 19th century. Its grand size and intricate details make it a striking piece of decorative art, reflecting the influence of classical antiquity on Russian metalwork."
         },
         {
@@ -1004,7 +1004,7 @@
             "artist": "Crown Crystal Glass",
             "condition": "Intact",
             "height": "20",
-            "photo": "/assets/artefacts/52.jpeg",
+            "photo": "/assets/artefacts/52.png",
             "description": "This modern glass jug, produced by Crown Crystal Glass in New Zealand in 1960, reflects the mid-20th-century shift towards industrial glass production. Its clean lines and simple form made it a functional yet stylish household item."
         },
         {
@@ -1024,7 +1024,7 @@
             "artist": "Benjamin Wynkoop",
             "condition": "Intact",
             "height": "12",
-            "photo": "/assets/artefacts/53.jpg",
+            "photo": "/assets/artefacts/53.png",
             "description": "This silver bowl, crafted by Benjamin Wynkoop between 1698 and 1710, represents early American silversmithing. Its fine detailing and smooth finish make it a beautiful and practical example of colonial American silverware."
         },
         {
@@ -1044,7 +1044,7 @@
             "artist": "Paul Revere, Jr",
             "condition": "Intact",
             "height": "15",
-            "photo": "/assets/artefacts/54.jpg",
+            "photo": "/assets/artefacts/54.png",
             "description": "This silver teapot, made by the famous American silversmith Paul Revere, Jr between 1760 and 1770, exemplifies the craftsmanship of the early modern period. The teapot's graceful form and fine decoration reflect the refined tastes of the American colonial elite."
         },
         {
@@ -1064,7 +1064,7 @@
             "artist": "Paul Revere, Jr",
             "condition": "Intact",
             "height": "13",
-            "photo": "/assets/artefacts/55.jpg",
+            "photo": "/assets/artefacts/55.png",
             "description": "This silver sauceboat, also crafted by Paul Revere, Jr between 1760 and 1770, was used to serve sauces during meals. Its elegant curves and polished surface highlight the skill of one of America’s most celebrated silversmiths."
         },
         {
@@ -1121,7 +1121,7 @@
             "geographicArea": "Greece",
             "condition": "Intact",
             "height": "164",
-            "photo": "/assets/artefacts/58.jpg",
+            "photo": "/assets/artefacts/58.png",
             "description": "This monumental bronze krater from Greece, dating between 530 BCE and 520 BCE, was used for mixing wine and water during social gatherings. Its large size and intricate detailing highlight the importance of communal feasting in ancient Greek culture."
         },
         {
@@ -1161,7 +1161,7 @@
             "artist": "Imperial Peterhof Lapidary Factory",
             "condition": "Intact",
             "height": "180",
-            "photo": "/assets/artefacts/60.jpg",
+            "photo": "/assets/artefacts/60.png",
             "description": "This grand malachite urn, made by the Imperial Peterhof Lapidary Factory in 1836, is an example of Russia’s mastery of hardstone carving. The malachite's rich green hues and the urn’s monumental size make it a striking decorative piece, reflecting the opulence of the Russian Empire."
         },
         {
@@ -1180,7 +1180,7 @@
             "geographicArea": "Iran",
             "condition": "Intact",
             "height": "14",
-            "photo": "/assets/artefacts/61.jpg",
+            "photo": "/assets/artefacts/61.png",
             "description": "This medieval copper-alloy jug, dating between 1150 CE and 1250 CE, was used for pouring water or wine in Islamic Iran. The intricate engravings on the jug reflect the rich artistic traditions of the region, where metalwork was highly prized for both its functionality and beauty."
         }
     ]

@@ -66,7 +66,6 @@ function createFilterButtons(artefactsData, glossaryData) {
         { term: 'Clay' },
         { term: 'Coiling Method' },
         { term: 'Canopic Jar' },
-        { term: 'Maubyeong' },
         { term: 'Pottery Wheel' }
     ];
 

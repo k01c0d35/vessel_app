@@ -1,19 +1,14 @@
-/* General Section Padding Adjustments */
-/* section {
-    padding: 5vh 0;
-} */
-
 .content {
-    gap: 20vh;
-    padding: 10vh 0 30vh 0;
+    gap: 10vw;
+    padding: 5vw 0 15vw 0;
+}
+
+.content h4 {
+    text-align: center;
 }
 
 h1:not(.website-title) {
     text-align: center;
-}
-
-i {
-    padding-right: 5px;
 }
 
 .gallery-cta {
@@ -21,7 +16,6 @@ i {
     flex-direction: column;
     align-items: center;
     gap: 2vw;
-    /* padding: 4vh 8vw; */
 }
 
 .gallery-cta img {
@@ -36,19 +30,18 @@ i {
     flex-direction: column;
 }
 
-.gallery-cta button {
-    padding: 12px 24px;
-    border: none;
+.gallery-cta .button-common {
+    padding: 0.5vw 1.25vw;
 }
 
 /* Journey Teasers */
 .journey-teasers {
     width: 100%;
     background-color: var(--secondary-color);
-    padding: 10vh 0;
+    padding: 5vw 0;
     display: flex;
     flex-direction: column;
-    gap: 8vh;
+    gap: 4vw;
 }
 
 .teaser-grid {
@@ -61,11 +54,15 @@ i {
 .teaser {
     padding: 2vw;
     text-align: center;
+    width: 30%;
+    gap: 2vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .teaser img {
     width: 100%;
-    height: 150px;
+    height: 10vw;
     aspect-ratio: 3 / 4;
     object-fit: contain;
 }
@@ -80,14 +77,14 @@ i {
 
 /* Filter Buttons Section */
 .filter-buttons-section {
-    padding: 4vh 8vw 8vh 8vw;
+    padding: 2vw 8vw 4vw 8vw;
     display: flex;
     flex-direction: row;
     gap: 5vw;
 }
 
 .glossary-buttons-section {
-    padding: 4vh 8vw 8vh 8vw;
+    padding: 2vw 8vw 4vw 8vw;
     display: flex;
     flex-direction: row;
     gap: 5vw;
@@ -112,11 +109,11 @@ i {
 
 .filter-button {
     border-radius: var(--border-radius);
-    padding: 10px 20px;
+    padding: 0.5vw 1vw;
     cursor: pointer;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     display: flex;
-    border: 1px solid var(--secondary-color);
+    border: 0.05vw solid var(--secondary-color);
     background-color: var(--white-color);
     align-items: center;
 }
@@ -126,16 +123,5 @@ i {
 }
 
 .filter-button i {
-    margin-right: 5px;
-}
-
-/* Responsive Adjustments */
-@media (max-width: 1023px) {
-    .two-column {
-        flex-direction: column;
-    }
-
-    .gallery-cta img {
-        margin-top: 2vh;
-    }
+    margin-right: 0.25vw;
 }

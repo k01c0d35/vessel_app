@@ -52,9 +52,9 @@ document.addEventListener('DOMContentLoaded', function () {
                                     const jsonFileName = fileName.replace('.json', '');
 
                                     // Create the link to the s1.html page
-                                    journeyDiv.textContent = `View Story`;
+                                    journeyDiv.innerHTML = `<i class="fa-solid fa-compass"></i> Start Journey`;
                                     journeyDiv.onclick = function () {
-                                        window.location.href = `/pages/s1.html?vessel=${jsonFileName}`;
+                                        window.location.href = `/pages/s1.html?vessel=${jsonFileName}&stage=1`;
                                     };
 
                                     // Append the link to the div and the div to the container
@@ -101,8 +101,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 const artefactElement = document.createElement('div');
                                 artefactElement.classList.add('related-artefact', 'button-common', 'white-container');
                                 artefactElement.innerHTML = `
-                                    <p>${related.type}</p>
-                                    <img src="${related.photo}" alt="${related.title}">
+                                <img src="${related.photo}" alt="${related.title}">
+                                <h3>${related.type}</h3>
                                 `;
                                 relatedContainer.appendChild(artefactElement);
                                 artefactElement.addEventListener('click', () => {

@@ -6,28 +6,32 @@
     gap: 2vw;
 }
 
+.search-container i {
+    padding-right: 0.25vw;
+}
+
 .gallery-item, .related-artefact {
     flex: 1 1 calc(20% - 2vw);
     max-width: 20%;
     text-align: center;
     background-color: var(--white-color);
     box-shadow: var(--box-shadow-static); 
-    transition: box-shadow 0.3s ease, scale 0.3s ease;
+    transition: box-shadow 0.3s ease;
     box-sizing: border-box;
     cursor: pointer;
     border-radius: var(--border-radius);
-    padding: 10px;
+    padding: 0.5vw;
     color: var(--black-color);
+    min-width: 9vw;
 }
 
 .gallery-item:hover, .related-artefact:hover {
     box-shadow: var(--box-shadow-hover);
-    scale: 1.02;
 }
 
 .gallery-item img, .related-link img {
     width: 100%;
-    height: 200px;
+    height: 10vw;
     aspect-ratio: 3 / 4;
     object-fit: contain;
 }
@@ -36,27 +40,33 @@
     display: inline-block;
     background-color: var(--accent-color);
     border-radius: var(--border-radius);
-    padding: 5px 10px;
-    margin: 5px;
+    padding: 0.25vw 0.5vw;
+    margin: 0.25vw;
 }
 
 .content {
     display: flex;
     flex-direction: row;
-    padding: 4vh 8vw 8vh 0;
+    padding: 4vw 8vw 4vw 0;
     gap: 6vw;
 }
 
 .filter-options {
     display: flex;
     flex-direction: column;
-    gap: 4vh;
+    gap: 1vw;
+}
+
+.filter-dropdowns {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
 }
 
 /* Style the checkboxes to be larger and pretty */
 .dropdown-label input[type="checkbox"] {
     transform: scale(1.5);
-    margin-right: 10px;
+    margin-right: 0.5vw;
     cursor: pointer;
 }
 
@@ -70,13 +80,8 @@
 
 /* Style the chevron */
 .fa-chevron-down, .fa-chevron-up {
-    margin-left: 10px;
+    margin-left: 0.5vw;
     cursor: pointer;
-}
-
-/* Style the arrow when the dropdown is open */
-.fa-chevron-up {
-    transform: rotate(180deg);
 }
 
 .dropdown-label p {
@@ -89,40 +94,26 @@
 
 /* Styling for the nested dropdown toggle effect */
 .dropdown-item {
-    padding: 10px;
+    padding: 0.5vw;
 }
 
 /* General dropdown styling */
 .nested-dropdown {
     display: none;
-    padding-left: 20px;
+    padding-left: 1vw;
 }
 
 .nested-dropdown.show {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
-.searchStatusContainer {
+.selectedFiltersContainer {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
     flex-direction: column;
-    position: sticky;
-    top: 1.5vw;
-}
-
-#displayAmount {
-    position: absolute;
-    left: calc(18vw + 40px);
-    width: 20px;
-    padding: 10px;
-    white-space: nowrap;
-    transition: width 0.3s ease;
-    background-color: var(--secondary-color);
-}
-
-#displayAmount.expanded {
-    width: 100px;
+    gap: 1vw;
 }
 
 /* Remove filter button */
@@ -130,7 +121,7 @@
     background-color: transparent;
     border: none;
     color: var(--primary-color-dark);
-    margin-left: 10px;
+    margin-left: 0.5vw;
     cursor: pointer;
 }
 
@@ -141,7 +132,7 @@
 /* ARTEFACT */
 .artefact.content {
     flex-direction: column;
-    padding: 4vh 8vw 8vh 8vw;
+    padding: 2vw 8vw 4vw 8vw;
     gap: 3vw;
 }
 
@@ -161,9 +152,9 @@
     gap: 3vw;
 }
 
-.title, .relatedArtefacts h2 {
-    border-bottom: var(--border-bottom-black);
-    margin-bottom: 10px;
+.title, .relatedArtefacts h3:not(.related-artefact h3) {
+    border-bottom: var(--border-bottom-secondary);
+    margin-bottom: 0.5vw;
 }
 
 .left, .right {
@@ -203,15 +194,18 @@
 
 .related-link {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     gap: 2vw;
-    
+    justify-content: flex-start;
 }
 
 .related-artefact {
     gap: 1vw;
     display: flex;
     flex-direction: column;
+    flex: 1 1 calc(20% - 2vw);
+    max-width: calc(20% - 2vw); /* Five items per row on desktop */
+    box-sizing: border-box;
 }
 
 .text a {

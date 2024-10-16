@@ -44,16 +44,24 @@ document.addEventListener('DOMContentLoaded', () => {
             // Sorting buttons click event
             document.querySelectorAll('.aSort').forEach(button => {
                 button.addEventListener('click', (event) => {
-                    const sortKey = event.target.getAttribute('data-sort') || event.target.closest('button').getAttribute('data-sort');
+                    const sortKey = event.target.getAttribute('data-sort') || event.target.closest('div').getAttribute('data-sort');
 
-                    // Remove selected class from other buttons and add to the clicked one
-                    document.querySelectorAll('.aSort').forEach(btn => btn.classList.remove('selected'));
-                    button.classList.add('selected');
+                    // Check if the clicked button is already selected
+                    if (button.classList.contains('selected')) {
+                        // Deselect it if it's already selected
+                        button.classList.remove('selected');
+                        updateGallery(artefacts); // Reset the gallery view to default (unsorted)
+                    } else {
+                        // Remove selected class from other buttons and add to the clicked one
+                        document.querySelectorAll('.aSort').forEach(btn => btn.classList.remove('selected'));
+                        button.classList.add('selected');
 
-                    // Apply sorting
-                    applySorting(sortKey, artefacts);
+                        // Apply sorting
+                        applySorting(sortKey, artefacts);
+                    }
                 });
             });
+
         });
 });
 
@@ -241,7 +249,7 @@ function updateURLWithFilters(filters) {
 
 // Update the search status (filter boxes)
 function updateSearchStatus(filteredData, filters) {
-    document.getElementById('displayAmount').textContent = `${filteredData.length}`;
+    document.getElementById('displayAmount').textContent = `${filteredData.length} Results`;
     const selectedFiltersContainer = document.querySelector('.selectedFilters');
     selectedFiltersContainer.innerHTML = '';
 
@@ -292,42 +300,41 @@ function debounce(func, delay) {
     };
 }
 
-// Dropdown toggle logic
 function toggleDropdown(button) {
     const dropdownContent = button.nextElementSibling;
-    const chevron = button.querySelector('i');
+    const chevronIcon = button.querySelector('i');
 
     dropdownContent.classList.toggle('show');
-    chevron.classList.toggle('fa-chevron-up');
-    chevron.classList.toggle('fa-chevron-down');
+
+    if (dropdownContent.classList.contains('show')) {
+        chevronIcon.className = 'fa-solid fa-chevron-up';
+    } else {
+        chevronIcon.className = 'fa-solid fa-chevron-down';
+    }
 
     document.querySelectorAll('.dropdown-content').forEach(content => {
         if (content !== dropdownContent) {
             content.classList.remove('show');
-            const otherButton = content.previousElementSibling;
-            const otherChevron = otherButton.querySelector('i');
-            otherChevron.classList.add('fa-chevron-down');
-            otherChevron.classList.remove('fa-chevron-up');
+            const icon = content.previousElementSibling.querySelector('i');
+            if (icon) icon.className = 'fa-solid fa-chevron-down';
         }
     });
 }
+
 
 function toggleDisplayAmount(element) {
     const currentText = element.textContent;
 
     if (element.classList.contains("expanded")) {
-        // Collapse: revert to just the number (remove " Results")
-        const numberOnly = currentText.split(" ")[0]; // Keep only the number part
+        const numberOnly = currentText.split(" ")[0];
         element.textContent = numberOnly;
         element.classList.remove("expanded");
     } else {
-        // Expand: append "Results" to the current number
         setTimeout(() => element.textContent = currentText + " Results", 50);
         element.classList.add("expanded");
     }
 }
 
-// Close any open dropdown when clicking outside
 document.addEventListener('click', (event) => {
     if (!event.target.closest('.dropdown')) {
         document.querySelectorAll('.dropdown-content').forEach(content => content.classList.remove('show'));

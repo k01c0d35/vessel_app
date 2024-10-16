@@ -188,21 +188,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const createGalleryLinkButton = (term, filterType) => {
         const button = document.createElement('button');
         button.className = 'button-common gallery-link dark-container';
-        button.innerHTML = `<i class="fa-solid fa-building-columns"></i><span class="apply-text">Apply Term in Collection</span>`;
+        button.innerHTML = `<i class="fa-solid fa-building-columns"></i>Apply Term in Collection`;
 
         // Modify the URL with specific query params (either 'type' or 'ware')
         button.addEventListener('click', () => {
             const filterParam = filterType === 'type' ? `type=${encodeURIComponent(term)}` : `ware=${encodeURIComponent(term)}`;
             window.location.href = `/pages/collection_gallery.html?${filterParam}`; // Redirect to gallery with correct filter
-        });
-
-        // Add hover event listeners
-        button.addEventListener('mouseover', () => {
-            button.classList.add('expanded');
-        });
-
-        button.addEventListener('mouseleave', () => {
-            button.classList.remove('expanded');
         });
 
         return button;
