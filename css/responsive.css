@@ -232,7 +232,7 @@
     }
 
     .gallery-cta .button-common {
-        width: 80%;
+        width: 60%;
         justify-content: center;
         padding: 6vw 10vw;
     }
@@ -251,6 +251,10 @@
         max-width: 50%;
         height: auto;
 
+    }
+
+    .journey-teasers h4 {
+        margin: 0 10vw;
     }
 
     .filter-buttons-section,
