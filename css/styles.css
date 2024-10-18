@@ -53,11 +53,23 @@ h2 {
     color: var(--black-color);
 }
 
-h3 {
+h3, ::placeholder {
     font-size: 1.2em;
     font-weight: 400;
     font-family: "Montserrat", sans-serif;
     color: var(--primary-color-dark);
+}
+
+::placeholder {
+    text-align: left;
+}
+
+#searchInput {
+    text-align: left;
+}
+
+.sort-buttons .accent-container {
+    justify-content: center;
 }
 
 h4 {
@@ -70,6 +82,7 @@ h4 {
 p {
     font-size: 0.9em;
     font-weight: 300;
+    line-height: 1.5;
     color: var(--black-color);
 }
 
@@ -95,6 +108,10 @@ i:not(.audio-controls i) {
 
 footer li, footer a, footer p, footer h3, label p {
     color: var(--white-color);
+}
+
+footer h3 {
+    text-align: left;
 }
 
 .button-common {
@@ -203,7 +220,7 @@ footer li, footer a, footer p, footer h3, label p {
 .nav-link {
     margin-right: 1vw;
     padding: 0 0 0.1vw 0;
-    border-bottom: 0.1vw solid transparent;
+    border-bottom: 0.15vw solid transparent;
     transition: border-bottom 0.3s ease;
 }
 
@@ -477,5 +494,4 @@ footer {
 
 .footer-section p {
     margin: 0;
-    line-height: 1.5;
 }

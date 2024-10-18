@@ -143,13 +143,21 @@
 .artefactDetails {
     display: flex;
     flex-direction: column;
-    gap: 4vw;
+    gap: 2vw;
+}
+
+.artefactDetails a {
+    border-bottom: 0.15vw solid var(--accent-color);
+}
+
+.artefactDetails a:hover {
+    font-weight: bold;
 }
 
 .details {
     display: flex;
     flex-direction: row;
-    gap: 3vw;
+    gap: 6vw;
 }
 
 .title, .relatedArtefacts h3:not(.related-artefact h3) {
@@ -183,7 +191,10 @@
 }
 
 .artefactDetails .img-container img {
-    width: 20vw;
+    width: 100%;
+    height: 30vw;
+    aspect-ratio: 3 / 4;
+    object-fit: contain;
 }
 
 .relatedArtefacts {
