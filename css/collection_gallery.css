@@ -10,7 +10,7 @@
     padding-right: 0.25vw;
 }
 
-.gallery-item, .related-artefact {
+.gallery-item {
     flex: 1 1 calc(20% - 2vw);
     max-width: 20%;
     text-align: center;
@@ -29,38 +29,35 @@
     box-shadow: var(--box-shadow-hover);
 }
 
-.gallery-item img, .related-link img {
-    width: 100%;
-    height: 10vw;
-    aspect-ratio: 3 / 4;
-    object-fit: contain;
-}
-
 .filter-box {
     display: inline-block;
     background-color: var(--accent-color);
     border-radius: var(--border-radius);
     padding: 0.25vw 0.5vw;
     margin: 0.25vw;
+    cursor: pointer;
 }
 
-.content {
+.filter-box:hover {
+    background-color: var(--secondary-color);
+}
+
+.content#galleryContent {
     display: flex;
     flex-direction: row;
     padding: 4vw 8vw 4vw 0;
-    gap: 6vw;
 }
 
 .filter-options {
     display: flex;
     flex-direction: column;
-    gap: 1vw;
+    gap: 2vw;
 }
 
 .filter-dropdowns {
     display: flex;
     flex-direction: column;
-    gap: 1vw;
+    gap: var(--s-gap);
 }
 
 /* Style the checkboxes to be larger and pretty */
@@ -86,6 +83,7 @@
 
 .dropdown-label p {
     width: 100%;
+    text-align: left;
 }
 
 .dropdown {
@@ -113,7 +111,7 @@
     justify-content: space-between;
     flex-wrap: nowrap;
     flex-direction: column;
-    gap: 1vw;
+    gap: var(--s-gap);
 }
 
 /* Remove filter button */
@@ -129,13 +127,6 @@
     color: var(--black-color);
 }
 
-/* ARTEFACT */
-.artefact.content {
-    flex-direction: column;
-    padding: 2vw 8vw 4vw 8vw;
-    gap: 3vw;
-}
-
 .artefact .search-container {
     flex-direction: row;
 }
@@ -143,7 +134,11 @@
 .artefactDetails {
     display: flex;
     flex-direction: column;
-    gap: 2vw;
+    gap: var(--l-gap);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .artefactDetails a {
@@ -157,10 +152,14 @@
 .details {
     display: flex;
     flex-direction: row;
-    gap: 6vw;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: var(--s-gap);
+    width: 100%;
+    height: 100%;
 }
 
-.title, .relatedArtefacts h3:not(.related-artefact h3) {
+.relatedArtefacts h2:not(.related-artefact h3) {
     border-bottom: var(--border-bottom-secondary);
     margin-bottom: 0.5vw;
 }
@@ -168,18 +167,22 @@
 .left, .right {
     display: flex;
     flex-direction: column;
-    gap: 1vw;
+    gap: 2vw;
     justify-content: center;
+    align-items: center;
+    flex: 1;
 }
 
 .right-row {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .right-column {
     width: 50%;
-    gap: 1vw;
+    gap: var(--s-gap);
     display: flex;
     flex-direction: column;
 }
@@ -187,31 +190,31 @@
 .detailItem {
     display: flex;
     flex-direction: column;
-    gap: 0.5vw;
+    gap: var(--xs-gap);
+    width: 100%;
 }
 
-.artefactDetails .img-container img {
-    width: 100%;
-    height: 30vw;
-    aspect-ratio: 3 / 4;
-    object-fit: contain;
+.img-container, .related-artefact {
+    align-items: center;
 }
 
 .relatedArtefacts {
     gap: 2vw;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .related-link {
+    align-items: stretch;
     display: flex;
     flex-wrap: wrap;
     gap: 2vw;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .related-artefact {
-    gap: 1vw;
+    gap: var(--s-gap);
     display: flex;
     flex-direction: column;
     flex: 1 1 calc(20% - 2vw);

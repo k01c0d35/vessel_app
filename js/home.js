@@ -19,7 +19,7 @@ function createFilterButtons(artefactsData, glossaryData) {
         { text: 'Krater', filter: 'type', value: 'Krater' },
         { text: 'Made of Amber', filter: 'ware', value: 'Amber' },
         { text: 'Metal Vessels', filter: 'material', value: 'Metal' },
-        { text: 'Ancient Civilizations', filter: 'period', value: 'ancient' },
+        { text: 'Ancient Civilizations', filter: 'period', value: 'Ancient' },
         { text: 'Urpu', filter: 'type', value: 'Urpu' },
         { text: 'Vessels of Asia', filter: 'region', value: 'Asia' }
     ];
@@ -47,7 +47,7 @@ function createFilterButtons(artefactsData, glossaryData) {
     // Glossary-based buttons with sort (link to specific sorts like ware and material)
     const glossarySorts = [
         { term: 'Types of Ware', sort: 'Ware' },
-        { term: 'Main Materials', sort: 'Material' }
+        { term: 'Materials', sort: 'Material' }
     ];
 
     glossarySorts.forEach(sortItem => {
@@ -64,7 +64,7 @@ function createFilterButtons(artefactsData, glossaryData) {
     const glossarySearches = [
         { term: 'Vessel' },
         { term: 'Clay' },
-        { term: 'Coiling Method' },
+        { term: 'Urpu' },
         { term: 'Canopic Jar' },
         { term: 'Pottery Wheel' }
     ];

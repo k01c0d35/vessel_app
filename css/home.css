@@ -15,7 +15,7 @@ h1:not(.website-title) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2vw;
+    gap: var(--m-gap);
 }
 
 .gallery-cta img {
@@ -26,7 +26,7 @@ h1:not(.website-title) {
     text-align: center;
     max-width: 60%;
     display: flex;
-    gap: 1vw;
+    gap: var(--s-gap);
     flex-direction: column;
 }
 
@@ -41,13 +41,13 @@ h1:not(.website-title) {
     padding: 5vw 0;
     display: flex;
     flex-direction: column;
-    gap: 4vw;
+    gap: var(--l-gap);
 }
 
 .teaser-grid {
     display: flex;
     justify-content: space-between;
-    gap: 2vw;
+    gap: var(--m-gap);
     margin: 0 10vw;
 }
 
@@ -55,16 +55,9 @@ h1:not(.website-title) {
     padding: 2vw;
     text-align: center;
     width: 30%;
-    gap: 2vw;
+    gap: var(--m-gap);
     display: flex;
     flex-direction: column;
-}
-
-.teaser img {
-    width: 100%;
-    height: 10vw;
-    aspect-ratio: 3 / 4;
-    object-fit: contain;
 }
 
 .teaser h3 {
@@ -80,20 +73,20 @@ h1:not(.website-title) {
     padding: 2vw 8vw 4vw 8vw;
     display: flex;
     flex-direction: row;
-    gap: 5vw;
+    gap: var(--l-gap);
 }
 
 .glossary-buttons-section {
     padding: 2vw 8vw 4vw 8vw;
     display: flex;
     flex-direction: row;
-    gap: 5vw;
+    gap: var(--l-gap);
 }
 
 .filter-text {
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: var(--s-gap);
 }
 
 .filter-buttons-section h2, .glossary-buttons-section h2 {
@@ -104,7 +97,7 @@ h1:not(.website-title) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1em;
+    gap: var(--m-gap);
 }
 
 .filter-button {

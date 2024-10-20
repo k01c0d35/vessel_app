@@ -121,6 +121,7 @@ function generateFilters(artefacts, keyPath, filterContainer) {
                 if (nestedDropdown) {
                     nestedDropdown.classList.toggle('show');
                     chevron.classList.toggle('fa-chevron-up');
+                    chevron.classList.toggle('fa-chevron-down');
                 }
             }
         });
@@ -205,9 +206,7 @@ function displayGallery(artefacts) {
     const galleryContainer = document.getElementById('gallery');
     galleryContainer.innerHTML = artefacts.length ? artefacts.map(artefact => `
         <div class="gallery-item">
-            <div class="img-container">
-                <img src="${artefact.photo}" alt="${artefact.type}">
-            </div>
+            <img class="small-img" src="${artefact.photo}" alt="${artefact.type}">
             <h3>${artefact.title || artefact.type}</h3>
             <p>${artefact.culturePeriod}</p>
         </div>
@@ -263,6 +262,7 @@ function updateSearchStatus(filteredData, filters) {
 }
 
 // Create the filter box UI
+// Create the filter box UI
 function createFilterBox(filterCategory, filterValue) {
     const filterBox = document.createElement('span');
     filterBox.classList.add('filter-box');
@@ -270,15 +270,13 @@ function createFilterBox(filterCategory, filterValue) {
     const filterText = document.createElement('span');
     filterText.textContent = `${filterValue}`;
 
-    const removeButton = document.createElement('button');
-    removeButton.classList.add('remove-filter');
-    removeButton.textContent = 'X';
-    removeButton.addEventListener('click', () => removeFilter(filterCategory, filterValue));
+    // Make the whole filter box clickable
+    filterBox.addEventListener('click', () => removeFilter(filterCategory, filterValue));
 
     filterBox.appendChild(filterText);
-    filterBox.appendChild(removeButton);
     document.querySelector('.selectedFilters').appendChild(filterBox);
 }
+
 
 // Remove filter and update gallery
 function removeFilter(filterCategory, filterValue) {

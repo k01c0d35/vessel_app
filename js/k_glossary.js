@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const createGalleryLinkButton = (term, filterType) => {
         const button = document.createElement('button');
         button.className = 'button-common gallery-link dark-container';
-        button.innerHTML = `<i class="fa-solid fa-building-columns"></i>Apply Term in Collection`;
+        button.innerHTML = `<i class="fa-solid fa-building-columns"></i>Apply Term`;
 
         // Modify the URL with specific query params (either 'type' or 'ware')
         button.addEventListener('click', () => {
