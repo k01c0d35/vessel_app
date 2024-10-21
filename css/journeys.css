@@ -13,7 +13,7 @@ h2 {
 .page-links-container {
     display: flex;
     flex-direction: row;
-    gap: 2vw;
+    gap: var(--l-gap);
     justify-content: center;
     margin-top: 2vw;
 }
@@ -31,7 +31,6 @@ h2 {
 }
 
 /* ACTIVATION PAGE */
-/* Main Content Structure */
 .activation-container {
     display: flex;
     flex-direction: column;
@@ -53,7 +52,6 @@ h2 {
     height: 100%;
 }
 
-/* Left side: Stage title, image, and artefact button */
 .stageLeft {
     display: flex;
     flex-direction: column;
@@ -68,7 +66,6 @@ h2 {
     margin-bottom: 0.5vw;
 }
 
-/* Right side: Info sections */
 .infoContainer {
     display: flex;
     flex-direction: column;

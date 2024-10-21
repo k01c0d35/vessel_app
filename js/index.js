@@ -1,8 +1,11 @@
-document.addEventListener('DOMContentLoaded', function () {
+window.onload = function () {
     document.getElementById('loading-screen').style.display = 'none';
     document.querySelector('.content').style.display = 'flex';
+};
 
+document.addEventListener('DOMContentLoaded', function () {
     const backToTopButton = document.getElementById('backToTop');
+
 
     function isMobile() {
         return window.innerWidth <= 767;
@@ -119,12 +122,10 @@ document.addEventListener('DOMContentLoaded', function () {
         // Create the close button
         const closeButton = document.createElement('div');
         closeButton.classList.add('menu-close');
-        closeButton.innerHTML = '&times;'; // X symbol
+        closeButton.innerHTML = '&times;';
 
-        // Append the close button to the nav menu
         navMenu.appendChild(closeButton);
 
-        // Add event listener to close the menu when the button is clicked
         closeButton.addEventListener('click', () => {
             navMenu.classList.remove('active');
             body.classList.remove('no-scroll');
@@ -136,7 +137,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Set Current Page Active
     function setActiveNav() {
         const currentPage = window.location.pathname;
-        const navLinks = document.querySelectorAll('.nav-link'); // Select all nav links
+        const navLinks = document.querySelectorAll('.nav-link');
         const journeyPages = ['/pages/s1.html', '/pages/s2.html', '/pages/s3.html'];
         const artefactPage = ['/pages/artefact.html'];
 
@@ -152,15 +153,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
         navLinks.forEach(link => {
             if (link.getAttribute('href') === targetPage) {
-                link.classList.add('active');   // Add 'active' class to the current page link
+                link.classList.add('active');
                 link.removeAttribute('href');
             } else {
-                link.classList.remove('active');  // Ensure no other link is active
+                link.classList.remove('active');
             }
         });
     }
 
-    // Back to top button
     if (backToTopButton) {
         window.addEventListener('scroll', function () {
             if (window.scrollY > 300) {

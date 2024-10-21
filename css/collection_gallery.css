@@ -60,14 +60,12 @@
     gap: var(--s-gap);
 }
 
-/* Style the checkboxes to be larger and pretty */
 .dropdown-label input[type="checkbox"] {
     transform: scale(1.5);
     margin-right: 0.5vw;
     cursor: pointer;
 }
 
-/* Make the dropdown items more interactive */
 .dropdown-label {
     display: flex;
     justify-content: space-between;
@@ -75,7 +73,6 @@
     cursor: pointer;
 }
 
-/* Style the chevron */
 .fa-chevron-down, .fa-chevron-up {
     margin-left: 0.5vw;
     cursor: pointer;
@@ -90,12 +87,10 @@
     min-width: 0;
 }
 
-/* Styling for the nested dropdown toggle effect */
 .dropdown-item {
     padding: 0.5vw;
 }
 
-/* General dropdown styling */
 .nested-dropdown {
     display: none;
     padding-left: 1vw;
@@ -218,7 +213,7 @@
     display: flex;
     flex-direction: column;
     flex: 1 1 calc(20% - 2vw);
-    max-width: calc(20% - 2vw); /* Five items per row on desktop */
+    max-width: calc(20% - 2vw);
     box-sizing: border-box;
 }
 

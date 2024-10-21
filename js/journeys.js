@@ -119,11 +119,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         resetHighlighting();
-        currentAudioIndex = -1; // Reset to ensure correct restart
+        currentAudioIndex = -1;
         isPaused = false;
         playPauseButton.innerHTML = '<i class="fa-solid fa-play"></i>';
     }
-
 
     function resetHighlighting() {
         contentBlocks.forEach(block => block.classList.remove('accent-background'));
@@ -148,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
-
+    
     function loadStage(stage) {
         resetStage();
         stageTitle.textContent = stage.title;
@@ -197,7 +196,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (direction === 'next') {
             currentStageIndex++;
             if (currentStageIndex >= stages.length) {
-                window.location.href = "/pages/journeys.html";
+                window.history.back();
             } else {
                 loadStage(stages[currentStageIndex]);
             }

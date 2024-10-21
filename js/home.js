@@ -1,4 +1,3 @@
-// Fetch artefacts.json and glossary.json 
 Promise.all([
     fetch('/data/artefacts.json').then(response => response.json()),
     fetch('/data/k_glossary.json').then(response => response.json())
@@ -14,7 +13,6 @@ function createFilterButtons(artefactsData, glossaryData) {
     const container = document.querySelector('.filter-buttons-container');
     const glossaryContainer = document.querySelector('.glossary-buttons-container');
 
-    // Artefact-based buttons (Grouped by Type, Material, Period, Usage)
     const artefactFilters = [
         { text: 'Krater', filter: 'type', value: 'Krater' },
         { text: 'Made of Amber', filter: 'ware', value: 'Amber' },
@@ -31,10 +29,8 @@ function createFilterButtons(artefactsData, glossaryData) {
         button.className = 'filter-button gold-container';
         button.innerHTML = `<i class="fa-solid fa-building-columns"></i> ${filterItem.text}`;
     
-        // Construct the query parameters properly based on the filter type
         const filterParam = `${filterItem.filter}=${encodeURIComponent(filterItem.value)}`;
     
-        // Add event listener for button click
         button.addEventListener('click', () => {
             window.location.href = `/pages/collection_gallery.html?${filterParam}`;
         });
@@ -42,9 +38,6 @@ function createFilterButtons(artefactsData, glossaryData) {
         container.appendChild(button);
     });
     
-    
-
-    // Glossary-based buttons with sort (link to specific sorts like ware and material)
     const glossarySorts = [
         { term: 'Types of Ware', sort: 'Ware' },
         { term: 'Materials', sort: 'Material' }
@@ -60,7 +53,6 @@ function createFilterButtons(artefactsData, glossaryData) {
         glossaryContainer.appendChild(button);
     });
 
-    // Additional glossary searches (e.g., specific terms like 'vessel', 'clay')
     const glossarySearches = [
         { term: 'Vessel' },
         { term: 'Clay' },

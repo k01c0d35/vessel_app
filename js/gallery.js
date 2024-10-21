@@ -1,7 +1,6 @@
 let artefacts = [];
 document.addEventListener('DOMContentLoaded', () => {
 
-    // DOM Element References
     const searchInput = document.getElementById('searchInput');
     const filters = {
         purpose: document.getElementById('purposeFilter'),
@@ -10,13 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
         historicPeriod: document.getElementById('historicPeriodFilter'),
     };
 
-    // Fetch artefacts data
     fetch('/data/artefacts.json')
         .then(response => response.json())
         .then(data => {
             artefacts = data.artefacts;
 
-            // Handle URL query parameters and set filters
             const queryParams = new URLSearchParams(window.location.search);
             const filterParams = {
                 purpose: queryParams.get('purpose'),
@@ -27,36 +24,28 @@ document.addEventListener('DOMContentLoaded', () => {
                 type: queryParams.get('type')
             };
 
-
-            // Generate filters and initialize gallery
             Object.keys(filters).forEach(key => {
                 generateFilters(artefacts, key, filters[key]);
             });
             setFiltersFromURL(filterParams);
             updateGallery(artefacts);
 
-            // Event Listeners for search and filters
             searchInput.addEventListener('input', debounce(() => updateGallery(artefacts), 300));
             document.querySelectorAll('.dropdown-content input[type="checkbox"]').forEach(checkbox => {
                 checkbox.addEventListener('change', () => updateGallery(artefacts));
             });
 
-            // Sorting buttons click event
             document.querySelectorAll('.aSort').forEach(button => {
                 button.addEventListener('click', (event) => {
                     const sortKey = event.target.getAttribute('data-sort') || event.target.closest('div').getAttribute('data-sort');
 
-                    // Check if the clicked button is already selected
                     if (button.classList.contains('selected')) {
-                        // Deselect it if it's already selected
                         button.classList.remove('selected');
-                        updateGallery(artefacts); // Reset the gallery view to default (unsorted)
+                        updateGallery(artefacts);
                     } else {
-                        // Remove selected class from other buttons and add to the clicked one
                         document.querySelectorAll('.aSort').forEach(btn => btn.classList.remove('selected'));
                         button.classList.add('selected');
 
-                        // Apply sorting
                         applySorting(sortKey, artefacts);
                     }
                 });
@@ -65,7 +54,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 });
 
-// Generates the filters based on artefacts data
 function generateFilters(artefacts, keyPath, filterContainer) {
     const valueCount = artefacts.reduce((acc, artefact) => {
         const value = artefact[keyPath];
@@ -86,7 +74,6 @@ function generateFilters(artefacts, keyPath, filterContainer) {
 
     const uniqueValues = Object.keys(valueCount).sort();
 
-    // Generate the dropdown markup
     filterContainer.innerHTML = uniqueValues.map(value => {
         const subItems = valueCount[value].subItems;
         const hasSubItems = Object.keys(subItems).length > 0;
@@ -109,7 +96,6 @@ function generateFilters(artefacts, keyPath, filterContainer) {
         `;
     }).join('');
 
-    // Add event listeners for dropdown interactions
     filterContainer.querySelectorAll('.dropdown-label').forEach(label => {
         const checkbox = label.querySelector('input[type="checkbox"]');
         const nestedDropdown = label.parentElement.querySelector('.nested-dropdown');
@@ -161,7 +147,6 @@ function getDate(artefact) {
     return artefact.date?.start || Infinity;
 }
 
-// Update the gallery view based on filters and sorting
 function updateGallery(artefacts) {
     const selectedFilters = getSelectedFilters();
     const searchTerm = searchInput.value.toLowerCase();
@@ -185,7 +170,6 @@ function updateGallery(artefacts) {
     displayGallery(filteredData);
 }
 
-// Get the selected filter values from checkboxes
 function getSelectedFilters() {
     return {
         purpose: getCheckedValues('purpose'),
@@ -201,7 +185,6 @@ function getCheckedValues(name) {
     return [...document.querySelectorAll(`input[name="${name}"]:checked`)].map(checkbox => checkbox.value);
 }
 
-// Update the displayed gallery items
 function displayGallery(artefacts) {
     const galleryContainer = document.getElementById('gallery');
     galleryContainer.innerHTML = artefacts.length ? artefacts.map(artefact => `
@@ -217,7 +200,6 @@ function displayGallery(artefacts) {
     });
 }
 
-// Set filters from URL params
 function setFiltersFromURL(params) {
     Object.entries(params).forEach(([key, value]) => {
         if (value) {
@@ -244,9 +226,6 @@ function updateURLWithFilters(filters) {
     window.history.replaceState({}, '', `${window.location.pathname}?${urlParams.toString()}`);
 }
 
-
-
-// Update the search status (filter boxes)
 function updateSearchStatus(filteredData, filters) {
     document.getElementById('displayAmount').textContent = `${filteredData.length} Results`;
     const selectedFiltersContainer = document.querySelector('.selectedFilters');
@@ -261,8 +240,6 @@ function updateSearchStatus(filteredData, filters) {
     }
 }
 
-// Create the filter box UI
-// Create the filter box UI
 function createFilterBox(filterCategory, filterValue) {
     const filterBox = document.createElement('span');
     filterBox.classList.add('filter-box');
@@ -270,15 +247,12 @@ function createFilterBox(filterCategory, filterValue) {
     const filterText = document.createElement('span');
     filterText.textContent = `${filterValue}`;
 
-    // Make the whole filter box clickable
     filterBox.addEventListener('click', () => removeFilter(filterCategory, filterValue));
 
     filterBox.appendChild(filterText);
     document.querySelector('.selectedFilters').appendChild(filterBox);
 }
 
-
-// Remove filter and update gallery
 function removeFilter(filterCategory, filterValue) {
     const checkbox = document.querySelector(`input[name="${filterCategory}"][value="${filterValue}"]`);
     if (checkbox) checkbox.checked = false;
@@ -289,7 +263,6 @@ function removeFilter(filterCategory, filterValue) {
     updateURLWithFilters(selectedFilters);
 }
 
-// Helper functions
 function debounce(func, delay) {
     let timeout;
     return function (...args) {

@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         if (filter) {
-            // Capitalize first letter of filter
             const capitalizedFilter = filter.charAt(0).toUpperCase() + filter.slice(1);
             url.searchParams.set('sort', capitalizedFilter);
         } else {
@@ -45,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     searchInput.value = searchTermFromURL;
                     if (sortFromURL) {
-                        currentFilter = sortFromURL.toLowerCase(); // Normalize the case for internal usage
+                        currentFilter = sortFromURL.toLowerCase(); 
                         const filterButton = document.querySelector(`[data-filter="${currentFilter.charAt(0).toUpperCase() + currentFilter.slice(1)}"]`);
                         if (filterButton) {
                             filterButton.classList.add('selected');
@@ -56,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     searchInput.addEventListener('input', () => {
                         const searchTerm = searchInput.value.toLowerCase();
-                        updateURLParams(searchTerm, currentFilter);  // Update the URL
+                        updateURLParams(searchTerm, currentFilter);
                         const filteredData = filterGlossary(glossaryData, searchTerm, currentFilter);
                         displayGlossary(filteredData, artefactsData);
                     });
@@ -65,14 +64,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         button.addEventListener('click', function () {
                             if (this.classList.contains('selected')) {
                                 this.classList.remove('selected');
-                                currentFilter = null; // Reset filter
+                                currentFilter = null;
                             } else {
                                 filterButtons.forEach(btn => btn.classList.remove('selected'));
                                 this.classList.add('selected');
                                 currentFilter = this.getAttribute('data-filter');
                             }
                             const searchTerm = searchInput.value.toLowerCase();
-                            updateURLParams(searchTerm, currentFilter);  // Update the URL with capitalized sort
+                            updateURLParams(searchTerm, currentFilter);
                             const filteredData = filterGlossary(glossaryData, searchTerm, currentFilter);
                             displayGlossary(filteredData, artefactsData);
                         });
@@ -103,7 +102,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const displayGlossary = (glossary, artefactsData) => {
         glossaryContent.innerHTML = '';
 
-        // Check if there are no matching terms in the glossary
         const glossaryLetters = Object.keys(glossary);
         if (glossaryLetters.length === 0) {
             const noResults = document.createElement('div');
@@ -129,49 +127,38 @@ document.addEventListener('DOMContentLoaded', () => {
                 const termElement = document.createElement('div');
                 termElement.className = 'glossary-term';
 
-                // Create a div to group the term and the glossary filter together
                 const termHeaderWrapper = document.createElement('div');
-                termHeaderWrapper.className = 'glossary-term-header-wrapper';  // Added class for styling
+                termHeaderWrapper.className = 'glossary-term-header-wrapper'; 
 
-                // Create the term header (h2 element)
                 const termHeader = document.createElement('h2');
-                termHeader.className = 'glossary-term-header';  // Added class for styling
-                termHeader.innerHTML = highlightText(term, searchInput.value);  // E.g., "Aryballos"
+                termHeader.className = 'glossary-term-header'; 
+                termHeader.innerHTML = highlightText(term, searchInput.value); 
                 termHeaderWrapper.appendChild(termHeader);
 
-                // Create the glossary filter (span element) to display after the term
                 const termGlossaryCategory = document.createElement('span');
-                termGlossaryCategory.className = 'glossary-category';  // Added class for styling
+                termGlossaryCategory.className = 'glossary-category';
                 termGlossaryCategory.innerHTML = `(${highlightText(glossaryFilter, searchInput.value)})`;  // E.g., "(Vessel)"
                 termHeaderWrapper.appendChild(termGlossaryCategory);
 
-                // Append the wrapper to the main term element
                 termElement.appendChild(termHeaderWrapper);
 
-                // Create the term description (p element)
                 const termDescription = document.createElement('p');
-                termDescription.className = 'glossary-description';  // Added class for styling
+                termDescription.className = 'glossary-description';
                 termDescription.innerHTML = highlightText(description, searchInput.value);
                 termElement.appendChild(termDescription);
 
-                // Display defining features in a single line, prefixed with "Defining Features:"
                 if (definingFeatures && definingFeatures.length > 0) {
                     const termDefiningFeatures = document.createElement('p');
-                    termDefiningFeatures.className = 'glossary-defining-features';  // Added class for styling
+                    termDefiningFeatures.className = 'glossary-defining-features'; 
                     termDefiningFeatures.innerHTML = `<strong>Defining Features:</strong> ${highlightText(definingFeatures, searchInput.value)}`;
                     termElement.appendChild(termDefiningFeatures);
                 }
 
-
-
-
-                // Check if the term exists as a type in the gallery and create a link button
                 if (artefactTypeExistsInGallery(term, artefactsData)) {
                     const galleryLinkButton = createGalleryLinkButton(term, 'type');
                     termElement.appendChild(galleryLinkButton);
                 }
 
-                // Check if the term exists as a ware in the gallery and create a link button
                 if (artefactWareExistsInGallery(term, artefactsData)) {
                     const galleryLinkButton = createGalleryLinkButton(term, 'ware');
                     termElement.appendChild(galleryLinkButton);
@@ -190,21 +177,18 @@ document.addEventListener('DOMContentLoaded', () => {
         button.className = 'button-common gallery-link dark-container';
         button.innerHTML = `<i class="fa-solid fa-building-columns"></i>Apply Term`;
 
-        // Modify the URL with specific query params (either 'type' or 'ware')
         button.addEventListener('click', () => {
             const filterParam = filterType === 'type' ? `type=${encodeURIComponent(term)}` : `ware=${encodeURIComponent(term)}`;
-            window.location.href = `/pages/collection_gallery.html?${filterParam}`; // Redirect to gallery with correct filter
+            window.location.href = `/pages/collection_gallery.html?${filterParam}`;
         });
 
         return button;
     };
 
-    // Function to check if a glossary term exists as a type in the gallery artefact types
     const artefactTypeExistsInGallery = (term, artefactsData) => {
         return artefactsData.artefacts.some(artefact => artefact.type && artefact.type.toLowerCase() === term.toLowerCase());
     };
 
-    // Function to check if a glossary term exists as a ware in the gallery artefact wares
     const artefactWareExistsInGallery = (term, artefactsData) => {
         return artefactsData.artefacts.some(artefact => artefact.ware && artefact.ware.toLowerCase() === term.toLowerCase());
     };
@@ -226,7 +210,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const filteredTerms = glossary[letter].filter(entry => {
                 const { term, 'glossary-filter': glossaryFilter } = entry;
 
-                // Make sure both the filter and glossaryFilter are lowercase for case-insensitive matching
                 const termMatches = term.toLowerCase().includes(searchTerm);
                 const filterMatches = filter ? glossaryFilter && glossaryFilter.toLowerCase() === filter.toLowerCase() : true;
 

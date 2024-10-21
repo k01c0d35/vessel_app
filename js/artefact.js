@@ -10,12 +10,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 const artefact = artefacts.find(a => a.id == artefactId);
 
                 if (artefact) {
-                    // Function to create glossary links
                     const createGlossaryLink = (term) => {
                         return `<a href="/pages/k_glossary.html?search=${encodeURIComponent(term)}" class="glossary-link">${term}</a>`;
                     };
 
-                    // Fetch glossary terms from the glossary JSON
                     fetch('/data/k_glossary.json')
                         .then(response => response.json())
                         .then(glossaryData => {
@@ -24,29 +22,25 @@ document.addEventListener('DOMContentLoaded', function () {
                                 glossaryData[section].forEach(entry => glossaryTerms.push(entry.term));
                             }
 
-                            // Function to replace terms with glossary links
                             const replaceGlossaryTerms = (text) => {
                                 glossaryTerms.forEach(term => {
-                                    const regex = new RegExp(`\\b${term}\\b`, 'gi'); // Match whole word only
+                                    const regex = new RegExp(`\\b${term}\\b`, 'gi');
                                     text = text.replace(regex, createGlossaryLink(term));
                                 });
                                 return text;
                             };
 
-                            // Unified update function that supports glossary linking
                             const updateDetail = (divSelector, textSelector, value, enableGlossary = false) => {
                                 const divElement = document.querySelector(divSelector);
                                 const textElement = divElement.querySelector(textSelector);
 
                                 if (value && value !== 'Unknown') {
-                                    // Apply glossary links if enabled
                                     textElement.innerHTML = enableGlossary ? replaceGlossaryTerms(value) : value;
                                 } else {
                                     textElement.textContent = 'Unknown';
                                 }
                             };
 
-                            // Update artefact fields with glossary terms where applicable
                             updateDetail('.type-link', 'p.text', artefact.type, true);
                             updateDetail('.ware-link', 'p.text', artefact.ware, true);
                             updateDetail('.culture-link', 'p.text', artefact.culturePeriod, true);
@@ -55,7 +49,6 @@ document.addEventListener('DOMContentLoaded', function () {
                             updateDetail('.condition-link', 'p.text', artefact.condition, false);
                             updateDetail('.height-link', 'p.text', `${artefact.height} cm`, false);
 
-                            // Update description separately
                             const descriptionElement = document.querySelector('.description-link p.text');
                             if (descriptionElement) {
                                 descriptionElement.innerHTML = replaceGlossaryTerms(artefact.description);
@@ -64,7 +57,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         })
                         .catch(error => console.error('Error fetching glossary terms:', error));
 
-                    // Other elements like photo, title, and journey button
                     const photoElement = document.querySelector('.photo');
                     if (photoElement && artefact.photo) {
                         photoElement.src = artefact.photo;
@@ -96,7 +88,6 @@ document.addEventListener('DOMContentLoaded', function () {
                             .catch(error => console.log(`Error loading JSON file ${fileName}:`, error));
                     });
 
-                    // Update artefact date
                     const dateElement = document.querySelector('.date-link .text');
                     if (artefact.date) {
                         const { start, end } = artefact.date;
@@ -106,7 +97,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         dateElement.textContent = 'Unknown';
                     }
 
-                    // Update related artefacts
                     const relatedContainer = document.querySelector('.related-link');
                     if (relatedContainer) {
                         const seenIds = new Set();
